@@ -1,0 +1,55 @@
+// Primary colors
+$color-primary: #0f4c81; // University blue
+$color-primary-light: #3a77b1;
+$color-primary-dark: #073761;
+
+// Secondary colors
+$color-secondary: #bb0000; // University red
+$color-secondary-light: #d32f2f;
+$color-secondary-dark: #8e0000;
+
+// Accent colors
+$color-accent-1: #3498db; // Bright blue
+$color-accent-2: #9b59b6; // Purple
+$color-accent-3: #2ecc71; // Green
+
+// Background colors
+$color-bg-light: #f8f9fa;
+$color-bg-card: #ffffff;
+$color-bg-input: #f1f3f5;
+
+// Neutral colors
+$color-white: #ffffff;
+$color-light: #f8f9fa;
+$color-grey-light: #e9ecef;
+$color-grey: #ced4da;
+$color-grey-dark: #6c757d;
+$color-dark: #343a40;
+$color-black: #212529;
+
+// Text colors
+$color-text-primary: #212529;
+$color-text-secondary: #495057;
+$color-text-tertiary: #6c757d;
+
+// Shadows
+$shadow-small: 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-large: 0 8px 16px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.05);
+$shadow-focus: 0 0 0 3px rgba(15, 76, 129, 0.25);
+
+// Gradients
+$gradient-primary: linear-gradient(135deg, $color-primary, $color-primary-dark);
+$gradient-secondary: linear-gradient(
+  135deg,
+  $color-secondary,
+  $color-secondary-dark
+);
+$gradient-accent-1: linear-gradient(135deg, $color-accent-1, $color-primary);
+$gradient-accent-2: linear-gradient(135deg, $color-accent-2, #8e44ad);
+$gradient-accent-3: linear-gradient(135deg, $color-accent-3, #27ae60);
+$gradient-features: linear-gradient(
+  135deg,
+  rgba(15, 76, 129, 0.9),
+  rgba(7, 55, 97, 0.95)
+);
