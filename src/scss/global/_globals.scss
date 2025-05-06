@@ -1,0 +1,104 @@
+@use "colors";
+@use "fonts";
+@use "variables";
+@use "functions";
+
+// Reset and base styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: fonts.$font-primary;
+  font-size: 16px;
+  color: colors.$color-text-primary;
+  background-color: colors.$color-bg-light;
+  overflow-x: hidden;
+}
+
+// Custom properties for root
+:root {
+  // Primary colors
+  --color-primary: #{colors.$color-primary};
+  --color-primary-light: #{colors.$color-primary-light};
+  --color-primary-dark: #{colors.$color-primary-dark};
+
+  // Secondary colors
+  --color-secondary: #{colors.$color-secondary};
+  --color-secondary-light: #{colors.$color-secondary-light};
+  --color-secondary-dark: #{colors.$color-secondary-dark};
+
+  // Accent colors
+  --color-accent-1: #{colors.$color-accent-1};
+  --color-accent-2: #{colors.$color-accent-2};
+  --color-accent-3: #{colors.$color-accent-3};
+
+  // Background colors
+  --color-bg-light: #{colors.$color-bg-light};
+  --color-bg-card: #{colors.$color-bg-card};
+  --color-bg-input: #{colors.$color-bg-input};
+
+  // Neutral colors
+  --color-white: #{colors.$color-white};
+  --color-light: #{colors.$color-light};
+  --color-grey-light: #{colors.$color-grey-light};
+  --color-grey: #{colors.$color-grey};
+  --color-grey-dark: #{colors.$color-grey-dark};
+  --color-dark: #{colors.$color-dark};
+  --color-black: #{colors.$color-black};
+
+  // Text colors
+  --color-text-primary: #{colors.$color-text-primary};
+  --color-text-secondary: #{colors.$color-text-secondary};
+  --color-text-tertiary: #{colors.$color-text-tertiary};
+
+  // Fonts
+  --font-primary: #{fonts.$font-primary};
+
+  // Shadows
+  --shadow-small: #{colors.$shadow-small};
+  --shadow-medium: #{colors.$shadow-medium};
+  --shadow-large: #{colors.$shadow-large};
+  --shadow-focus: #{colors.$shadow-focus};
+
+  // Transitions
+  --transition-fast: #{variables.$transition-fast};
+  --transition-normal: #{variables.$transition-normal};
+  --transition-slow: #{variables.$transition-slow};
+
+  // Gradients
+  --gradient-primary: #{colors.$gradient-primary};
+  --gradient-secondary: #{colors.$gradient-secondary};
+  --gradient-accent-1: #{colors.$gradient-accent-1};
+  --gradient-accent-2: #{colors.$gradient-accent-2};
+  --gradient-accent-3: #{colors.$gradient-accent-3};
+  --gradient-features: #{colors.$gradient-features};
+}
+
+// Common button styles
+button {
+  cursor: pointer;
+  font-family: fonts.$font-primary;
+}
+
+input,
+textarea,
+select {
+  font-family: fonts.$font-primary;
+  font-size: functions.rem(16);
+}
+
+// Link styles
+a {
+  color: colors.$color-primary;
+  text-decoration: none;
+  transition: color variables.$transition-fast;
+
+  &:hover {
+    color: colors.$color-primary-dark;
+  }
+}
