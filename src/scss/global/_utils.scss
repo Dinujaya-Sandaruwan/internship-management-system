@@ -1,0 +1,166 @@
+@use "colors";
+@use "variables";
+@use "functions";
+
+// Flex utilities
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+// Spacing utilities
+.m-0 {
+  margin: 0;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-1 {
+  margin-bottom: functions.rem(4);
+}
+
+.mb-2 {
+  margin-bottom: functions.rem(8);
+}
+
+.mb-3 {
+  margin-bottom: functions.rem(12);
+}
+
+.mb-4 {
+  margin-bottom: functions.rem(16);
+}
+
+.mb-5 {
+  margin-bottom: functions.rem(24);
+}
+
+.p-2 {
+  padding: functions.rem(8);
+}
+
+.p-4 {
+  padding: functions.rem(16);
+}
+
+.p-5 {
+  padding: functions.rem(24);
+}
+
+// Text utilities
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: colors.$color-primary;
+}
+
+.text-secondary {
+  color: colors.$color-secondary;
+}
+
+.text-white {
+  color: colors.$color-white;
+}
+
+.text-dark {
+  color: colors.$color-dark;
+}
+
+.text-grey {
+  color: colors.$color-grey-dark;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+// Background utilities
+.bg-white {
+  background-color: colors.$color-white;
+}
+
+.bg-light {
+  background-color: colors.$color-bg-light;
+}
+
+.bg-primary {
+  background-color: colors.$color-primary;
+}
+
+.bg-secondary {
+  background-color: colors.$color-secondary;
+}
+
+// Shadow utilities
+.shadow-sm {
+  box-shadow: colors.$shadow-small;
+}
+
+.shadow-md {
+  box-shadow: colors.$shadow-medium;
+}
+
+.shadow-lg {
+  box-shadow: colors.$shadow-large;
+}
+
+// Animation utilities
+.animate-fade-in {
+  animation: fadeIn variables.$transition-slow;
+}
+
+.animate-fade-up {
+  animation: fadeInUp variables.$transition-slow;
+}
+
+.animate-fade-down {
+  animation: fadeInDown variables.$transition-slow;
+}
+
+// Responsive utilities
+.hidden-sm {
+  @media (max-width: variables.$breakpoint-md) {
+    display: none;
+  }
+}
+
+.full-width-sm {
+  @media (max-width: variables.$breakpoint-md) {
+    width: 100%;
+  }
+}
