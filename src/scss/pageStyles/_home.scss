@@ -1,0 +1,197 @@
+@use "../global" as g;
+// Main homepage container
+.homepage {
+  min-height: 101vh;
+  width: 100%;
+  background: url("https://tech.cmb.ac.lk/wp-content/uploads/2023/05/WhatsApp-Image-2023-03-29-at-11.04.32-AM.jpeg")
+    no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: g.$gradient-features;
+    z-index: 1;
+  }
+
+  &__left,
+  &__right {
+    width: 50%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: g.rem(32);
+  }
+
+  &__left {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 0% 100%);
+    transition: clip-path g.$transition-slow;
+
+    @media (max-width: g.$breakpoint-md) {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      width: 100%;
+    }
+
+    &:hover {
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    }
+  }
+
+  &__right {
+    background: transparent;
+
+    @media (max-width: g.$breakpoint-md) {
+      display: none;
+    }
+  }
+
+  &__content {
+    max-width: g.rem(500);
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+  }
+
+  // Text content
+  &__text {
+    text-align: center;
+    margin-bottom: g.rem(32);
+  }
+
+  &__title {
+    font-size: g.$text-3xl;
+    font-weight: 700;
+    color: g.$color-primary;
+    margin-bottom: g.rem(19);
+    margin-top: g.rem(19);
+    position: relative;
+    display: inline-block;
+    animation: fadeInDown 1s ease-out;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background: g.$gradient-primary;
+      border-radius: 3px;
+    }
+  }
+
+  &__subtitle {
+    font-size: g.$text-xl;
+    font-weight: 500;
+    color: g.$color-text-secondary;
+    margin-top: g.rem(24);
+    animation: fadeInUp 1s ease-out 0.2s both;
+  }
+
+  &__description {
+    font-size: g.$text-base;
+    line-height: g.$line-height-relaxed;
+    color: g.$color-text-tertiary;
+    animation: fadeInUp 1s ease-out 0.4s both;
+  }
+
+  &__footer {
+    font-size: g.$text-xs;
+    color: g.$color-text-tertiary;
+    text-align: center;
+    margin-top: auto;
+    padding-top: g.rem(32);
+    animation: fadeIn 1s ease-out 1s both;
+  }
+
+  // Auth container
+  .auth-container {
+    width: 100%;
+    max-width: g.rem(450);
+    margin: 0 auto;
+    animation: fadeIn 1s ease-out 0.6s both;
+  }
+
+  // Features section
+  .features-container {
+    max-width: g.rem(500);
+    margin: 0 auto;
+    width: 100%;
+    color: g.$color-white;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .features-title {
+    font-size: g.$text-2xl;
+    margin-bottom: g.rem(24);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    animation: fadeInRight 1s ease-out 0.2s both;
+    padding-bottom: 12px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 3px;
+      background: g.$color-white;
+      border-radius: 3px;
+    }
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: g.rem(24);
+
+    .feature {
+      &:nth-child(1) {
+        animation: slideInRight 0.5s 0.4s both;
+      }
+
+      &:nth-child(2) {
+        animation: slideInRight 0.5s 0.6s both;
+      }
+
+      &:nth-child(3) {
+        animation: slideInRight 0.5s 0.8s both;
+      }
+    }
+  }
+
+  .role-options-container {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  .role-options {
+    display: flex;
+    flex-direction: column;
+    gap: g.rem(16);
+    margin-bottom: g.rem(24);
+  }
+}
