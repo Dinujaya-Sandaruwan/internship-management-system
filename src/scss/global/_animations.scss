@@ -1,0 +1,115 @@
+@use "variables";
+
+// Animation keyframes
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0.5;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+// Animation utility classes
+.animate-fade-in {
+  animation: fadeIn variables.$transition-normal both;
+}
+
+.animate-fade-in-delay-1 {
+  animation: fadeIn variables.$transition-normal 0.2s both;
+}
+
+.animate-fade-in-delay-2 {
+  animation: fadeIn variables.$transition-normal 0.4s both;
+}
+
+.animate-fade-down {
+  animation: fadeInDown variables.$transition-normal both;
+}
+
+.animate-fade-up {
+  animation: fadeInUp variables.$transition-normal both;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fadeInUp variables.$transition-normal 0.2s both;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fadeInUp variables.$transition-normal 0.4s both;
+}
+
+.animate-slide-right {
+  animation: slideInRight variables.$transition-normal both;
+}
+
+.animate-slide-right-delay-1 {
+  animation: slideInRight 0.5s 0.4s both;
+}
+
+.animate-slide-right-delay-2 {
+  animation: slideInRight 0.5s 0.6s both;
+}
+
+.animate-slide-right-delay-3 {
+  animation: slideInRight 0.5s 0.8s both;
+}
