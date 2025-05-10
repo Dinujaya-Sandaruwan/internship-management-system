@@ -1,0 +1,376 @@
+@use "../global" as g;
+@use "sass:color";
+
+// Evaluation Page Styling
+.evaluation-page {
+  // Main container for evaluation content
+  .evaluation-container {
+    max-width: 100%;
+    margin: 0 auto;
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  // Page title styling
+  .evaluation-title {
+    position: relative;
+    display: inline-block;
+    color: g.$color-text-primary;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(
+        to right,
+        g.$color-primary,
+        g.$color-secondary
+      );
+      border-radius: 2px;
+    }
+  }
+
+  // Evaluation form card
+  .evaluation-form-card {
+    background-color: g.$color-white;
+    border-radius: g.$border-radius-lg;
+    box-shadow: g.$shadow-medium;
+    margin-bottom: g.rem(30);
+    overflow: hidden;
+    transition: all g.$transition-normal;
+    position: relative;
+    border-top: 4px solid g.$color-primary;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: g.$shadow-large;
+    }
+  }
+
+  .card-content {
+    padding: g.rem(40);
+    display: flex;
+    align-items: center;
+    gap: g.rem(40);
+
+    @media (max-width: g.$breakpoint-md) {
+      flex-direction: column;
+      text-align: center;
+      padding: g.rem(30) g.rem(20);
+      gap: g.rem(24);
+    }
+  }
+
+  .form-icon {
+    width: g.rem(100);
+    height: g.rem(100);
+    background: linear-gradient(135deg, g.$color-primary, g.$color-secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: g.$color-white;
+    font-size: g.rem(40);
+    flex-shrink: 0;
+    box-shadow: 0 10px 20px rgba(g.$color-primary, 0.2);
+    position: relative;
+    transition: all g.$transition-normal;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      right: -10px;
+      width: g.rem(30);
+      height: g.rem(30);
+      background-color: g.$color-success;
+      border-radius: 50%;
+      border: 4px solid g.$color-white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: g.$color-white;
+      font-size: g.rem(12);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+
+    .evaluation-form-card:hover & {
+      transform: scale(1.05) rotate(5deg);
+    }
+  }
+
+  .form-details {
+    flex: 1;
+
+    h2 {
+      font-size: g.$text-xl;
+      font-weight: g.$weight-semibold;
+      color: g.$color-text-primary;
+      margin-bottom: g.rem(24);
+      line-height: 1.4;
+    }
+  }
+
+  .form-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(g.rem(200), 1fr));
+    gap: g.rem(20) g.rem(30);
+    margin-bottom: g.rem(30);
+
+    @media (max-width: g.$breakpoint-md) {
+      gap: g.rem(16);
+    }
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: g.rem(4);
+  }
+
+  .meta-label {
+    font-size: g.$text-xs;
+    color: g.$color-text-tertiary;
+    font-weight: g.$weight-medium;
+  }
+
+  .meta-value {
+    font-size: g.$text-sm;
+    color: g.$color-text-primary;
+    font-weight: g.$weight-semibold;
+  }
+
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: g.rem(10);
+    padding: g.rem(12) g.rem(24);
+    background: linear-gradient(135deg, g.$color-primary, g.$color-secondary);
+    color: g.$color-white;
+    border: none;
+    border-radius: g.$border-radius;
+    font-size: g.$text-base;
+    font-weight: g.$weight-semibold;
+    cursor: pointer;
+    transition: all g.$transition-normal;
+    box-shadow: 0 4px 12px rgba(g.$color-primary, 0.3);
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0)
+      );
+      transition: left 0.8s ease;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(g.$color-primary, 0.4);
+
+      &::after {
+        left: 100%;
+      }
+    }
+
+    &:active {
+      transform: translateY(-1px);
+    }
+  }
+
+  // Empty evaluation state
+  .empty-evaluation {
+    background-color: g.$color-white;
+    border-radius: g.$border-radius-lg;
+    box-shadow: g.$shadow-medium;
+    padding: g.rem(60) g.rem(20);
+    margin-bottom: g.rem(30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .empty-icon {
+      font-size: g.rem(60);
+      color: g.$color-grey-light;
+      margin-bottom: g.rem(20);
+    }
+
+    h2 {
+      font-size: g.$text-xl;
+      font-weight: g.$weight-semibold;
+      color: g.$color-text-primary;
+      margin-bottom: g.rem(16);
+    }
+
+    p {
+      font-size: g.$text-base;
+      color: g.$color-text-secondary;
+      max-width: g.rem(500);
+    }
+  }
+
+  // Evaluation info section
+  .evaluation-info {
+    background-color: g.$color-white;
+    border-radius: g.$border-radius-lg;
+    box-shadow: g.$shadow-medium;
+    overflow: hidden;
+    margin-bottom: g.rem(30);
+  }
+
+  .info-header {
+    padding: g.rem(16) g.rem(24);
+    background: linear-gradient(to right, g.$color-primary, g.$color-secondary);
+    color: g.$color-white;
+
+    h3 {
+      font-size: g.$text-lg;
+      font-weight: g.$weight-semibold;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: g.rem(10);
+    }
+
+    .info-icon {
+      font-size: g.$text-base;
+    }
+  }
+
+  .info-content {
+    padding: g.rem(30);
+
+    p {
+      font-size: g.$text-base;
+      line-height: g.$line-height-relaxed;
+      color: g.$color-text-secondary;
+      margin-bottom: g.rem(30);
+    }
+  }
+
+  .info-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(g.rem(220), 1fr));
+    gap: g.rem(24);
+    margin-bottom: g.rem(30);
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: g.rem(16);
+    background-color: g.$color-bg-light;
+    padding: g.rem(20);
+    border-radius: g.$border-radius;
+    transition: all g.$transition-normal;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: g.$shadow-small;
+    }
+  }
+
+  .step-number {
+    width: g.rem(36);
+    height: g.rem(36);
+    background: linear-gradient(135deg, g.$color-primary, g.$color-secondary);
+    color: g.$color-white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: g.$weight-bold;
+    font-size: g.$text-base;
+    flex-shrink: 0;
+  }
+
+  .step-content {
+    h4 {
+      font-size: g.$text-base;
+      font-weight: g.$weight-semibold;
+      color: g.$color-text-primary;
+      margin-bottom: g.rem(8);
+    }
+
+    p {
+      font-size: g.$text-sm;
+      color: g.$color-text-secondary;
+      margin: 0;
+      line-height: g.$line-height-normal;
+    }
+  }
+
+  .info-note {
+    display: flex;
+    align-items: flex-start;
+    gap: g.rem(16);
+    background-color: rgba(g.$color-warning, 0.1);
+    padding: g.rem(20);
+    border-radius: g.$border-radius;
+    border-left: 4px solid g.$color-warning;
+    margin-bottom: g.rem(24);
+
+    .note-icon {
+      color: g.$color-warning;
+      font-size: g.$text-lg;
+      flex-shrink: 0;
+      margin-top: g.rem(2);
+    }
+
+    p {
+      font-size: g.$text-sm;
+      color: g.$color-text-secondary;
+      margin: 0;
+    }
+  }
+
+  .info-action {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: g.rem(10);
+    padding: g.rem(10) g.rem(20);
+    background-color: transparent;
+    border: 1px solid g.$color-primary;
+    color: g.$color-primary;
+    border-radius: g.$border-radius;
+    font-size: g.$text-sm;
+    font-weight: g.$weight-medium;
+    cursor: pointer;
+    transition: all g.$transition-normal;
+
+    &:hover {
+      background-color: g.$color-primary;
+      color: g.$color-white;
+      transform: translateY(-2px);
+    }
+  }
+
+  // Animations
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
