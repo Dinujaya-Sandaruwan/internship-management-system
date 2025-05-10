@@ -4,12 +4,13 @@ import InternDashboard from "./pages/InternDashboard";
 import MessagePage from "./pages/MessagePage";
 import NotificationsPage from "./pages/NotificationsPage";
 import ProgressPage from "./pages/ProgressPage";
+import UpdateDataPage from "./pages/UpdateDataPage";
 import "./scss/style.scss";
 
 function App() {
   return (
     <>
-      <ProgressPage />
+      <UpdateDataPage />
     </>
   );
 }
