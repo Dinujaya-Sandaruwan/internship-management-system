@@ -1,10 +1,10 @@
-import HomePage from "./pages/HomePage";
+import InternDashboard from "./pages/InternDashboard";
 import "./scss/style.scss";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <InternDashboard />
     </>
   );
 }
