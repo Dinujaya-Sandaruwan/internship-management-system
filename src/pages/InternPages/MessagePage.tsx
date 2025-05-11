@@ -24,7 +24,7 @@ import {
   FaUserGraduate,
   FaBuilding,
 } from "react-icons/fa";
-import SideMenu from "../../components/SideMenu";
+import SideMenu from "../../components/InternSideMenu";
 
 const MessagePage: React.FC = () => {
   // Active menu item state
@@ -437,10 +437,10 @@ const MessagePage: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar */}
-      <SideMenu
+      {/* <SideMenu
         activeMenuItem={activeMenuItem}
         setActiveMenuItem={setActiveMenuItem}
-      />
+      /> */}
 
       {/* Main Content - Now with class for specific styling */}
       <div className="dashboard__main messages-page">

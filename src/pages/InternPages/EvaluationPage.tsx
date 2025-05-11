@@ -21,7 +21,7 @@ import {
   FaExclamationTriangle,
   FaArrowRight,
 } from "react-icons/fa";
-import SideMenu from "../../components/SideMenu";
+import SideMenu from "../../components/InternSideMenu";
 
 const EvaluationPage: React.FC = () => {
   // Active menu item state
@@ -77,10 +77,10 @@ const EvaluationPage: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar */}
-      <SideMenu
+      {/* <SideMenu
         activeMenuItem={activeMenuItem}
         setActiveMenuItem={setActiveMenuItem}
-      />
+      /> */}
 
       {/* Main Content */}
       <div className="dashboard__main evaluation-page">

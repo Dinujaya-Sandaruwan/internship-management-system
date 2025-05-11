@@ -38,7 +38,7 @@ import {
   FaBuilding,
   FaLaptopCode,
 } from "react-icons/fa";
-import SideMenu from "../../components/SideMenu";
+import SideMenu from "../../components/InternSideMenu";
 
 interface Task {
   id: number;
@@ -481,10 +481,10 @@ const GoalsPage: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar */}
-      <SideMenu
+      {/* <SideMenu
         activeMenuItem={activeMenuItem}
         setActiveMenuItem={setActiveMenuItem}
-      />
+      /> */}
 
       {/* Main Content */}
       <div className="dashboard__main goals-page">

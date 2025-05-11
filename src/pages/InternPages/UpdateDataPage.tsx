@@ -45,7 +45,7 @@ import {
   FaTimes,
   FaPlus,
 } from "react-icons/fa";
-import SideMenu from "../../components/SideMenu";
+import SideMenu from "../../components/InternSideMenu";
 
 const UpdateDataPage: React.FC = () => {
   // Active menu item state
@@ -223,10 +223,10 @@ const UpdateDataPage: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar */}
-      <SideMenu
+      {/* <SideMenu
         activeMenuItem={activeMenuItem}
         setActiveMenuItem={setActiveMenuItem}
-      />
+      /> */}
 
       {/* Main Content */}
       <div className="dashboard__main update-data-page">

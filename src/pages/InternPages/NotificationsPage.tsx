@@ -27,7 +27,7 @@ import {
   FaChevronDown,
   FaChevronUp,
 } from "react-icons/fa";
-import SideMenu from "../../components/SideMenu";
+import SideMenu from "../../components/InternSideMenu";
 
 const NotificationsPage: React.FC = () => {
   // Active menu item state
@@ -319,10 +319,10 @@ const NotificationsPage: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar */}
-      <SideMenu
+      {/* <SideMenu
         activeMenuItem={activeMenuItem}
         setActiveMenuItem={setActiveMenuItem}
-      />
+      /> */}
       {/* Main Content */}
       <div className="dashboard__main notifications-page">
         {/* Header with highlighted title */}

@@ -37,7 +37,7 @@ import {
   FaExclamation,
   FaShieldAlt,
 } from "react-icons/fa";
-import SideMenu from "../../components/SideMenu";
+import SideMenu from "../../components/InternSideMenu";
 
 const InternDashboard: React.FC = () => {
   // Sample user data
@@ -332,10 +332,10 @@ const InternDashboard: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar with darker gradient */}
-      <SideMenu
+      {/* <SideMenu
         activeMenuItem={activeMenuItem}
         setActiveMenuItem={setActiveMenuItem}
-      />
+      /> */}
 
       {/* Main Content */}
       <div className="dashboard__main">
