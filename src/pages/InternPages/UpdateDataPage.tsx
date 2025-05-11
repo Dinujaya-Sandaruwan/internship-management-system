@@ -45,6 +45,7 @@ import {
   FaTimes,
   FaPlus,
 } from "react-icons/fa";
+import SideMenu from "../../components/SideMenu";
 
 const UpdateDataPage: React.FC = () => {
   // Active menu item state
@@ -222,108 +223,10 @@ const UpdateDataPage: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar */}
-      <div className="dashboard__sidebar">
-        <div className="dashboard__sidebar-header">
-          <div className="dashboard__logo">
-            <img
-              src="https://cmb.ac.lk/wp-content/uploads/logo-color.png"
-              alt="UoC Logo"
-            />
-            <span>UoC IMS</span>
-          </div>
-        </div>
-
-        <div className="dashboard__menu">
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "home" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("home")}
-          >
-            <FaHome className="dashboard__menu-icon" />
-            <span>Home</span>
-          </div>
-
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "messages" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("messages")}
-          >
-            <FaEnvelope className="dashboard__menu-icon" />
-            <span>Messages</span>
-            <div className="dashboard__badge">3</div>
-          </div>
-
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "notifications" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("notifications")}
-          >
-            <FaBell className="dashboard__menu-icon" />
-            <span>Notifications</span>
-            <div className="dashboard__badge">5</div>
-          </div>
-
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "goals" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("goals")}
-          >
-            <FaTasks className="dashboard__menu-icon" />
-            <span>Goals</span>
-          </div>
-
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "evaluation" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("evaluation")}
-          >
-            <FaClipboardCheck className="dashboard__menu-icon" />
-            <span>Evaluation</span>
-          </div>
-
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "progress" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("progress")}
-          >
-            <FaChartLine className="dashboard__menu-icon" />
-            <span>Progress</span>
-          </div>
-
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "updateData" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("updateData")}
-          >
-            <FaUserEdit className="dashboard__menu-icon" />
-            <span>Update Data</span>
-          </div>
-
-          <div
-            className={`dashboard__menu-item ${
-              activeMenuItem === "supervisors" ? "active" : ""
-            }`}
-            onClick={() => setActiveMenuItem("supervisors")}
-          >
-            <FaUserTie className="dashboard__menu-icon" />
-            <span>Supervisor Requests</span>
-          </div>
-        </div>
-
-        <div className="dashboard__menu-footer">
-          <div className="dashboard__menu-item">
-            <FaSignOutAlt className="dashboard__menu-icon" />
-            <span>Sign Out</span>
-          </div>
-        </div>
-      </div>
+      <SideMenu
+        activeMenuItem={activeMenuItem}
+        setActiveMenuItem={setActiveMenuItem}
+      />
 
       {/* Main Content */}
       <div className="dashboard__main update-data-page">
