@@ -12,6 +12,7 @@ import ProgressPage from "./pages/InternPages/ProgressPage";
 import UpdateDataPage from "./pages/InternPages/UpdateDataPage";
 import SupervisorRequestsPage from "./pages/InternPages/SupervisorRequestsPage";
 import "./scss/style.scss";
+import SupervisorMessagesPage from "./pages/SupervisorPages/SupervisorMessagesPage";
 
 export const router = createBrowserRouter([
   {
@@ -64,11 +65,10 @@ export const router = createBrowserRouter([
         path: "dashboard",
         element: <SupervisorDashboard />,
       },
-      // Add other supervisor routes as they are developed
-      // For example:
-      // { path: "messages", element: <SupervisorMessagesPage /> },
-      // { path: "notifications", element: <SupervisorNotificationsPage /> },
-      // etc.
+      {
+        path: "messages",
+        element: <SupervisorMessagesPage />,
+      },
     ],
   },
 ]);
