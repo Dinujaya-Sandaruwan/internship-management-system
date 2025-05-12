@@ -50,6 +50,7 @@
     grid-template-columns: 2fr 1fr;
     gap: g.rem(24);
     animation: fadeIn 0.8s ease-out;
+    align-items: start; // Added to prevent widgets from stretching to match heights
 
     @media (max-width: g.$breakpoint-lg) {
       grid-template-columns: 1fr;
@@ -115,6 +116,7 @@
 
   .request-supervision-widget {
     height: auto;
+    align-self: flex-start; // Added to prevent stretching to match the other widget
   }
 
   // Supervisor alert
