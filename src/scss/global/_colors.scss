@@ -148,3 +148,9 @@ $gradient-orange: linear-gradient(
   $color-accent-orange-light,
   $color-accent-orange-darker
 );
+
+$gradient-supervisor: linear-gradient(
+  135deg,
+  $color-primary,
+  $color-primary-light
+);
