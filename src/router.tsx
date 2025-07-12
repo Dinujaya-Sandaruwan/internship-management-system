@@ -13,6 +13,7 @@ import UpdateDataPage from "./pages/InternPages/UpdateDataPage";
 import SupervisorRequestsPage from "./pages/InternPages/SupervisorRequestsPage";
 import "./scss/style.scss";
 import SupervisorMessagesPage from "./pages/SupervisorPages/SupervisorMessagesPage";
+import SupervisorNotificationsPage from "./pages/SupervisorPages/SupervisorNotificationsPage";
 
 export const router = createBrowserRouter([
   {
@@ -68,6 +69,10 @@ export const router = createBrowserRouter([
       {
         path: "messages",
         element: <SupervisorMessagesPage />,
+      },
+      {
+        path: "notifications",
+        element: <SupervisorNotificationsPage />,
       },
     ],
   },
