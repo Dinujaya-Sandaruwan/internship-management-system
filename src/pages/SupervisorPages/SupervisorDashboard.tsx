@@ -124,7 +124,8 @@ const SupervisorDashboard: React.FC = () => {
       <div className="dashboard__header">
         <div className="dashboard__greeting">
           <h1>
-            {getGreeting()}, {supervisor.name.split(" ")[0]}
+            {getGreeting()}, {supervisor.name.split(" ")[0]}{" "}
+            {supervisor.name.split(" ")[2]}
           </h1>
           <p>
             <FaUniversity className="info-icon" /> {supervisor.university} |
