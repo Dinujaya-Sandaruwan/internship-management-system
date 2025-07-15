@@ -384,3 +384,45 @@
     }
   }
 }
+
+// .dashboard__header {
+//   margin-bottom: g.rem(24);
+
+//   .dashboard__greeting {
+//     h1 {
+//       font-size: g.rem(32);
+//       font-weight: 700;
+//       color: g.$color-text-primary;
+//       margin-bottom: g.rem(8);
+//       background: g.$gradient-primary;
+//       -webkit-background-clip: text;
+//       background-clip: text;
+//       color: transparent;
+//     }
+
+//     p {
+//       font-size: g.$text-base;
+//       color: g.$color-text-secondary;
+//       margin-bottom: g.rem(20);
+//     }
+//   }
+// }
+
+// // Dashboard main content area
+// .dashboard__main {
+//   flex: 1;
+//   margin-left: 280px;
+//   min-height: 100vh;
+//   background-color: g.$color-bg-light;
+//   padding: g.rem(24);
+
+//   @media (max-width: g.$breakpoint-md) {
+//     margin-left: 70px;
+//     padding: g.rem(16);
+//   }
+
+//   @media (max-width: g.$breakpoint-sm) {
+//     margin-left: 0;
+//     padding: g.rem(12);
+//   }
+// }

@@ -1,0 +1,551 @@
+@use "../../global" as g;
+
+// My Interns Page Styling
+.my-interns {
+  padding: g.rem(24);
+  background-color: g.$color-bg-light;
+  border-radius: g.$border-radius-lg;
+  margin: g.rem(20);
+  animation: fadeIn 0.6s ease-out;
+
+  // Controls section
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: g.rem(32);
+    gap: g.rem(24);
+    flex-wrap: wrap;
+
+    @media (max-width: g.$breakpoint-md) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+}
+
+// Search bar styling
+.search-bar {
+  position: relative;
+  flex: 1;
+  max-width: g.rem(400);
+
+  @media (max-width: g.$breakpoint-md) {
+    max-width: 100%;
+  }
+
+  &__icon {
+    position: absolute;
+    left: g.rem(16);
+    top: 50%;
+    transform: translateY(-50%);
+    color: g.$color-text-tertiary;
+    font-size: g.$text-sm;
+    z-index: 2;
+  }
+
+  &__input {
+    width: 100%;
+    padding: g.rem(14) g.rem(16) g.rem(14) g.rem(44);
+    border: 1px solid g.$color-grey-light;
+    border-radius: g.$border-radius;
+    background-color: g.$color-white;
+    font-size: g.$text-sm;
+    color: g.$color-text-primary;
+    transition: all g.$transition-fast;
+    box-shadow: g.$shadow-small;
+
+    &:focus {
+      outline: none;
+      border-color: g.$color-primary;
+      box-shadow: g.$shadow-focus;
+    }
+
+    &::placeholder {
+      color: g.$color-text-tertiary;
+    }
+  }
+}
+
+// Filter controls
+.filter-controls {
+  display: flex;
+  gap: g.rem(16);
+  align-items: center;
+
+  @media (max-width: g.$breakpoint-sm) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: g.rem(8);
+}
+
+.filter-icon {
+  color: g.$color-text-tertiary;
+  font-size: g.$text-sm;
+}
+
+.filter-select {
+  padding: g.rem(10) g.rem(14);
+  border: 1px solid g.$color-grey-light;
+  border-radius: g.$border-radius;
+  background-color: g.$color-white;
+  font-size: g.$text-sm;
+  color: g.$color-text-primary;
+  cursor: pointer;
+  transition: all g.$transition-fast;
+  box-shadow: g.$shadow-small;
+  min-width: g.rem(140);
+
+  &:focus {
+    outline: none;
+    border-color: g.$color-primary;
+    box-shadow: g.$shadow-focus;
+  }
+
+  @media (max-width: g.$breakpoint-sm) {
+    width: 100%;
+  }
+}
+
+// Interns grid
+.interns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(g.rem(380), 1fr));
+  gap: g.rem(24);
+  animation: fadeIn 0.8s ease-out;
+
+  @media (max-width: g.$breakpoint-sm) {
+    grid-template-columns: 1fr;
+    gap: g.rem(16);
+  }
+}
+
+// Individual intern card
+.intern-card {
+  background: g.$color-white;
+  border-radius: g.$border-radius-lg;
+  padding: g.rem(24);
+  box-shadow: g.$shadow-medium;
+  transition: all g.$transition-normal;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: g.$shadow-large;
+    border-color: g.$color-primary-10;
+
+    .intern-card__name {
+      color: g.$color-primary;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: g.rem(4);
+    background: g.$gradient-primary;
+    opacity: 0;
+    transition: opacity g.$transition-normal;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+
+  // Card header with avatar and basic info
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    gap: g.rem(16);
+    margin-bottom: g.rem(20);
+  }
+
+  &__avatar {
+    position: relative;
+    flex-shrink: 0;
+
+    img {
+      width: g.rem(64);
+      height: g.rem(64);
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid g.$color-grey-light;
+      transition: border-color g.$transition-normal;
+    }
+
+    .intern-card:hover & img {
+      border-color: g.$color-primary;
+    }
+  }
+
+  &__status-dot {
+    position: absolute;
+    bottom: g.rem(4);
+    right: g.rem(4);
+    width: g.rem(12);
+    height: g.rem(12);
+    border-radius: 50%;
+    border: 2px solid g.$color-white;
+
+    &--active {
+      background-color: g.$color-success;
+    }
+
+    &--completed {
+      background-color: g.$color-primary;
+    }
+
+    &--on-break {
+      background-color: g.$color-warning;
+    }
+  }
+
+  &__basic {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__name {
+    font-size: g.$text-lg;
+    font-weight: g.$weight-semibold;
+    color: g.$color-text-primary;
+    margin-bottom: g.rem(4);
+    transition: color g.$transition-normal;
+    line-height: g.$line-height-tight;
+  }
+
+  &__degree {
+    font-size: g.$text-sm;
+    color: g.$color-text-secondary;
+    margin-bottom: g.rem(8);
+    line-height: g.$line-height-tight;
+  }
+
+  // Card details section
+  &__details {
+    margin-bottom: g.rem(20);
+  }
+
+  // Progress section
+  &__progress {
+    margin-bottom: g.rem(20);
+  }
+
+  // Actions section
+  &__actions {
+    display: flex;
+    gap: g.rem(12);
+
+    @media (max-width: g.$breakpoint-xs) {
+      flex-direction: column;
+    }
+  }
+}
+
+// Detail rows
+.detail-row {
+  display: flex;
+  align-items: center;
+  gap: g.rem(10);
+  padding: g.rem(6) 0;
+  font-size: g.$text-sm;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid g.$color-grey-light;
+    margin-bottom: g.rem(2);
+    padding-bottom: g.rem(8);
+  }
+}
+
+.detail-icon {
+  color: g.$color-text-tertiary;
+  font-size: g.$text-xs;
+  width: g.rem(14);
+  flex-shrink: 0;
+}
+
+.detail-text {
+  color: g.$color-text-secondary;
+  line-height: g.$line-height-tight;
+  word-break: break-word;
+}
+
+// Status badges
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: g.rem(6);
+  padding: g.rem(4) g.rem(10);
+  border-radius: g.rem(20);
+  font-size: g.$text-xs;
+  font-weight: g.$weight-medium;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  &--success {
+    background-color: g.$color-success-10;
+    color: g.$color-success;
+  }
+
+  &--primary {
+    background-color: g.$color-primary-10;
+    color: g.$color-primary;
+  }
+
+  &--warning {
+    background-color: g.$color-warning-10;
+    color: g.$color-warning;
+  }
+
+  &__icon {
+    font-size: g.rem(10);
+  }
+}
+
+// Progress styling
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: g.rem(8);
+}
+
+.progress-label {
+  font-size: g.$text-sm;
+  font-weight: g.$weight-medium;
+  color: g.$color-text-secondary;
+}
+
+.progress-percentage {
+  font-size: g.$text-sm;
+  font-weight: g.$weight-semibold;
+  color: g.$color-text-primary;
+}
+
+.progress-bar {
+  width: 100%;
+  height: g.rem(8);
+  background-color: g.$color-grey-light;
+  border-radius: g.rem(4);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: g.rem(4);
+  transition: width 0.6s ease-out;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      45deg,
+      transparent 25%,
+      rgba(255, 255, 255, 0.2) 25%,
+      rgba(255, 255, 255, 0.2) 50%,
+      transparent 50%,
+      transparent 75%,
+      rgba(255, 255, 255, 0.2) 75%
+    );
+    background-size: g.rem(16) g.rem(16);
+    animation: progressStripes 1s linear infinite;
+  }
+
+  &--success {
+    background-color: g.$color-success;
+  }
+
+  &--primary {
+    background-color: g.$color-primary;
+  }
+
+  &--warning {
+    background-color: g.$color-warning;
+  }
+
+  &--danger {
+    background-color: g.$color-danger;
+  }
+}
+
+// Action buttons
+.action-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: g.rem(8);
+  padding: g.rem(10) g.rem(16);
+  border: none;
+  border-radius: g.$border-radius;
+  font-size: g.$text-sm;
+  font-weight: g.$weight-medium;
+  cursor: pointer;
+  transition: all g.$transition-normal;
+  text-decoration: none;
+
+  &--primary {
+    background-color: g.$color-primary;
+    color: g.$color-white;
+
+    &:hover {
+      background-color: g.$color-primary-dark;
+      transform: translateY(-1px);
+    }
+  }
+
+  &--secondary {
+    background-color: g.$color-grey-light;
+    color: g.$color-text-primary;
+    border: 1px solid g.$color-grey;
+
+    &:hover {
+      background-color: g.$color-grey;
+      border-color: g.$color-grey-dark;
+      transform: translateY(-1px);
+    }
+  }
+
+  &__icon {
+    font-size: g.$text-xs;
+  }
+}
+
+// Empty state
+.empty-state {
+  text-align: center;
+  padding: g.rem(60) g.rem(20);
+  color: g.$color-text-tertiary;
+
+  &__icon {
+    font-size: g.rem(64);
+    color: g.$color-grey;
+    margin-bottom: g.rem(24);
+  }
+
+  &__title {
+    font-size: g.$text-xl;
+    font-weight: g.$weight-semibold;
+    color: g.$color-text-secondary;
+    margin-bottom: g.rem(12);
+  }
+
+  &__message {
+    font-size: g.$text-base;
+    line-height: g.$line-height-relaxed;
+  }
+}
+
+// Dashboard stats for header
+.dashboard__stats {
+  display: flex;
+  gap: g.rem(16);
+  margin-top: g.rem(16);
+
+  @media (max-width: g.$breakpoint-md) {
+    flex-wrap: wrap;
+  }
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: g.rem(12);
+  padding: g.rem(16) g.rem(20);
+  background-color: g.$color-white;
+  border-radius: g.$border-radius;
+  box-shadow: g.$shadow-small;
+  border-left: g.rem(4) solid transparent;
+  transition: all g.$transition-normal;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: g.$shadow-medium;
+  }
+
+  &--primary {
+    border-left-color: g.$color-primary;
+
+    .stat-card__icon {
+      color: g.$color-primary;
+    }
+  }
+
+  &--success {
+    border-left-color: g.$color-success;
+
+    .stat-card__icon {
+      color: g.$color-success;
+    }
+  }
+
+  &--warning {
+    border-left-color: g.$color-warning;
+
+    .stat-card__icon {
+      color: g.$color-warning;
+    }
+  }
+
+  &__icon {
+    font-size: g.$text-lg;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    font-size: g.$text-xs;
+    color: g.$color-text-tertiary;
+    font-weight: g.$weight-medium;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  &__value {
+    font-size: g.$text-xl;
+    font-weight: g.$weight-bold;
+    color: g.$color-text-primary;
+    line-height: 1;
+  }
+}
+
+// Animations
+@keyframes progressStripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: g.rem(32) 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(g.rem(20));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
