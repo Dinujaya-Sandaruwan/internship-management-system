@@ -15,6 +15,7 @@ import "./scss/style.scss";
 import SupervisorMessagesPage from "./pages/SupervisorPages/SupervisorMessagesPage";
 import SupervisorNotificationsPage from "./pages/SupervisorPages/SupervisorNotificationsPage";
 import MyInterns from "./pages/SupervisorPages/SupervisorInterns";
+import SupervisorEvaluation from "./pages/SupervisorPages/SupervisorEvaluation";
 
 export const router = createBrowserRouter([
   {
@@ -78,6 +79,10 @@ export const router = createBrowserRouter([
       {
         path: "interns",
         element: <MyInterns />,
+      },
+      {
+        path: "evaluations",
+        element: <SupervisorEvaluation />,
       },
     ],
   },
