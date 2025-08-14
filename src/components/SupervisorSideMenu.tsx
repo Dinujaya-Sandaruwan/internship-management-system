@@ -18,7 +18,7 @@ interface SupervisorSideMenuProps {
 }
 
 const SupervisorSideMenu: React.FC<SupervisorSideMenuProps> = ({
-  profileCompletion = 10,
+  profileCompletion = 80,
 }) => {
   const location = useLocation();
   const navigate = useNavigate();
