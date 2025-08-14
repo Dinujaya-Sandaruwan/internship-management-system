@@ -10,13 +10,14 @@ import GoalsPage from "./pages/InternPages/GoalsPage";
 import EvaluationPage from "./pages/InternPages/EvaluationPage";
 import ProgressPage from "./pages/InternPages/ProgressPage";
 import UpdateDataPage from "./pages/InternPages/UpdateDataPage";
-import SupervisorRequestsPage from "./pages/InternPages/SupervisorRequestsPage";
+import SupervisorRequestsPage from "./pages/SupervisorPages/SupervisorRequestsPage";
 import "./scss/style.scss";
 import SupervisorMessagesPage from "./pages/SupervisorPages/SupervisorMessagesPage";
 import SupervisorNotificationsPage from "./pages/SupervisorPages/SupervisorNotificationsPage";
 import MyInterns from "./pages/SupervisorPages/SupervisorInterns";
 import SupervisorEvaluation from "./pages/SupervisorPages/SupervisorEvaluation";
 import SupervisorReportSubmissionPage from "./pages/SupervisorPages/SupervisorReportSubmissionPage";
+import SupervisorSchedulePage from "./pages/SupervisorPages/SupervisorSchedulePage";
 
 export const router = createBrowserRouter([
   {
@@ -88,6 +89,10 @@ export const router = createBrowserRouter([
       {
         path: "reports",
         element: <SupervisorReportSubmissionPage />,
+      },
+      {
+        path: "schedule",
+        element: <SupervisorSchedulePage />,
       },
     ],
   },
