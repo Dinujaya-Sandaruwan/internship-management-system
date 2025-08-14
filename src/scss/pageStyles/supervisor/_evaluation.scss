@@ -1,0 +1,553 @@
+@use "../../global/" as *;
+
+.supervisor-evaluation-page {
+  // The page inherits the dashboard__main styles
+  // Additional specific styles for evaluation page
+
+  .evaluation-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .evaluation-form {
+    background: $color-white;
+    border-radius: $border-radius-lg;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: rem(32);
+    animation: fadeIn 0.5s ease-out;
+  }
+
+  .form-section {
+    margin-bottom: rem(40);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      color: $color-text-primary;
+      font-size: $text-xl;
+      font-weight: $weight-semibold;
+      margin-bottom: rem(24);
+      padding-bottom: rem(12);
+      border-bottom: 2px solid $color-grey-light;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 60px;
+        height: 2px;
+        background: $gradient-primary;
+      }
+    }
+  }
+
+  .intern-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: rem(20);
+  }
+
+  .intern-card {
+    background: $color-bg-light;
+    border: 2px solid $color-grey-light;
+    border-radius: $border-radius-lg;
+    padding: rem(20);
+    cursor: pointer;
+    transition: all $transition-normal;
+    position: relative;
+    overflow: hidden;
+
+    &:hover:not(.disabled) {
+      border-color: $color-primary;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba($color-primary, 0.15);
+    }
+
+    &.selected {
+      background: rgba($color-primary, 0.05);
+      border-color: $color-primary;
+      box-shadow: 0 4px 15px rgba($color-primary, 0.2);
+
+      .intern-card__avatar {
+        img,
+        .avatar-placeholder {
+          border-color: $color-primary;
+        }
+      }
+    }
+
+    &.disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      background: $color-bg-alt;
+
+      &:hover {
+        transform: none;
+        border-color: $color-grey-light;
+        box-shadow: none;
+      }
+    }
+
+    // Card header with avatar and info
+    &__header {
+      display: flex;
+      align-items: flex-start;
+      gap: rem(16);
+      margin-bottom: rem(16);
+      position: relative;
+    }
+
+    &__avatar {
+      position: relative;
+      flex-shrink: 0;
+
+      img {
+        width: rem(56);
+        height: rem(56);
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid $color-grey-light;
+        transition: border-color $transition-normal;
+      }
+
+      .avatar-placeholder {
+        width: rem(56);
+        height: rem(56);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, $color-primary, $color-secondary);
+        color: $color-white;
+        font-size: $text-md;
+        font-weight: $weight-bold;
+        border: 3px solid $color-grey-light;
+        transition: border-color $transition-normal;
+      }
+    }
+
+    &__status-dot {
+      position: absolute;
+      bottom: rem(2);
+      right: rem(2);
+      width: rem(12);
+      height: rem(12);
+      border-radius: 50%;
+      border: 2px solid $color-white;
+
+      &--completed {
+        background-color: $color-success;
+      }
+
+      &--ongoing {
+        background-color: $color-warning;
+      }
+    }
+
+    &__info {
+      flex: 1;
+      min-width: 0;
+
+      h3 {
+        color: $color-text-primary;
+        font-size: $text-md;
+        font-weight: $weight-semibold;
+        margin-bottom: rem(4);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .student-id {
+        color: $color-text-tertiary;
+        font-size: $text-sm;
+        margin-bottom: rem(2);
+      }
+
+      .program {
+        color: $color-secondary;
+        font-size: $text-sm;
+        font-weight: $weight-medium;
+      }
+    }
+
+    .status-badge {
+      position: absolute;
+      top: rem(16);
+      right: rem(16);
+      display: inline-flex;
+      align-items: center;
+      gap: rem(4);
+      padding: rem(4) rem(10);
+      border-radius: 20px;
+      font-size: rem(11);
+      font-weight: $weight-semibold;
+      text-transform: uppercase;
+
+      &.completed {
+        background: rgba($color-success, 0.1);
+        color: $color-success;
+      }
+
+      &.ongoing {
+        background: rgba($color-warning, 0.1);
+        color: $color-warning;
+      }
+    }
+
+    .intern-details {
+      padding-top: rem(12);
+      border-top: 1px solid $color-grey-light;
+
+      .detail-item {
+        display: flex;
+        align-items: center;
+        gap: rem(8);
+        color: $color-text-tertiary;
+        font-size: $text-xs;
+        margin-bottom: rem(8);
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        svg {
+          color: $color-grey-dark;
+          font-size: rem(14);
+          flex-shrink: 0;
+        }
+
+        .last-activity {
+          color: $color-text-secondary;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  // Selected intern info section
+  .selected-intern-info {
+    background: rgba($color-primary, 0.05);
+    padding: rem(24);
+    border-radius: $border-radius;
+    border: 1px solid rgba($color-primary, 0.1);
+
+    .selected-intern-header {
+      display: flex;
+      align-items: center;
+      gap: rem(20);
+      margin-bottom: rem(24);
+      padding-bottom: rem(20);
+      border-bottom: 1px solid rgba($color-primary, 0.1);
+
+      .selected-intern-avatar {
+        img {
+          width: rem(80);
+          height: rem(80);
+          border-radius: 50%;
+          object-fit: cover;
+          border: 3px solid $color-primary;
+        }
+
+        .avatar-placeholder-large {
+          width: rem(80);
+          height: rem(80);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(135deg, $color-primary, $color-secondary);
+          color: $color-white;
+          font-size: $text-xl;
+          font-weight: $weight-bold;
+          border: 3px solid $color-primary;
+        }
+      }
+
+      .selected-intern-main-info {
+        h3 {
+          color: $color-text-primary;
+          font-size: $text-xl;
+          font-weight: $weight-semibold;
+          margin-bottom: rem(4);
+        }
+
+        .selected-student-id {
+          color: $color-text-tertiary;
+          font-size: $text-sm;
+          margin-bottom: rem(8);
+        }
+
+        .selected-program {
+          color: $color-secondary;
+          font-size: $text-base;
+          font-weight: $weight-medium;
+          display: flex;
+          align-items: center;
+          gap: rem(6);
+
+          svg {
+            font-size: rem(16);
+          }
+        }
+      }
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: rem(20);
+
+      .info-item {
+        label {
+          display: block;
+          color: $color-text-tertiary;
+          font-size: $text-sm;
+          margin-bottom: rem(4);
+        }
+
+        span {
+          color: $color-text-primary;
+          font-size: $text-base;
+          font-weight: $weight-medium;
+
+          &.status-text {
+            &.completed {
+              color: $color-success;
+            }
+
+            &.ongoing {
+              color: $color-warning;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Upload section
+  .upload-section {
+    .file-input {
+      display: none;
+    }
+
+    .upload-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: rem(48) rem(32);
+      border: 2px dashed $color-grey;
+      border-radius: $border-radius;
+      background: $color-bg-input;
+      cursor: pointer;
+      transition: all $transition-normal;
+
+      &:hover {
+        border-color: $color-primary;
+        background: rgba($color-primary, 0.05);
+
+        .upload-icon {
+          color: $color-primary;
+        }
+      }
+
+      .upload-icon {
+        font-size: rem(48);
+        color: $color-grey-dark;
+        margin-bottom: rem(16);
+        transition: color $transition-normal;
+      }
+
+      .upload-text {
+        color: $color-text-primary;
+        font-size: $text-base;
+        margin-bottom: rem(8);
+      }
+
+      .upload-hint {
+        color: $color-text-tertiary;
+        font-size: $text-sm;
+      }
+    }
+
+    .file-preview {
+      display: flex;
+      align-items: center;
+      gap: rem(16);
+      padding: rem(16);
+      background: rgba($color-success, 0.1);
+      border: 1px solid rgba($color-success, 0.5);
+      border-radius: $border-radius;
+      margin-top: rem(16);
+
+      .file-icon {
+        font-size: rem(40);
+        color: $color-success;
+      }
+
+      .file-info {
+        flex: 1;
+
+        .file-name {
+          display: block;
+          color: $color-text-primary;
+          font-weight: $weight-medium;
+          margin-bottom: rem(4);
+        }
+
+        .file-size {
+          color: $color-text-tertiary;
+          font-size: $text-sm;
+        }
+      }
+
+      .remove-file {
+        background: none;
+        border: none;
+        color: $color-error;
+        cursor: pointer;
+        padding: rem(8);
+        transition: opacity $transition-fast;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .form-actions {
+    margin-top: rem(32);
+    text-align: center;
+  }
+
+  .submit-button {
+    background: $gradient-primary;
+    color: $color-white;
+    border: none;
+    padding: rem(16) rem(48);
+    font-size: $text-md;
+    font-weight: $weight-semibold;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: all $transition-normal;
+    display: inline-flex;
+    align-items: center;
+    gap: rem(8);
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba($color-white, 0.1);
+      transform: translateX(-100%);
+      transition: transform $transition-normal;
+    }
+
+    &:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba($color-primary, 0.2);
+
+      &::before {
+        transform: translateX(0);
+      }
+    }
+
+    &:disabled {
+      background: $color-grey;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .spinner {
+      width: rem(20);
+      height: rem(20);
+      border: 3px solid rgba($color-white, 0.3);
+      border-top-color: $color-white;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+  }
+
+  .success-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: $color-white;
+    padding: rem(32) rem(48);
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-large;
+    text-align: center;
+    animation: fadeInScale 0.3s ease;
+    border: 1px solid rgba($color-success, 0.1);
+    z-index: 1000;
+
+    .success-icon {
+      font-size: rem(60);
+      color: $color-success;
+      margin-bottom: rem(16);
+    }
+
+    p {
+      color: $color-text-primary;
+      font-size: $text-lg;
+      font-weight: $weight-medium;
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: $breakpoint-md) {
+  .supervisor-evaluation-page {
+    .evaluation-form {
+      padding: rem(20);
+    }
+
+    .intern-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .selected-intern-header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .upload-area {
+      padding: rem(32) rem(16);
+    }
+
+    .submit-button {
+      width: 100%;
+    }
+  }
+}
+
+// Animations
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

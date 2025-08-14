@@ -199,8 +199,6 @@ const MyInterns: React.FC = () => {
 
   return (
     <div className="dashboard">
-      <SupervisorSideMenu profileCompletion={85} />
-
       <div className="dashboard__main">
         <div className="dashboard__header">
           <div className="dashboard__greeting">
