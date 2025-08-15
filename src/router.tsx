@@ -18,6 +18,7 @@ import MyInterns from "./pages/SupervisorPages/SupervisorInterns";
 import SupervisorEvaluation from "./pages/SupervisorPages/SupervisorEvaluation";
 import SupervisorReportSubmissionPage from "./pages/SupervisorPages/SupervisorReportSubmissionPage";
 import SupervisorSchedulePage from "./pages/SupervisorPages/SupervisorSchedulePage";
+import SupervisorGoalsPage from "./pages/SupervisorPages/SupervisorGoalsPage";
 
 export const router = createBrowserRouter([
   {
@@ -93,6 +94,10 @@ export const router = createBrowserRouter([
       {
         path: "schedule",
         element: <SupervisorSchedulePage />,
+      },
+      {
+        path: "goals",
+        element: <SupervisorGoalsPage />,
       },
     ],
   },
