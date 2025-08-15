@@ -11,6 +11,7 @@ import {
   FaFileAlt,
   FaSignOutAlt,
   FaCalendarAlt,
+  FaTasks,
 } from "react-icons/fa";
 
 interface SupervisorSideMenuProps {
@@ -36,7 +37,7 @@ const SupervisorSideMenu: React.FC<SupervisorSideMenuProps> = ({
     if (path.includes("/interns")) return "interns";
     if (path.includes("/evaluations")) return "evaluations";
     if (path.includes("/reports")) return "reports";
-    if (path.includes("/progress")) return "progress";
+    if (path.includes("/goals")) return "goals";
     if (path.includes("/schedule")) return "schedule";
     if (path.includes("/update-profile")) return "updateProfile";
     return "dashboard";
@@ -148,12 +149,12 @@ const SupervisorSideMenu: React.FC<SupervisorSideMenuProps> = ({
 
         <div
           className={`dashboard__menu-item ${
-            activeMenu === "progress" ? "active" : ""
+            activeMenu === "goals" ? "active" : ""
           } ${profileCompletion < 80 ? "disabled" : ""}`}
-          onClick={() => handleMenuClick("progress", "/supervisor/progress")}
+          onClick={() => handleMenuClick("goals", "/supervisor/goals")}
         >
-          <FaChartLine className="dashboard__menu-icon" />
-          <span>Progress Tracking</span>
+          <FaTasks className="dashboard__menu-icon" />
+          <span>Goals & Tasks</span>
         </div>
 
         <div
