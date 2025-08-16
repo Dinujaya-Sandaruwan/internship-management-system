@@ -113,4 +113,14 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/coordinator",
+    element: <CoordinatorLayout />, // Pass a default value, this should be from context or state in a real app
+    children: [
+      {
+        path: "dashboard",
+        element: <CoordinatorDashboard />,
+      },
+    ],
+  },
 ]);
