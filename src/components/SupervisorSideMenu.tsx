@@ -40,6 +40,7 @@ const SupervisorSideMenu: React.FC<SupervisorSideMenuProps> = ({
     if (path.includes("/goals")) return "goals";
     if (path.includes("/schedule")) return "schedule";
     if (path.includes("/update-profile")) return "updateProfile";
+    if (path.includes("/dashboard-complete")) return "dashboard";
     return "dashboard";
   }
 
