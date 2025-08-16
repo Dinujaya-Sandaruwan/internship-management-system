@@ -20,6 +20,9 @@ import SupervisorReportSubmissionPage from "./pages/SupervisorPages/SupervisorRe
 import SupervisorSchedulePage from "./pages/SupervisorPages/SupervisorSchedulePage";
 import SupervisorGoalsPage from "./pages/SupervisorPages/SupervisorGoalsPage";
 import SupervisorUpdateProfile from "./pages/SupervisorPages/SupervisorUpdateProfile";
+import SupervisorDashboardComplete from "./pages/SupervisorPages/SupervisorDashboardCompelete";
+import CoordinatorLayout from "./layout/CoordinatorLayout";
+import CoordinatorDashboard from "./pages/CordinatorPages/CoordinatorDashboard";
 
 export const router = createBrowserRouter([
   {
@@ -71,6 +74,10 @@ export const router = createBrowserRouter([
       {
         path: "dashboard",
         element: <SupervisorDashboard />,
+      },
+      {
+        path: "dashboard-complete",
+        element: <SupervisorDashboardComplete />,
       },
       {
         path: "messages",
