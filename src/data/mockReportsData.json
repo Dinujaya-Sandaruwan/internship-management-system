@@ -1,0 +1,2970 @@
+[
+  {
+    "id": 1,
+    "internId": 1,
+    "internName": "Erandi Katugampala",
+    "internEmail": "erandi.k@example.com",
+    "internCompany": "Software Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-05",
+    "overallRating": 4.2,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Shows strong understanding of programming concepts and frameworks"
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Excellent verbal and written communication skills"
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Demonstrates good analytical thinking and debugging skills"
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Works very well with team members and contributes positively"
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Generally meets deadlines and manages tasks effectively"
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Quick to learn new technologies and adapt to changes"
+      }
+    ],
+    "achievements": "Successfully completed the user authentication module and implemented responsive design for the main dashboard. Contributed to code reviews and helped junior team members.",
+    "areasForImprovement": "Could improve in advanced database optimization techniques and could be more proactive in suggesting new features.",
+    "feedback": "Erandi has shown excellent progress this month. Her communication skills are outstanding and she works very well with the team. She has successfully delivered all assigned tasks on time.",
+    "additionalComments": "Recommended for advanced project assignments in the coming months.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 5
+  },
+  {
+    "id": 2,
+    "internId": 1,
+    "internName": "Erandi Katugampala",
+    "internEmail": "erandi.k@example.com",
+    "internCompany": "Software Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-05",
+    "overallRating": 4.5,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Significant improvement in technical skills, now handling complex tasks independently"
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Continues to excel in communication with stakeholders"
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Shows improved debugging skills and logical thinking"
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Excellent team player, often helps others"
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Consistently meets deadlines and manages multiple tasks well"
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Exceptional learning curve, quickly masters new concepts"
+      }
+    ],
+    "achievements": "Led the implementation of the notification system and mentored a new intern. Successfully optimized database queries resulting in 30% performance improvement.",
+    "areasForImprovement": "Could take more initiative in proposing architectural improvements and could improve in system design documentation.",
+    "feedback": "Outstanding performance this month. Erandi has taken on leadership responsibilities and has shown great technical growth. Her mentoring skills are developing well.",
+    "additionalComments": "Consider for team lead role in upcoming projects.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 5
+  },
+  {
+    "id": 3,
+    "internId": 2,
+    "internName": "Dineth Gunawardena",
+    "internEmail": "dineth.g@example.com",
+    "internCompany": "Web Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-05",
+    "overallRating": 3.8,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good understanding of web technologies and design principles"
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Needs improvement in presenting ideas clearly to stakeholders"
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Shows good analytical skills in design challenges"
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with team members and accepts feedback positively"
+      },
+      {
+        "name": "Time Management",
+        "rating": 3,
+        "description": "Sometimes struggles with meeting tight deadlines"
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Excellent at learning new design tools and techniques"
+      }
+    ],
+    "achievements": "Created comprehensive UI mockups for the mobile application and improved the user experience of the registration flow.",
+    "areasForImprovement": "Needs to improve time management skills and communication with non-technical stakeholders. Should work on meeting deadlines consistently.",
+    "feedback": "Dineth shows great potential in design and has excellent learning abilities. However, he needs to work on his time management and communication skills to reach his full potential.",
+    "additionalComments": "Recommend additional training in project management and presentation skills.",
+    "workQuality": 4,
+    "attendance": 4,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 4,
+    "internId": 2,
+    "internName": "Dineth Gunawardena",
+    "internEmail": "dineth.g@example.com",
+    "internCompany": "Web Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-05",
+    "overallRating": 4.1,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Continued growth in web development and design skills"
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Noticeable improvement in communication skills"
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Consistently demonstrates good problem-solving abilities"
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Maintains good working relationships with team members"
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Significant improvement in meeting deadlines"
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Continues to excel in learning new technologies"
+      }
+    ],
+    "achievements": "Successfully redesigned the dashboard interface and implemented responsive design patterns. Completed all assigned tasks within deadlines.",
+    "areasForImprovement": "Could be more proactive in suggesting design improvements and could improve in user research methodologies.",
+    "feedback": "Great improvement this month! Dineth has addressed the previous concerns about time management and communication. His design work continues to be of high quality.",
+    "additionalComments": "Shows good progress and potential for advanced design responsibilities.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 5,
+    "internId": 3,
+    "internName": "Thilini Perera",
+    "internEmail": "thilini.p@example.com",
+    "internCompany": "Mobile App Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-05",
+    "overallRating": 4.7,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Exceptional understanding of data science concepts and mobile development"
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Good communication skills, especially in technical discussions"
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Outstanding analytical and problem-solving abilities"
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well in team settings and contributes valuable insights"
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Excellent at managing multiple projects and deadlines"
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Exceptional ability to learn and apply new concepts quickly"
+      }
+    ],
+    "achievements": "Developed a machine learning model for user behavior prediction with 85% accuracy. Created comprehensive data visualization dashboards and optimized mobile app performance.",
+    "areasForImprovement": "Could improve in presenting complex technical concepts to non-technical stakeholders and could take more leadership initiatives.",
+    "feedback": "Thilini is an exceptional intern with outstanding technical skills. Her work quality is consistently high and she brings innovative solutions to complex problems.",
+    "additionalComments": "Highly recommended for advanced projects and potential full-time position consideration.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 6,
+    "internId": 3,
+    "internName": "Thilini Perera",
+    "internEmail": "thilini.p@example.com",
+    "internCompany": "Mobile App Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-05",
+    "overallRating": 4.8,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Continues to demonstrate exceptional technical expertise"
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Significant improvement in explaining complex concepts clearly"
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Consistently provides innovative solutions to challenging problems"
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Has taken on mentoring role and leads technical discussions"
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Excellent project management and deadline adherence"
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Continues to excel in mastering new technologies"
+      }
+    ],
+    "achievements": "Led the implementation of advanced analytics features and mentored two junior interns. Published internal research paper on mobile app optimization techniques.",
+    "areasForImprovement": "Could explore more cross-functional collaboration opportunities and could contribute to strategic planning discussions.",
+    "feedback": "Outstanding performance continues. Thilini has evolved into a technical leader and her contributions have been invaluable to the team's success.",
+    "additionalComments": "Strong candidate for team lead position and full-time employment offer.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 7,
+    "internId": 4,
+    "internName": "Kavindu Silva",
+    "internEmail": "kavindu.s@example.com",
+    "internCompany": "Network Security Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-06",
+    "overallRating": 3.9,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good understanding of TCP/IP and network security fundamentals."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Clearly communicates technical issues to the team."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Good at basic troubleshooting but needs guidance on complex firewall issues."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with senior engineers and is receptive to feedback."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages assigned tasks and tickets effectively."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Quickly grasps new security concepts and tools."
+      }
+    ],
+    "achievements": "Assisted in the configuration of a new firewall for the development environment. Conducted a vulnerability scan and documented the findings.",
+    "areasForImprovement": "Needs to deepen knowledge of advanced firewall rule sets and intrusion detection systems.",
+    "feedback": "Kavindu is a quick learner with a solid foundation. He needs more hands-on experience with our core security appliances to grow.",
+    "additionalComments": "Schedule for advanced firewall training.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 8,
+    "internId": 4,
+    "internName": "Kavindu Silva",
+    "internEmail": "kavindu.s@example.com",
+    "internCompany": "Network Security Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-06",
+    "overallRating": 4.3,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Shows significant improvement in configuring complex firewall rules."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Effectively communicates security risks to the team."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Independently resolved a network outage issue, demonstrating improved skills."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Proactively assists other team members."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Continues to manage tasks well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Rapidly applying learned concepts to practical tasks."
+      }
+    ],
+    "achievements": "Successfully implemented an intrusion detection system on a key network segment. Authored a security best practices document for the department.",
+    "areasForImprovement": "Could work on scripting for automation of security tasks.",
+    "feedback": "Excellent progress this month. Kavindu has taken initiative and his practical skills have improved immensely.",
+    "additionalComments": "Has shown great potential and is becoming a valuable member of the security team.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 9,
+    "internId": 5,
+    "internName": "Nishani Fernando",
+    "internEmail": "nishani.f@example.com",
+    "internCompany": "Data Analyst Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-05",
+    "overallRating": 4.0,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Proficient in SQL and data manipulation with Python/Pandas."
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Good at presenting findings, but can improve on storytelling with data."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Effectively cleans and prepares large, messy datasets for analysis."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with data engineers and business stakeholders."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Handles data requests and reporting deadlines efficiently."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Quickly learning data visualization tools like Tableau."
+      }
+    ],
+    "achievements": "Cleaned and prepared a large dataset for analysis. Generated a monthly user engagement report.",
+    "areasForImprovement": "Needs to improve on advanced data visualization techniques and dashboard design.",
+    "feedback": "Nishani has strong technical skills in data manipulation. Her contribution to data preparation has been very valuable.",
+    "additionalComments": "Enroll in a Tableau for Beginners workshop.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 10,
+    "internId": 5,
+    "internName": "Nishani Fernando",
+    "internEmail": "nishani.f@example.com",
+    "internCompany": "Data Analyst Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-05",
+    "overallRating": 4.4,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Shows much improved skill in data visualization and dashboard creation."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Gave an excellent presentation on her findings to the marketing team."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Identified a key trend in customer churn through her analysis."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Collaborated effectively with marketing to understand their data needs."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages ad-hoc requests alongside long-term projects well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has shown exceptional growth in learning and applying new tools."
+      }
+    ],
+    "achievements": "Developed an interactive sales dashboard in Tableau that is now used by the management team. Identified a key trend in customer churn through her analysis.",
+    "areasForImprovement": "Could start exploring predictive modeling techniques.",
+    "feedback": "Nishani has shown remarkable growth, especially in data visualization. Her dashboard is a great asset, and she has a keen eye for finding actionable insights.",
+    "additionalComments": "A very promising data analyst.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 5
+  },
+  {
+    "id": 11,
+    "internId": 6,
+    "internName": "Sahan Jayawardena",
+    "internEmail": "sahan.j@example.com",
+    "internCompany": "IT Support Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-04",
+    "overallRating": 3.7,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good at diagnosing hardware and common software issues."
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Needs to be more patient and use simpler language with non-technical users."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Finds effective solutions to user problems but sometimes needs escalation."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 3,
+        "description": "Works independently but could collaborate more with the team on tough issues."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Effectively manages support tickets in the queue."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Quickly learns how to support new software and hardware."
+      }
+    ],
+    "achievements": "Resolved 50+ support tickets this month. Created a knowledge base article for a common printer issue.",
+    "areasForImprovement": "Needs to improve interpersonal and communication skills, especially when handling frustrated users.",
+    "feedback": "Sahan is technically competent and efficient. His main area for growth is in customer-facing communication and soft skills.",
+    "additionalComments": "Recommended for a customer service training session.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 3
+  },
+  {
+    "id": 12,
+    "internId": 6,
+    "internName": "Sahan Jayawardena",
+    "internEmail": "sahan.j@example.com",
+    "internCompany": "IT Support Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "March",
+    "year": 2025,
+    "submissionDate": "2025-04-04",
+    "overallRating": 4.1,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Consistently good at hardware and software problem-solving."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Noticeable improvement in patience and positive communication with users."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Continues to be a reliable problem solver."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Is now more actively seeking advice and collaborating with senior members."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages ticketing queue well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has clearly learned from feedback and applied it effectively."
+      }
+    ],
+    "achievements": "Received positive feedback from three different users for his support. Reduced the average ticket resolution time by 15%.",
+    "areasForImprovement": "Can be more proactive in identifying potential IT issues before they are reported.",
+    "feedback": "Sahan has taken the feedback from last month to heart and has made great strides in his customer service skills. His technical abilities remain strong.",
+    "additionalComments": "Keep up the great work. The improvement is very encouraging.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 13,
+    "internId": 7,
+    "internName": "Amaya Rajapaksa",
+    "internEmail": "amaya.r@example.com",
+    "internCompany": "Cloud Solutions Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-07",
+    "overallRating": 4.5,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good knowledge of core AWS services and scripting."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Asks insightful questions and explains her work clearly."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Good at debugging cloud formation and script issues."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Excellent team player, very collaborative and helpful."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Effectively balances learning with assigned tasks."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Extremely enthusiastic and fast learner in the cloud domain."
+      }
+    ],
+    "achievements": "Assisted in deploying a new service on an EC2 instance. Wrote a Python script to automate S3 bucket backups.",
+    "areasForImprovement": "Needs to gain more experience with containerization (Docker, Kubernetes) and Infrastructure as Code.",
+    "feedback": "Amaya is a very enthusiastic intern with a strong aptitude for cloud technologies. She is a great asset to the team.",
+    "additionalComments": "Assign her a project involving Docker to build her skills.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 5
+  },
+  {
+    "id": 14,
+    "internId": 7,
+    "internName": "Amaya Rajapaksa",
+    "internEmail": "amaya.r@example.com",
+    "internCompany": "Cloud Solutions Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "March",
+    "year": 2025,
+    "submissionDate": "2025-04-07",
+    "overallRating": 4.8,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has become proficient in Infrastructure as Code (Terraform) and containerization (Docker)."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Confidently presents her work and ideas in team meetings."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Independently solves complex deployment and configuration challenges."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Continues to be an excellent and proactive team member."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Manages complex, multi-week tasks effectively."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Her learning curve is phenomenal; masters new concepts with ease."
+      }
+    ],
+    "achievements": "Successfully containerized a legacy application using Docker and deployed it. Wrote a comprehensive Terraform module for our standard VPC setup.",
+    "areasForImprovement": "Could start learning about CI/CD pipelines and Kubernetes.",
+    "feedback": "Amaya has exceeded all expectations and is already performing at the level of a junior engineer. Her work on containerization was exceptional.",
+    "additionalComments": "Strongly recommended for a full-time position upon graduation.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 15,
+    "internId": 8,
+    "internName": "Chamara Weerasinghe",
+    "internEmail": "chamara.w@example.com",
+    "internCompany": "DevOps Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "March",
+    "year": 2025,
+    "submissionDate": "2025-04-05",
+    "overallRating": 4.1,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good at managing CI/CD jobs and strong Linux skills."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Documents processes clearly and communicates status updates effectively."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Good at diagnosing build and deployment issues."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with the development and QA teams."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Keeps pipelines running and addresses issues in a timely manner."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 3,
+        "description": "Good learner but needs to be more proactive in picking up new tools like Ansible."
+      }
+    ],
+    "achievements": "Optimized a Jenkins pipeline, reducing build time by 20%. Documented the branching strategy for a new project.",
+    "areasForImprovement": "Needs to improve Python scripting skills for automation and learn configuration management.",
+    "feedback": "Chamara has a strong foundation in DevOps principles. Focusing on scripting and automation will elevate his capabilities.",
+    "additionalComments": "Good start, has the potential to be a great DevOps engineer.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 16,
+    "internId": 8,
+    "internName": "Chamara Weerasinghe",
+    "internEmail": "chamara.w@example.com",
+    "internCompany": "DevOps Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "April",
+    "year": 2025,
+    "submissionDate": "2025-05-05",
+    "overallRating": 4.4,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Shows significant improvement in Python scripting and has started using Ansible."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Maintains good communication with all teams."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Proactively identifies areas for automation to solve recurring problems."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Helps others with Git and pipeline issues."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Balances maintenance tasks with new development work well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has shown great initiative and progress in learning new automation skills."
+      }
+    ],
+    "achievements": "Wrote a Python script to automate deployment verification. Developed an Ansible playbook to configure web servers.",
+    "areasForImprovement": "Continue to deepen knowledge of Ansible and explore container orchestration with Kubernetes.",
+    "feedback": "Chamara has shown great initiative in learning new skills. His automation script has already proven very useful.",
+    "additionalComments": "His progress is impressive. Keep assigning challenging tasks.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 4
+  },
+  {
+    "id": 17,
+    "internId": 9,
+    "internName": "Piumi Ekanayake",
+    "internEmail": "piumi.e@example.com",
+    "internCompany": "QA Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "March",
+    "year": 2025,
+    "submissionDate": "2025-04-06",
+    "overallRating": 3.8,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 3,
+        "description": "Very thorough in manual testing, but has very basic knowledge of automation."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Communicates well with developers about bugs and writes clear bug reports."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Excellent at identifying defects and edge cases through exploratory testing."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "A reliable member of the QA team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Completes all manual testing assignments on schedule."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 3,
+        "description": "Needs to be more focused on learning test automation skills."
+      }
+    ],
+    "achievements": "Identified several critical bugs in the new feature before release. Created a complete test suite for the user profile module.",
+    "areasForImprovement": "Must focus on learning test automation using Selenium and Java/Python.",
+    "feedback": "Piumi is an excellent manual tester. To become a more well-rounded QA engineer, she needs to dedicate time to learning automation.",
+    "additionalComments": "Pair with a senior QA automation engineer for mentoring.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 18,
+    "internId": 9,
+    "internName": "Piumi Ekanayake",
+    "internEmail": "piumi.e@example.com",
+    "internCompany": "QA Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "April",
+    "year": 2025,
+    "submissionDate": "2025-05-06",
+    "overallRating": 4.2,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Has started writing basic automation scripts and shows good progress."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Maintains good communication channels."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Applies her manual testing mindset to identify good candidates for automation."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works with her mentor effectively to improve her automation skills."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Balances her manual testing duties with her new automation tasks."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has embraced the challenge of learning automation and is progressing quickly."
+      }
+    ],
+    "achievements": "Successfully automated a set of regression tests for the login functionality. Her manual testing efforts ensured a very smooth production release.",
+    "areasForImprovement": "Continue to build on her automation skills, focusing on more complex scenarios and frameworks.",
+    "feedback": "It's great to see Piumi making progress in test automation. She is applying what she's learned. Her core manual testing skills remain invaluable.",
+    "additionalComments": "The progress in automation is very positive.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 19,
+    "internId": 10,
+    "internName": "Ruwan Costa",
+    "internEmail": "ruwan.c@example.com",
+    "internCompany": "Business Analyst Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-08",
+    "overallRating": 4.0,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 3,
+        "description": "Good at documentation and process flows, but needs to improve technical diagramming (UML)."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Effectively communicates with both business and technical teams."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Good at analyzing business processes to find gaps and inefficiencies."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Acts as a good bridge between stakeholders and developers."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages documentation and meeting schedules well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Is learning the business domain quickly."
+      }
+    ],
+    "achievements": "Documented the complete set of requirements for the upcoming payment gateway integration. Created process flow diagrams for user onboarding.",
+    "areasForImprovement": "Needs to improve his skills in creating advanced UML diagrams (sequence, activity diagrams).",
+    "feedback": "Ruwan is a very diligent business analyst. His documentation is top-quality. More training on technical diagramming will make him even more effective.",
+    "additionalComments": "A valuable link between the business and development teams.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 20,
+    "internId": 10,
+    "internName": "Ruwan Costa",
+    "internEmail": "ruwan.c@example.com",
+    "internCompany": "Business Analyst Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-08",
+    "overallRating": 4.3,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Shows significant improvement in creating detailed and accurate UML diagrams."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Has become very skilled at eliciting detailed requirements from stakeholders."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "His analysis helps in identifying key process improvements and clarifying ambiguity."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works seamlessly with the tech leads and architects."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Effectively manages requirements for multiple features simultaneously."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Quickly learned and applied advanced diagramming techniques."
+      }
+    ],
+    "achievements": "Led the requirement clarification sessions for a major project. Created a detailed set of sequence diagrams that were highly praised by the development team.",
+    "areasForImprovement": "Could take more initiative in backlog grooming and prioritization.",
+    "feedback": "Ruwan has worked hard on his technical diagramming skills and it shows. He is now very proficient and adds tremendous value in the early stages of a project.",
+    "additionalComments": "His development has been excellent.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 21,
+    "internId": 11,
+    "internName": "Sachini Pathirana",
+    "internEmail": "sachini.p@example.com",
+    "internCompany": "Cybersecurity Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "April",
+    "year": 2025,
+    "submissionDate": "2025-05-04",
+    "overallRating": 4.6,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Proficient with penetration testing tools and threat analysis."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Writes clear, concise, and actionable security reports."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Exceptional at identifying potential security threats and vulnerabilities."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works effectively with the infrastructure team to remediate findings."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages security assessments and reporting deadlines well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Very passionate about security and constantly learning about new threats."
+      }
+    ],
+    "achievements": "Conducted a penetration test on a new web application and discovered three high-severity vulnerabilities. Developed a new incident response checklist.",
+    "areasForImprovement": "Could gain more experience with malware analysis and reverse engineering.",
+    "feedback": "Sachini is an outstanding cybersecurity intern. Her technical skills, analytical mindset, and professional reporting make her a huge asset.",
+    "additionalComments": "Has the makings of a top-tier security professional.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 4
+  },
+  {
+    "id": 22,
+    "internId": 11,
+    "internName": "Sachini Pathirana",
+    "internEmail": "sachini.p@example.com",
+    "internCompany": "Cybersecurity Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "May",
+    "year": 2025,
+    "submissionDate": "2025-06-04",
+    "overallRating": 4.9,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has started learning malware analysis and can perform basic static analysis."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Presented her findings on a recent threat landscape to the entire IT department."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Led the initial response to a minor security incident flawlessly."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Is a trusted advisor to other teams on security matters."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Handles significant responsibilities and tasks without issue."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Continues to absorb and apply advanced security concepts at a rapid pace."
+      }
+    ],
+    "achievements": "Automated parts of the vulnerability scanning process using a Python script. Assisted in a live incident response. Presented to the IT department.",
+    "areasForImprovement": "Continue to develop advanced skills in forensics and reverse engineering.",
+    "feedback": "Sachini operates at an extremely high level. She has earned the trust of the entire team and is given significant responsibilities, which she handles perfectly.",
+    "additionalComments": "Immediate full-time hire recommendation. Do not lose this talent.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 23,
+    "internId": 12,
+    "internName": "Tharindu Gamage",
+    "internEmail": "tharindu.g@example.com",
+    "internCompany": "Software Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "April",
+    "year": 2025,
+    "submissionDate": "2025-05-08",
+    "overallRating": 3.6,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 3,
+        "description": "Code is functional but often needs refactoring for clarity and efficiency."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Good at explaining his work in stand-ups."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Can solve assigned tasks but struggles to design elegant solutions."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Accepts feedback from code reviews positively."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Completes his tasks within the sprint timeline."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Eager to learn and receptive to feedback."
+      }
+    ],
+    "achievements": "Completed all assigned bug fixes for the sprint. Developed two new endpoints for the user service.",
+    "areasForImprovement": "Needs to focus on writing cleaner, more maintainable code and study design best practices.",
+    "feedback": "Tharindu is a hardworking intern who gets the job done. His next step is to transition from just writing functional code to writing high-quality, professional code.",
+    "additionalComments": "Code reviews are a critical learning tool for him.",
+    "workQuality": 3,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 24,
+    "internId": 12,
+    "internName": "Tharindu Gamage",
+    "internEmail": "tharindu.g@example.com",
+    "internCompany": "Software Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "May",
+    "year": 2025,
+    "submissionDate": "2025-06-08",
+    "overallRating": 4.0,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Code quality has significantly improved, requiring fewer comments during code reviews."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Communicates his designs and ideas more clearly now."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Demonstrates better design choices and problem-solving skills."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Actively participates in technical discussions."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Handles more complex tasks effectively."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Applies feedback from code reviews very effectively and learns quickly."
+      }
+    ],
+    "achievements": "Refactored a critical module, improving its performance and readability. Independently designed and implemented a new microservice with minimal supervision.",
+    "areasForImprovement": "Could start contributing to architectural discussions and system design.",
+    "feedback": "Tharindu's progress this month has been fantastic. He has clearly focused on improving his code quality and it has paid off.",
+    "additionalComments": "His rapid improvement is a great sign.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 25,
+    "internId": 13,
+    "internName": "Upeksha Kumari",
+    "internEmail": "upeksha.k@example.com",
+    "internCompany": "UI/UX Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "May",
+    "year": 2025,
+    "submissionDate": "2025-06-05",
+    "overallRating": 4.2,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Proficient in wireframing and prototyping tools like Figma."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Good at presenting design concepts and rationale."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Good at solving design problems, but needs experience in user research to validate solutions."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Works very well with developers and product managers."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Delivers high-quality design assets on time."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Eager to learn more about the user research process."
+      }
+    ],
+    "achievements": "Created a high-fidelity prototype for the new mobile app feature. Conducted a usability review of the current website and provided actionable suggestions.",
+    "areasForImprovement": "Needs more hands-on experience in conducting user interviews and usability testing sessions.",
+    "feedback": "Upeksha has strong design skills and is a very effective collaborator. Focusing on user research will make her a complete UI/UX professional.",
+    "additionalComments": "Involve her in the next round of user usability testing.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 5
+  },
+  {
+    "id": 26,
+    "internId": 13,
+    "internName": "Upeksha Kumari",
+    "internEmail": "upeksha.k@example.com",
+    "internCompany": "UI/UX Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "June",
+    "year": 2025,
+    "submissionDate": "2025-07-05",
+    "overallRating": 4.5,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has mastered Figma and is now contributing to our design system."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Effectively communicated research findings to the product team."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Used usability test findings to solve key issues in the user onboarding flow."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Is a key contributor in design review meetings."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages both design and research tasks well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Quickly learned and applied user research methodologies effectively."
+      }
+    ],
+    "achievements": "Led the design of a new onboarding flow based on her usability test findings. Contributed to the development of our new design system in Figma.",
+    "areasForImprovement": "Could start looking into more advanced research methods like contextual inquiry.",
+    "feedback": "Upeksha's growth in user research has been excellent. She is now capable of handling the end-to-end design process for a feature.",
+    "additionalComments": "She has become an integral part of the design team.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 5
+  },
+  {
+    "id": 27,
+    "internId": 14,
+    "internName": "Vimukthi Senanayake",
+    "internEmail": "vimukthi.s@example.com",
+    "internCompany": "Network Engineer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "May",
+    "year": 2025,
+    "submissionDate": "2025-06-03",
+    "overallRating": 3.5,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 3,
+        "description": "Understands concepts but lacks hands-on configuration experience on routers/switches."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Good at creating documentation and network diagrams."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Can handle basic issues but struggles with complex troubleshooting."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with the senior network engineers."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Completes assigned monitoring and documentation tasks on time."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Good theoretical understanding and is willing to learn practical skills."
+      }
+    ],
+    "achievements": "Updated the network diagrams for the main office. Monitored network performance during a critical maintenance window.",
+    "areasForImprovement": "Needs significant hands-on practice with configuring routers and switches in a lab environment.",
+    "feedback": "Vimukthi has a good theoretical understanding. The key for his development is to translate that theory into practical, hands-on skills.",
+    "additionalComments": "Provide more opportunities for supervised configuration tasks.",
+    "workQuality": 3,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 28,
+    "internId": 14,
+    "internName": "Vimukthi Senanayake",
+    "internEmail": "vimukthi.s@example.com",
+    "internCompany": "Network Engineer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "June",
+    "year": 2025,
+    "submissionDate": "2025-07-03",
+    "overallRating": 3.9,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Shows much more confidence and competence in configuring Cisco devices."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Clearly explains the changes he is making and the reasons why."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Troubleshooting skills have improved; can now solve more complex issues independently."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Remains a good team player."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages hands-on tasks effectively."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has translated his theoretical knowledge into practical skills very well this month."
+      }
+    ],
+    "achievements": "Successfully configured a new switch for an office expansion. Independently troubleshot and resolved a VLAN misconfiguration issue.",
+    "areasForImprovement": "Could start learning about network automation and scripting.",
+    "feedback": "Vimukthi's hands-on skills have improved dramatically. He has spent a lot of time in the lab, and it's paying off.",
+    "additionalComments": "The dedication to improving his practical skills is commendable.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 29,
+    "internId": 15,
+    "internName": "Wasana Dissanayake",
+    "internEmail": "wasana.d@example.com",
+    "internCompany": "IT Project Coordinator Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "June",
+    "year": 2025,
+    "submissionDate": "2025-07-06",
+    "overallRating": 4.3,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good understanding of Agile methodologies and project scheduling tools."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Excellent at communicating project status to all stakeholders."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Good at resolving scheduling conflicts, but needs to be more proactive in identifying risks."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Very organized and helps keep the entire team aligned."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Excellent at managing meeting schedules, minutes, and project timelines."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Quickly learning the specifics of our internal projects."
+      }
+    ],
+    "achievements": "Maintained the project plan for a major software release. Facilitated daily stand-up meetings for one of the development teams.",
+    "areasForImprovement": "Needs to develop a deeper understanding of risk management and mitigation strategies.",
+    "feedback": "Wasana is an exceptionally organized and communicative intern. She keeps the project team aligned and informed.",
+    "additionalComments": "A great asset for keeping projects on track.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 5
+  },
+  {
+    "id": 30,
+    "internId": 15,
+    "internName": "Wasana Dissanayake",
+    "internEmail": "wasana.d@example.com",
+    "internCompany": "IT Project Coordinator Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "July",
+    "year": 2025,
+    "submissionDate": "2025-08-06",
+    "overallRating": 4.6,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Has become much more proactive in understanding and documenting project risks."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Continues to be an outstanding communicator."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Proactively identified a critical dependency risk, allowing the team to mitigate it."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Effectively acts as a scrum master for the team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Manages project timelines and resource allocation expertly."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has shown great growth in understanding project management beyond just coordination."
+      }
+    ],
+    "achievements": "Proactively identified a critical dependency risk. Created a new project status dashboard that has been adopted by other teams.",
+    "areasForImprovement": "Could start learning about budget management and project financials.",
+    "feedback": "Wasana's proactive approach to risk management was particularly impressive. She is performing well beyond the expectations for an intern.",
+    "additionalComments": "Shows strong leadership potential.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 31,
+    "internId": 16,
+    "internName": "Yasiru Rathnayake",
+    "internEmail": "yasiru.r@example.com",
+    "internCompany": "Database Administrator Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "June",
+    "year": 2025,
+    "submissionDate": "2025-07-08",
+    "overallRating": 4.0,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Excellent SQL scripting skills, but needs guidance on complex performance tuning."
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Good at documenting scripts, but can be more vocal in team meetings."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Good at troubleshooting data-related issues and backup failures."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with developers to provide data and run scripts."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Reliably performs and verifies database backups on schedule."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Is picking up the fundamentals of database administration well."
+      }
+    ],
+    "achievements": "Wrote a script to archive old data, freeing up significant disk space. Assisted in a database migration project.",
+    "areasForImprovement": "Needs to deepen knowledge of database performance tuning, including index optimization and execution plan analysis.",
+    "feedback": "Yasiru has very strong SQL skills and is dependable for routine DBA tasks. His next area of focus should be performance tuning.",
+    "additionalComments": "A solid and reliable intern.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 32,
+    "internId": 16,
+    "internName": "Yasiru Rathnayake",
+    "internEmail": "yasiru.r@example.com",
+    "internCompany": "Database Administrator Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "July",
+    "year": 2025,
+    "submissionDate": "2025-08-08",
+    "overallRating": 4.4,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has successfully identified and optimized several slow-running queries by adding indexes."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Proactively communicates the impact of his optimization work to the team."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Showed great initiative by creating a script to monitor and alert on long-running queries."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Solves problems with increasing independence."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Has taken full ownership of the backup and recovery process for dev databases."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has made excellent progress in the complex area of performance tuning."
+      }
+    ],
+    "achievements": "Optimized a key reporting query, reducing its execution time from 5 minutes to 10 seconds. Developed a monitoring script to alert on long-running queries.",
+    "areasForImprovement": "Could start learning about high-availability and disaster recovery setups.",
+    "feedback": "Yasiru has made excellent progress in performance tuning. His optimization work has had a real, measurable impact.",
+    "additionalComments": "His initiative to create a monitoring script was particularly impressive.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 4
+  },
+  {
+    "id": 33,
+    "internId": 17,
+    "internName": "Zahara Marikkar",
+    "internEmail": "zahara.m@example.com",
+    "internCompany": "Full-Stack Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "July",
+    "year": 2025,
+    "submissionDate": "2025-08-05",
+    "overallRating": 4.7,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Excellent skills in React, Node.js, and MongoDB. Can work across the full stack."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Clearly articulates technical designs and decisions."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "An exceptional and creative problem solver, able to tackle complex features."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Mentored another intern on React best practices."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Able to take a feature from concept to completion independently and on time."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Learns new libraries and concepts incredibly fast."
+      }
+    ],
+    "achievements": "Single-handedly developed and delivered a new 'user preferences' feature, including both frontend and backend components.",
+    "areasForImprovement": "Could improve on writing comprehensive unit and integration tests.",
+    "feedback": "Zahara is an outstanding developer. Her ability to work across the full stack and deliver features independently is incredible for an intern.",
+    "additionalComments": "Already performing at the level of a junior full-time developer.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 34,
+    "internId": 17,
+    "internName": "Zahara Marikkar",
+    "internEmail": "zahara.m@example.com",
+    "internCompany": "Full-Stack Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "August",
+    "year": 2025,
+    "submissionDate": "2025-09-05",
+    "overallRating": 4.9,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has made a great effort to improve testing and now writes good unit and E2E tests."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Gave a tech talk to the team about modern React hooks."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Led the development of a real-time chat feature using WebSockets."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Naturally takes a lead role in feature discussions and helps others."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Consistently delivers high-quality features autonomously."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Quickly picked up WebSockets to implement a new feature."
+      }
+    ],
+    "achievements": "Led the development of a real-time chat feature. Increased the test coverage of her modules to over 90%. Gave a tech talk to the team.",
+    "areasForImprovement": "Can continue to develop leadership and mentoring skills.",
+    "feedback": "Zahara's performance is exemplary. She not only delivers exceptional work but also elevates the team around her.",
+    "additionalComments": "A top-tier talent. Offer a full-time position as soon as possible.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 35,
+    "internId": 18,
+    "internName": "Isuru Bandara",
+    "internEmail": "isuru.b@example.com",
+    "internCompany": "Data Scientist Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "July",
+    "year": 2025,
+    "submissionDate": "2025-08-07",
+    "overallRating": 4.1,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good theoretical knowledge of ML algorithms but lacks experience in productionizing them."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Good at explaining his models and the features he used."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Built a classification model to predict customer churn with 80% accuracy."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with the data engineering team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages the end-to-end process of data cleaning, modeling, and analysis well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Strong foundation and eager to learn the practical side of MLOps."
+      }
+    ],
+    "achievements": "Built a classification model to predict customer churn. Performed exploratory data analysis on a new dataset, providing valuable initial insights.",
+    "areasForImprovement": "Needs to learn about MLOps and the process of deploying models into a production environment.",
+    "feedback": "Isuru has a strong academic background and applies it well. The next challenge is learning how to make these models useful in a live system.",
+    "additionalComments": "Pair him with a senior engineer to learn about deployment.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 36,
+    "internId": 18,
+    "internName": "Isuru Bandara",
+    "internEmail": "isuru.b@example.com",
+    "internCompany": "Data Scientist Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "August",
+    "year": 2025,
+    "submissionDate": "2025-09-07",
+    "overallRating": 4.5,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has started to learn how to wrap models in a REST API for deployment."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Continues to communicate his findings effectively."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Improved the churn model's accuracy to 88% through feature engineering and hyperparameter tuning."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Working well with his mentor on deployment tasks."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Balances model improvement with learning new deployment skills."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Shows a fantastic ability to not only build models but to iteratively improve them."
+      }
+    ],
+    "achievements": "Improved the churn model's accuracy to 88%. Wrapped his model in a Flask API, preparing it for deployment.",
+    "areasForImprovement": "Continue to gain experience in MLOps, including containerization and CI/CD for models.",
+    "feedback": "Isuru has taken the initiative to learn about deployment, showing a great end-to-end mindset. His progress is excellent.",
+    "additionalComments": "His work on improving the churn model was very impressive.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 4
+  },
+  {
+    "id": 37,
+    "internId": 19,
+    "internName": "Janith Liyanage",
+    "internEmail": "janith.l@example.com",
+    "internCompany": "DevOps Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "July",
+    "year": 2025,
+    "submissionDate": "2025-08-04",
+    "overallRating": 3.4,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 3,
+        "description": "Familiar with concepts but needs hands-on practice. Lacks attention to detail."
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Needs to be more proactive in communicating his progress."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Makes careless mistakes on configuration tasks that cause issues."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works alongside team members but needs to be more reliable."
+      },
+      {
+        "name": "Time Management",
+        "rating": 3,
+        "description": "Spends time fixing self-inflicted errors."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Learns concepts quickly, but needs to apply them more carefully."
+      }
+    ],
+    "achievements": "Assisted in setting up a new Jenkins job. Helped document the existing server inventory.",
+    "areasForImprovement": "Must improve attention to detail. DevOps work requires precision, and small mistakes can cause big problems.",
+    "feedback": "Janith is bright and learns quickly, but he needs to slow down and be more careful with his work.",
+    "additionalComments": "Implement a mandatory peer review for all his configuration changes.",
+    "workQuality": 2,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 38,
+    "internId": 19,
+    "internName": "Janith Liyanage",
+    "internEmail": "janith.l@example.com",
+    "internCompany": "DevOps Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "August",
+    "year": 2025,
+    "submissionDate": "2025-09-04",
+    "overallRating": 3.9,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Has become much more comfortable and accurate working with AWS and Jenkins."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Is much better at communicating his work and asking for reviews."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Work is much more accurate and reliable, with fewer mistakes."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Is becoming a more reliable team member."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages his tasks more efficiently now."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Applies feedback very well and has shown great improvement."
+      }
+    ],
+    "achievements": "Successfully created and tested a complex deployment pipeline for a new service. Performed all assigned configuration tasks this month with zero errors.",
+    "areasForImprovement": "Can start learning about Infrastructure as Code with Terraform.",
+    "feedback": "I am very pleased with Janith's progress. He took the feedback about attention to detail seriously and has become much more reliable and meticulous.",
+    "additionalComments": "This is a great example of an intern turning constructive feedback into real improvement.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 39,
+    "internId": 20,
+    "internName": "Kalani Fonseka",
+    "internEmail": "kalani.f@example.com",
+    "internCompany": "IT Support Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "August",
+    "year": 2025,
+    "submissionDate": "2025-09-03",
+    "overallRating": 4.5,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Excellent at diagnosing and fixing both hardware and software issues."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Extremely patient, friendly, and professional with all users."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Resolved a complex, long-standing issue with the VPN that others had failed to fix."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Writes excellent knowledge base articles and helps train other team members."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages a high volume of tickets effectively."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Proactively learns about issues to better support users."
+      }
+    ],
+    "achievements": "Created a new onboarding checklist for IT equipment that has streamlined the process for new hires. Resolved a complex VPN issue.",
+    "areasForImprovement": "Could learn more about network administration to handle more advanced tickets.",
+    "feedback": "Kalani is a star performer. Her combination of technical skill and outstanding customer service is rare and incredibly valuable.",
+    "additionalComments": "A natural leader. Consider her for a team lead role in the future.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 40,
+    "internId": 20,
+    "internName": "Kalani Fonseka",
+    "internEmail": "kalani.f@example.com",
+    "internCompany": "IT Support Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "September",
+    "year": 2025,
+    "submissionDate": "2025-10-03",
+    "overallRating": 4.7,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has started learning basic network tasks and is picking it up quickly."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Receives constant positive feedback from users."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Reduced recurring tickets for a common issue by 70% through a permanent fix."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Has started informally mentoring new interns."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Handled high pressure during a major system upgrade perfectly."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Showing a strong aptitude for learning network administration."
+      }
+    ],
+    "achievements": "Reduced the number of recurring tickets by 70%. Was the go-to person for support during a major system upgrade.",
+    "areasForImprovement": "Continue to develop skills in system and network administration to prepare for a more senior role.",
+    "feedback": "Kalani continues to exceed all expectations. She is not just an intern; she is a core member of the team and a leader.",
+    "additionalComments": "She has a very bright future in IT operations and management.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 41,
+    "internId": 21,
+    "internName": "Lahiru Malinga",
+    "internEmail": "lahiru.m@example.com",
+    "internCompany": "Mobile Developer Intern (Android)",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "August",
+    "year": 2025,
+    "submissionDate": "2025-09-08",
+    "overallRating": 3.9,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good command of Kotlin and implementing UI from designs."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Collaborates well with the team and asks for clarification when needed."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Can debug basic issues but struggles with performance problems and memory leaks."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "A good and reliable team member."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Completes assigned UI tasks and bug fixes on time."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 3,
+        "description": "Needs to be more proactive in learning modern Android development patterns."
+      }
+    ],
+    "achievements": "Implemented the UI for the new settings screen. Fixed a number of bugs in the existing codebase.",
+    "areasForImprovement": "Needs to learn about modern Android development with Jetpack Compose, as well as performance profiling.",
+    "feedback": "Lahiru is a solid developer with a good foundation. To advance, he should focus on learning the latest Android technologies.",
+    "additionalComments": "A reliable and hardworking intern.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 42,
+    "internId": 21,
+    "internName": "Lahiru Malinga",
+    "internEmail": "lahiru.m@example.com",
+    "internCompany": "Mobile Developer Intern (Android)",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "September",
+    "year": 2025,
+    "submissionDate": "2025-10-08",
+    "overallRating": 4.3,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Writes clean, idiomatic Kotlin code and is now proficient with Jetpack Compose."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Clearly explains complex issues like memory leaks to the team."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Has become much better at diagnosing and fixing complex bugs, including a memory leak."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Continues to be a good team player."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Effectively managed a refactoring project."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has demonstrated an excellent learning ability by mastering Jetpack Compose."
+      }
+    ],
+    "achievements": "Refactored an old screen to Jetpack Compose, improving code quality and performance. Identified and fixed a memory leak.",
+    "areasForImprovement": "Could start learning about mobile application architecture patterns like MVVM.",
+    "feedback": "Lahiru's rapid skill development in modern Android practices is great to see. His work on fixing the memory leak was particularly impressive.",
+    "additionalComments": "Keep up the great work.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 43,
+    "internId": 22,
+    "internName": "Maneesha Peris",
+    "internEmail": "maneesha.p@example.com",
+    "internCompany": "QA Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "September",
+    "year": 2025,
+    "submissionDate": "2025-10-05",
+    "overallRating": 3.7,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Proficient in manual and API testing using Postman."
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Bug reports are sometimes unclear and require follow-up from developers."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Very curious and good at finding edge-case and security-related bugs."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 3,
+        "description": "Collaboration is impacted when communication is unclear."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Completes her testing assignments thoroughly and on time."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Good at learning the features she needs to test."
+      }
+    ],
+    "achievements": "Performed comprehensive testing for new API endpoints. Found a critical security flaw in an API during exploratory testing.",
+    "areasForImprovement": "Needs to work on writing clearer, more concise bug reports with all necessary details.",
+    "feedback": "Maneesha has a natural talent for finding bugs that others might miss. Improving the clarity of her written communication is her main development goal.",
+    "additionalComments": "Provide her with a template for high-quality bug reports.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 3
+  },
+  {
+    "id": 44,
+    "internId": 22,
+    "internName": "Maneesha Peris",
+    "internEmail": "maneesha.p@example.com",
+    "internCompany": "QA Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Ms. Anusha Dias",
+    "month": "October",
+    "year": 2025,
+    "submissionDate": "2025-11-05",
+    "overallRating": 4.1,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Is now able to create comprehensive test plans with minimal supervision."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Her bug reports have improved significantly and are much clearer."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Continues to be a top-notch bug finder."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Improved communication has led to much smoother collaboration with developers."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages test planning and execution well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has shown she can learn from feedback and improve key skills."
+      }
+    ],
+    "achievements": "Created the complete test plan for a new feature. Received praise from a senior developer for the high quality and clarity of her recent bug reports.",
+    "areasForImprovement": "Can begin to explore test automation.",
+    "feedback": "Maneesha has made excellent progress on her communication skills. Combined with her natural testing ability, she is becoming a very effective QA professional.",
+    "additionalComments": "The improvement in her documentation is fantastic.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 45,
+    "internId": 23,
+    "internName": "Naveen Jayakody",
+    "internEmail": "naveen.j@example.com",
+    "internCompany": "Cloud Engineer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "September",
+    "year": 2025,
+    "submissionDate": "2025-10-06",
+    "overallRating": 4.6,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Writes excellent, modular Terraform code and is proficient in Azure and PowerShell."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Clearly documents infrastructure designs and scripts."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Great at debugging complex infrastructure and deployment issues."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works effectively with the DevOps team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Can manage and deliver large infrastructure projects on schedule."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "A very fast learner who can pick up new cloud services and tools independently."
+      }
+    ],
+    "achievements": "Designed and implemented a complete Azure landing zone for a new project using Terraform. Created a CI/CD pipeline in Azure DevOps for infrastructure.",
+    "areasForImprovement": "Could deepen his knowledge of Azure networking and security.",
+    "feedback": "Naveen is an exceptional intern with deep knowledge of Infrastructure as Code. His work is of very high quality.",
+    "additionalComments": "Already performing at a professional level. A key contributor.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 4
+  },
+  {
+    "id": 46,
+    "internId": 23,
+    "internName": "Naveen Jayakody",
+    "internEmail": "naveen.j@example.com",
+    "internCompany": "Cloud Engineer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "October",
+    "year": 2025,
+    "submissionDate": "2025-11-06",
+    "overallRating": 4.8,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 5,
+        "description": "Has improved his knowledge of Azure Security Center and advanced networking."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Gave a presentation to the department on best practices for Terraform."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 5,
+        "description": "Implemented Azure Security Center recommendations to improve our security posture."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 5,
+        "description": "Has been helping other team members learn Terraform."
+      },
+      {
+        "name": "Time Management",
+        "rating": 5,
+        "description": "Balances his project work with mentoring and knowledge sharing."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Proactively learned and applied security best practices."
+      }
+    ],
+    "achievements": "Gave a presentation on Terraform best practices. Implemented security improvements. Mentored a junior team member on IaC.",
+    "areasForImprovement": "Could explore multi-cloud concepts or container orchestration with AKS.",
+    "feedback": "Naveen continues to be a top performer. He has gone beyond his role by mentoring others and sharing his knowledge. A true professional.",
+    "additionalComments": "Strongly recommend for a full-time position.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 5,
+    "teamwork": 5
+  },
+  {
+    "id": 47,
+    "internId": 24,
+    "internName": "Oshani Warnakulasuriya",
+    "internEmail": "oshani.w@example.com",
+    "internCompany": "Business Analyst Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "October",
+    "year": 2025,
+    "submissionDate": "2025-11-04",
+    "overallRating": 3.8,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good at process mapping and writing clear user stories."
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Good at one-on-one conversations but hesitant to challenge stakeholders in meetings."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Helped identify an inefficiency in the current workflow through process mapping."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Good collaborator with the dev team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Delivers documentation on schedule."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Quickly understood the business processes she was assigned."
+      }
+    ],
+    "achievements": "Successfully documented the requirements for two new features. Created detailed process maps that helped identify an inefficiency.",
+    "areasForImprovement": "Needs to build confidence in stakeholder-facing situations to question requirements and push for clarity.",
+    "feedback": "Oshani is a very capable analyst. Her next step is to develop the confidence and assertiveness needed to lead conversations with stakeholders.",
+    "additionalComments": "Include her in more high-level stakeholder meetings to observe.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 48,
+    "internId": 24,
+    "internName": "Oshani Warnakulasuriya",
+    "internEmail": "oshani.w@example.com",
+    "internCompany": "Business Analyst Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Kumara Jayasuriya",
+    "month": "November",
+    "year": 2025,
+    "submissionDate": "2025-12-04",
+    "overallRating": 4.2,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Her documentation is now exemplary."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Shows much more confidence in leading meetings and discussions with stakeholders."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Her clear requirements helped the team avoid significant rework on a complex feature."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Is a trusted partner for the business stakeholders she works with."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages her time well across different projects."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has learned a great deal about stakeholder management this month."
+      }
+    ],
+    "achievements": "Independently facilitated a requirements workshop with key business stakeholders. Helped the team avoid rework through clear documentation.",
+    "areasForImprovement": "Can now start to learn about product strategy and roadmap planning.",
+    "feedback": "Oshani has made a huge leap in her confidence and ability to manage stakeholders. She is now facilitating meetings effectively.",
+    "additionalComments": "Her development has been wonderful to watch.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 49,
+    "internId": 25,
+    "internName": "Prasanna Herath",
+    "internEmail": "prasanna.h@example.com",
+    "internCompany": "Software Engineer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "October",
+    "year": 2025,
+    "submissionDate": "2025-11-07",
+    "overallRating": 3.2,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 2,
+        "description": "Code is often inefficient and hard to read. Needs significant improvement."
+      },
+      {
+        "name": "Communication",
+        "rating": 3,
+        "description": "Needs to be more proactive in communicating his progress and roadblocks."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Tends to get stuck on problems and hesitates to ask for help."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 3,
+        "description": "Needs to be more engaged with his mentor and team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 3,
+        "description": "Struggles to estimate tasks and sometimes misses deadlines."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 3,
+        "description": "Needs to be more receptive to feedback from code reviews."
+      }
+    ],
+    "achievements": "Completed a few minor bug fixes.",
+    "areasForImprovement": "Needs improvement on all fronts: asking for help, writing clean code, and proactive communication.",
+    "feedback": "Prasanna is struggling to adapt to the pace and quality expectations of the team. He needs to develop better habits around communication and asking for help.",
+    "additionalComments": "Place on a performance improvement plan. Pair with a senior mentor for daily check-ins.",
+    "workQuality": 2,
+    "attendance": 4,
+    "initiative": 2,
+    "teamwork": 3
+  },
+  {
+    "id": 50,
+    "internId": 25,
+    "internName": "Prasanna Herath",
+    "internEmail": "prasanna.h@example.com",
+    "internCompany": "Software Engineer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "November",
+    "year": 2025,
+    "submissionDate": "2025-12-07",
+    "overallRating": 3.6,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 3,
+        "description": "Code quality is improving as he pays more attention to feedback."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Proactive communication has improved significantly due to daily check-ins."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Is now much better at asking for help and discussing problems with his mentor."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Has started actively participating in code reviews for others' work."
+      },
+      {
+        "name": "Time Management",
+        "rating": 3,
+        "description": "Still needs to work on task estimation, but is meeting deadlines more often."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Is now taking feedback more seriously and trying to apply it."
+      }
+    ],
+    "achievements": "Successfully completed a small feature with guidance from his mentor. Has started actively participating in code reviews.",
+    "areasForImprovement": "Continue to focus on the fundamentals of writing clean, efficient code. Work on breaking down tasks and estimating effort.",
+    "feedback": "There has been a positive change in Prasanna's attitude and approach. The structured mentoring is helping. While there is still a long way to go, the trend is positive.",
+    "additionalComments": "Continue with the performance plan and daily mentoring. The improvement is encouraging.",
+    "workQuality": 3,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 51,
+    "internId": 26,
+    "internName": "Rochelle De Mel",
+    "internEmail": "rochelle.d@example.com",
+    "internCompany": "Systems Administrator Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "October",
+    "year": 2025,
+    "submissionDate": "2025-11-09",
+    "overallRating": 4.0,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Strong in Windows Server and VMware, but less comfortable with Linux."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Writes excellent, detailed documentation for all tasks."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Good at troubleshooting Windows-based issues."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with the rest of the operations team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Manages her assigned tasks of server checks and scripting well."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 3,
+        "description": "Needs to be more proactive in learning Linux administration."
+      }
+    ],
+    "achievements": "Documented the entire server backup process. Wrote a PowerShell script to automate new user creation in Active Directory.",
+    "areasForImprovement": "Needs to gain more confidence and experience with Linux server administration.",
+    "feedback": "Rochelle is a very competent and organized systems administrator. She will be even more valuable as her Linux skills develop.",
+    "additionalComments": "A very reliable and thorough intern.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 52,
+    "internId": 26,
+    "internName": "Rochelle De Mel",
+    "internEmail": "rochelle.d@example.com",
+    "internCompany": "Systems Administrator Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Bandara Kulatunga",
+    "month": "November",
+    "year": 2025,
+    "submissionDate": "2025-12-09",
+    "overallRating": 4.4,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Has taken on more Linux tasks and is now much more comfortable with the command line."
+      },
+      {
+        "name": "Communication",
+        "rating": 5,
+        "description": "Her documentation is the standard for the team."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Diagnosed and resolved a complex Group Policy issue that had been affecting user logins."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "A reliable member of the team."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Led a small project to patch a group of Linux servers."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Has shown a great willingness and ability to learn Linux this month."
+      }
+    ],
+    "achievements": "Led a project to patch a group of Linux servers. Resolved a complex Group Policy issue.",
+    "areasForImprovement": "Could start learning about cloud infrastructure (IaaS) to complement her on-premise skills.",
+    "feedback": "Rochelle has made great progress with her Linux skills. She is a meticulous and trustworthy administrator.",
+    "additionalComments": "Her willingness to learn and step out of her comfort zone is commendable.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 53,
+    "internId": 27,
+    "internName": "Kasun Ranasinghe",
+    "internEmail": "kasun.r@example.com",
+    "internCompany": "Software Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-05",
+    "overallRating": 4.0,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Strong fundamentals in Java and Spring Boot."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Asks good questions and participates in discussions."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Good at implementing defined tasks, needs to improve at designing solutions."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Pairs well with other developers and is a good team member."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Delivers code on time for his sprint tasks."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Very quick to learn our codebase and internal libraries."
+      }
+    ],
+    "achievements": "Implemented three new API endpoints for the inventory service. Wrote unit tests that increased code coverage for his module by 20%.",
+    "areasForImprovement": "Needs to be more proactive in suggesting solutions rather than just implementing them. Should focus on system design principles.",
+    "feedback": "Kasun is a strong coder with a great learning attitude. His next step is to start thinking more about the 'why' behind the code and contributing to design.",
+    "additionalComments": "Has a lot of potential to grow into a senior developer.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 54,
+    "internId": 27,
+    "internName": "Kasun Ranasinghe",
+    "internEmail": "kasun.r@example.com",
+    "internCompany": "Software Developer Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Dr. Nilmini De Silva",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-05",
+    "overallRating": 4.3,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Has started to contribute to design discussions with valuable input."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Presents his ideas more confidently in team meetings."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Showed great initiative by designing a small part of a new feature."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Continues to be a solid team player."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Handles his coding tasks efficiently."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Is quickly grasping system design concepts."
+      }
+    ],
+    "achievements": "Designed and implemented a caching mechanism for a frequently used service, improving its response time by 40%.",
+    "areasForImprovement": "Continue to develop system design skills and take ownership of larger features.",
+    "feedback": "Excellent growth from Kasun this month. He has taken the feedback to heart and is now actively contributing to the design process. His work on the caching mechanism was impressive.",
+    "additionalComments": "His proactive approach is exactly what we wanted to see.",
+    "workQuality": 5,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  },
+  {
+    "id": 55,
+    "internId": 28,
+    "internName": "Fathima Rizwan",
+    "internEmail": "fathima.r@example.com",
+    "internCompany": "Cybersecurity Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "January",
+    "year": 2025,
+    "submissionDate": "2025-02-06",
+    "overallRating": 3.8,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Good understanding of security policies and compliance frameworks."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Writes clear and easy-to-understand reports on compliance checks."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 3,
+        "description": "Good at identifying non-compliance but needs guidance on recommending solutions."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Works well with other teams to gather information for audits."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Completes her audit checklists and reports on schedule."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 4,
+        "description": "Quickly learning the company's specific security policies."
+      }
+    ],
+    "achievements": "Conducted a compliance audit against our ISO 27001 checklist for two departments. Helped update our internal security policy documentation.",
+    "areasForImprovement": "Needs to move beyond auditing and learn more about the technical side of security, such as vulnerability scanning and remediation.",
+    "feedback": "Fathima is very thorough and detail-oriented, which is perfect for a compliance role. To be a more well-rounded security professional, she should expand her technical skills.",
+    "additionalComments": "Schedule some time for her to shadow the network security team.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 3,
+    "teamwork": 4
+  },
+  {
+    "id": 56,
+    "internId": 28,
+    "internName": "Fathima Rizwan",
+    "internEmail": "fathima.r@example.com",
+    "internCompany": "Cybersecurity Intern",
+    "internDepartment": "Information and Communication Technology",
+    "supervisorName": "Mr. Roshan Perera",
+    "month": "February",
+    "year": 2025,
+    "submissionDate": "2025-03-06",
+    "overallRating": 4.1,
+    "skills": [
+      {
+        "name": "Technical Knowledge",
+        "rating": 4,
+        "description": "Has started learning to use our vulnerability scanner and can interpret basic results."
+      },
+      {
+        "name": "Communication",
+        "rating": 4,
+        "description": "Effectively communicates compliance requirements to technical teams."
+      },
+      {
+        "name": "Problem Solving",
+        "rating": 4,
+        "description": "Is now better at recommending corrective actions for compliance issues."
+      },
+      {
+        "name": "Team Collaboration",
+        "rating": 4,
+        "description": "Collaborated well with the network team during a vulnerability scan."
+      },
+      {
+        "name": "Time Management",
+        "rating": 4,
+        "description": "Balances her compliance work with learning new technical tools."
+      },
+      {
+        "name": "Learning Ability",
+        "rating": 5,
+        "description": "Shows a great aptitude and interest in learning new technical security skills."
+      }
+    ],
+    "achievements": "Assisted in running a vulnerability scan for a key network segment. Identified and recommended solutions for three policy violations.",
+    "areasForImprovement": "Continue to build on her hands-on technical security skills and get more practice with security tools.",
+    "feedback": "It is great to see Fathima embracing the technical side of cybersecurity. She is a fast learner and is already adding more value to the team with her new skills.",
+    "additionalComments": "Her progress is very encouraging.",
+    "workQuality": 4,
+    "attendance": 5,
+    "initiative": 4,
+    "teamwork": 4
+  }
+]
