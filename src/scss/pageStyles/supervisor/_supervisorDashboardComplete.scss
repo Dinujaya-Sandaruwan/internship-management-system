@@ -39,6 +39,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: g.rem(8);
+        margin-left: -5px;
 
         .info-icon {
           color: g.$color-primary;

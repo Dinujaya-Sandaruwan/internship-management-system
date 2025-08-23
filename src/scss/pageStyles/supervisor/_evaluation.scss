@@ -95,11 +95,12 @@
 
     // Card header with avatar and info
     &__header {
-      display: flex;
-      align-items: flex-start;
-      gap: rem(16);
-      margin-bottom: rem(16);
-      position: relative;
+      // display: flex;
+      // align-items: flex-start;
+      // gap: rem(16);
+      // margin-bottom: rem(16);
+      // position: relative;
+      background: transparent;
     }
 
     &__avatar {

@@ -103,7 +103,7 @@ const SupervisorGoalsPage: React.FC = () => {
     },
     {
       id: 2,
-      name: "Michael Chen",
+      name: "Mihiravi Chathurika",
       avatar: "MC",
       email: "michael.c@example.com",
       company: "Innovate Corp",
@@ -116,7 +116,7 @@ const SupervisorGoalsPage: React.FC = () => {
     },
     {
       id: 3,
-      name: "Sarah Johnson",
+      name: "Sarani Mahagama",
       avatar: "SJ",
       email: "sarah.j@example.com",
       company: "WebDev Studio",

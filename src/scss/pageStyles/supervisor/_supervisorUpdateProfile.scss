@@ -53,6 +53,7 @@
           span {
             font-size: g.$text-sm;
             color: g.$color-text-secondary;
+            margin-right: 10px;
 
             &.completion-percentage {
               font-weight: g.$weight-bold;

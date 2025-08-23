@@ -66,7 +66,7 @@ const UpdateDataPage: React.FC = () => {
     lastName: "Katugampala",
     username: "erandi_k",
     studentId: "TP/2020/123",
-    universityEmail: "erandi.k@cmb.ac.lk",
+    universityEmail: "2023t01849@cmb.ac.lk",
     phoneNumber: "+94 71 234 5678",
     currentAddress: "123 Campus Road, Colombo 03",
     permanentAddress: "",

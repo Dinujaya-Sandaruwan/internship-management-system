@@ -63,8 +63,8 @@ const SupervisorReportSubmissionPage: React.FC = () => {
   const [currentUser] = useState({
     name: "Dr. Kumara Jayasuriya",
     avatar: "K",
-    role: "Academic Supervisor",
-    department: "Computer Science",
+    role: "Supervisor",
+    // department: "Computer Science",
   });
 
   const [interns] = useState<Intern[]>([
@@ -72,7 +72,7 @@ const SupervisorReportSubmissionPage: React.FC = () => {
       id: 1,
       name: "Erandi Katugampala",
       email: "erandi.k@example.com",
-      company: "Tech Solutions Ltd.",
+      company: "Software Developer Intern",
       department: "Software Engineering",
       position: "Software Engineering Intern",
       startDate: "Jan 15, 2025",
@@ -85,7 +85,7 @@ const SupervisorReportSubmissionPage: React.FC = () => {
       id: 2,
       name: "Dineth Gunawardena",
       email: "dineth.g@example.com",
-      company: "CreativeTech Solutions",
+      company: "Web Developer Intern",
       department: "Design",
       position: "UI/UX Design Intern",
       startDate: "Jan 15, 2025",
@@ -98,7 +98,7 @@ const SupervisorReportSubmissionPage: React.FC = () => {
       id: 3,
       name: "Thilini Perera",
       email: "thilini.p@example.com",
-      company: "DataTech Corp",
+      company: "Mobile App Developer Intern",
       department: "Data Science",
       position: "Data Science Intern",
       startDate: "Jan 15, 2025",

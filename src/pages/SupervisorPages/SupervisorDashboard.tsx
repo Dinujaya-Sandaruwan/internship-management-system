@@ -25,8 +25,8 @@ const SupervisorDashboard: React.FC = () => {
   const [supervisor, setSupervisor] = useState({
     name: "Dr. Kumara Jayasuriya",
     avatar: "KJ",
-    title: "Senior Lecturer",
-    department: "Department of Computer Science",
+    title: "Senior Software Developer",
+    department: "Wso2 PLC",
     university: "University of Colombo",
     profileCompletion: 25, // Initially low
   });
@@ -55,12 +55,12 @@ const SupervisorDashboard: React.FC = () => {
 
     // In a real app, this would be an API call to fetch student data
     // For this prototype, we'll simulate a successful search
-    if (studentId.match(/^TP\/\d{4}\/\d{3}$/)) {
+    if (studentId != "") {
       setSearchedStudent({
         id: studentId,
         name: "Erandi Katugampala",
         course: "BSc in Software Engineering",
-        email: "erandi.k@cmb.ac.lk",
+        email: "2023t01849@cmb.ac.lk",
         avatar: "EK",
       });
       setStudentIdError("");
@@ -128,7 +128,7 @@ const SupervisorDashboard: React.FC = () => {
             {supervisor.name.split(" ")[2]}
           </h1>
           <p>
-            <FaUniversity className="info-icon" /> {supervisor.university} |
+            {/* <FaUniversity className="info-icon" /> {supervisor.university} | */}
             <FaBuilding className="info-icon" /> {supervisor.department} |
             <FaUserTie className="info-icon" /> {supervisor.title}
           </p>

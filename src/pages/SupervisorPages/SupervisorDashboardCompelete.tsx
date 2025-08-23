@@ -75,9 +75,9 @@ const SupervisorDashboardComplete: React.FC = () => {
   // Mock supervisor data with complete profile
   const [supervisor] = useState({
     name: "Dr. Kumara Jayasuriya",
-    title: "Senior Software Architect",
+    title: "Senior Software Developer",
     university: "University of Colombo",
-    department: "School of Computing",
+    department: "Wso2 PLC",
     avatar: "KJ",
     profileCompletion: 100,
   });
@@ -290,7 +290,7 @@ const SupervisorDashboardComplete: React.FC = () => {
             {supervisor.name.split(" ")[2]}
           </h1>
           <p>
-            <FaUniversity className="info-icon" /> {supervisor.university} |
+            {/* <FaUniversity className="info-icon" /> {supervisor.university} | */}
             <FaBuilding className="info-icon" /> {supervisor.department} |
             <FaUserTie className="info-icon" /> {supervisor.title}
           </p>

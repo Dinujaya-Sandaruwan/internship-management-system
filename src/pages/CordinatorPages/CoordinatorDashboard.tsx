@@ -76,7 +76,7 @@ interface UpcomingEvent {
 
 const CoordinatorDashboard: React.FC = () => {
   const [currentUser] = useState({
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Sarani Mahagama",
     role: "Internship Coordinator",
     department: "Computer Science",
     avatar: "SJ",

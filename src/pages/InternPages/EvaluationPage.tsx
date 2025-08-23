@@ -218,13 +218,13 @@ const EvaluationPage: React.FC = () => {
                 <FaExclamationTriangle className="note-icon" />
                 <p>
                   If you have any questions about your evaluation or the
-                  evaluation process, please contact your academic coordinator
+                  evaluation process, please contact your internship coordinator
                   or supervisor directly.
                 </p>
               </div>
               <div className="info-action">
                 <button className="contact-btn">
-                  <span>Contact Academic Coordinator</span>
+                  <span>Contact Internship Coordinator</span>
                   <FaArrowRight />
                 </button>
               </div>

@@ -15,6 +15,7 @@ import {
   FaIdCard,
   FaArrowLeft,
 } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const HomePage: React.FC = () => {
   const [email, setEmail] = useState("");
@@ -25,7 +26,7 @@ const HomePage: React.FC = () => {
   );
   const [userType, setUserType] = useState<"student" | "supervisor">("student");
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -190,7 +191,11 @@ const HomePage: React.FC = () => {
                     </div>
                   </div>
 
-                  <button type="submit" className="submit-btn">
+                  <button
+                    type="submit"
+                    className="submit-btn"
+                    onClick={() => navigate("supervisor/dashboard-incomplete")}
+                  >
                     Sign In
                   </button>
 

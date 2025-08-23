@@ -40,22 +40,22 @@ const SupervisorRequestsPage: React.FC = () => {
 
   // Supervisor request state (single request)
   const [request, setRequest] = useState({
-    supervisorName: "Dr. Kumara Jayasuriya",
-    supervisorTitle: "Senior Lecturer",
-    supervisorDepartment: "Department of Computer Science",
-    university: "University of Colombo",
+    supervisorName: "Ajith Muthukumarana",
+    supervisorTitle: "Senior Software Engineer",
+    supervisorDepartment: "",
+    university: "Wso2 PLC",
     profileImage: null,
     status: "pending", // pending, accepted, declined
     requestDate: "2025-05-01",
     message:
-      "I would like to be your academic supervisor for your internship at Tech Solutions Ltd. I have experience supervising students in software engineering roles and would be able to provide guidance on your projects and help with your academic requirements during the internship period. Please accept this request if you would like me to be your supervisor.",
+      "I would like to be your industry supervisor for your internship at Tech Solutions Ltd. I have experience supervising students in software engineering roles and would be able to provide guidance on your projects and help with your academic requirements during the internship period. Please accept this request if you would like me to be your supervisor.",
     expertise: [
       "Artificial Intelligence",
       "Machine Learning",
       "Data Science",
       "Software Engineering",
     ],
-    contactEmail: "kumara.jayasuriya@sci.cmb.ac.lk",
+    contactEmail: "kumara.jayasuriya@wso2.info",
     contactPhone: "+94 71 234 5678",
     officeHours: "Monday, Wednesday, Friday: 2:00 PM - 4:00 PM",
   });
@@ -154,10 +154,10 @@ const SupervisorRequestsPage: React.FC = () => {
             <div className="info-box-content">
               <h3>Supervision Information</h3>
               <p>
-                Your academic supervisor will guide you through your internship,
-                evaluate your progress, and ensure your internship meets
-                academic requirements. You need to accept or decline the
-                supervisor request below.
+                Your supervisor will guide you through your internship, evaluate
+                your progress, and ensure your internship meets academic
+                requirements. You need to accept or decline the supervisor
+                request below.
               </p>
             </div>
           </div>

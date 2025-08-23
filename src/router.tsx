@@ -10,7 +10,7 @@ import GoalsPage from "./pages/InternPages/GoalsPage";
 import EvaluationPage from "./pages/InternPages/EvaluationPage";
 import ProgressPage from "./pages/InternPages/ProgressPage";
 import UpdateDataPage from "./pages/InternPages/UpdateDataPage";
-import SupervisorRequestsPage from "./pages/SupervisorPages/SupervisorRequestsPage";
+import SupervisorRequestsPage from "./pages/InternPages/SupervisorRequestsPage";
 import "./scss/style.scss";
 import SupervisorMessagesPage from "./pages/SupervisorPages/SupervisorMessagesPage";
 import SupervisorNotificationsPage from "./pages/SupervisorPages/SupervisorNotificationsPage";
@@ -23,6 +23,9 @@ import SupervisorUpdateProfile from "./pages/SupervisorPages/SupervisorUpdatePro
 import SupervisorDashboardComplete from "./pages/SupervisorPages/SupervisorDashboardCompelete";
 import CoordinatorLayout from "./layout/CoordinatorLayout";
 import CoordinatorDashboard from "./pages/CordinatorPages/CoordinatorDashboard";
+import CoordinatorMessagesPage from "./pages/CordinatorPages/CoordinatorMessagesPage";
+import CoordinatorNotificationsPage from "./pages/CordinatorPages/CoordinatorNotificationsPage";
+import CoordinatorMyInterns from "./pages/CordinatorPages/CoordinatorMyInterns";
 
 export const router = createBrowserRouter([
   {
@@ -72,11 +75,11 @@ export const router = createBrowserRouter([
     element: <SupervisorLayout />, // Pass a default value, this should be from context or state in a real app
     children: [
       {
-        path: "dashboard",
+        path: "dashboard-incomplete",
         element: <SupervisorDashboard />,
       },
       {
-        path: "dashboard-complete",
+        path: "dashboard",
         element: <SupervisorDashboardComplete />,
       },
       {
@@ -120,6 +123,18 @@ export const router = createBrowserRouter([
       {
         path: "dashboard",
         element: <CoordinatorDashboard />,
+      },
+      {
+        path: "messages",
+        element: <CoordinatorMessagesPage />,
+      },
+      {
+        path: "notifications",
+        element: <CoordinatorNotificationsPage />,
+      },
+      {
+        path: "my-interns",
+        element: <CoordinatorMyInterns />,
       },
     ],
   },

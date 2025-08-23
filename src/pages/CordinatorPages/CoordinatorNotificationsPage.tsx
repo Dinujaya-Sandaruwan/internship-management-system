@@ -1,44 +1,38 @@
 import { useState, useEffect } from "react";
 import {
-  FaHome,
-  FaEnvelope,
   FaBell,
-  FaTasks,
-  FaClipboardCheck,
-  FaChartLine,
-  FaUserEdit,
-  FaUserTie,
-  FaSignOutAlt,
-  FaCheck,
   FaCalendarAlt,
-  FaFileAlt,
-  FaInfoCircle,
   FaFilter,
   FaEllipsisH,
   FaRegBell,
-  FaUniversity,
-  FaBuilding,
-  FaLaptopCode,
   FaCheckCircle,
-  FaExclamationTriangle,
   FaAngleRight,
-  FaHistory,
   FaTrashAlt,
   FaChevronDown,
   FaChevronUp,
+  FaUserPlus,
+  FaUserCheck,
+  FaFileAlt,
+  FaExclamationTriangle,
+  FaCog,
+  FaGraduationCap,
+  FaClipboardCheck,
+  FaChartLine,
+  FaUsers,
+  FaInfoCircle,
+  FaUserTie,
+  FaBuilding,
 } from "react-icons/fa";
-import SideMenu from "../../components/InternSideMenu";
 
-const NotificationsPage: React.FC = () => {
-  // Active menu item state
-  const [activeMenuItem, setActiveMenuItem] = useState("notifications");
-
-  // Sample user data
+const CoordinatorNotificationsPage: React.FC = () => {
+  // Sample coordinator data
   const [currentUser] = useState({
-    name: "Erandi Katugampala",
-    avatar: "E",
-    title: "Software Engineering Intern",
-    company: "Tech Solutions Ltd.",
+    name: "Dr. Chandima Jayasundara",
+    avatar: "CJ",
+    title: "Internship Coordinator",
+    department: "Department of Computer Science",
+    university: "University of Colombo",
+    profileCompletion: 100,
   });
 
   // Filter states
@@ -47,122 +41,163 @@ const NotificationsPage: React.FC = () => {
   const [filterDate, setFilterDate] = useState<string | null>(null);
   const [filterRead, setFilterRead] = useState<boolean | null>(null);
 
-  // Sample notifications data with different types
+  // Sample notifications data with coordinator-specific types
   const [notifications, setNotifications] = useState([
     {
       id: 1,
-      type: "supervisor_request",
-      title: "New supervisor request",
-      message: "Dr. Kumara Jayasuriya has sent you a supervision request.",
-      time: "10 minutes ago",
+      type: "new_registration",
+      title: "New Intern Registration",
+      message:
+        "Sahan Perera has registered for the Software Engineering internship program. Profile review required.",
+      time: "15 minutes ago",
       isRead: false,
       date: new Date("2025-05-09"),
-      actionLabel: "View Request",
-      actionPath: "/supervisors",
-      sender: {
-        name: "Dr. Kumara Jayasuriya",
-        role: "Head of HR",
-        avatar: "K",
+      actionLabel: "Review Profile",
+      actionPath: "/coordinator/review-intern/45",
+      subject: {
+        name: "Sahan Perera",
+        role: "Software Engineering Student",
+        year: "3rd Year",
+        avatar: "SP",
       },
     },
     {
       id: 2,
-      type: "report_due",
-      title: "Report submission reminder",
+      type: "supervisor_match",
+      title: "Supervisor Matching Request",
       message:
-        "Your weekly progress report is due tomorrow. Please make sure to submit it on time.",
-      time: "2 hours ago",
+        "Dr. Kumara Jayasuriya has requested to supervise 3 new interns for the May 2025 batch.",
+      time: "1 hour ago",
       isRead: false,
       date: new Date("2025-05-09"),
-      actionLabel: "Submit Report",
-      actionPath: "/reports/submit",
+      actionLabel: "Review Request",
+      actionPath: "/coordinator/supervisor-requests/12",
+      subject: {
+        name: "Dr. Kumara Jayasuriya",
+        role: "Senior Lecturer",
+        department: "Computer Science",
+        avatar: "KJ",
+      },
     },
     {
       id: 3,
-      type: "calendar",
-      title: "Upcoming meeting",
+      type: "evaluation_pending",
+      title: "Evaluation Deadline Approaching",
       message:
-        "Team meeting scheduled for tomorrow at 10:00 AM. Don't forget to prepare your progress update.",
-      time: "5 hours ago",
-      isRead: true,
+        "Mid-term evaluations for 15 interns are due in 3 days. Reminder sent to supervisors.",
+      time: "3 hours ago",
+      isRead: false,
       date: new Date("2025-05-09"),
-      actionLabel: "View Calendar",
-      actionPath: "/calendar",
+      actionLabel: "View Pending",
+      actionPath: "/coordinator/evaluations/pending",
+      priority: "high",
     },
     {
       id: 4,
-      type: "admin",
-      title: "System Maintenance",
+      type: "report_approval",
+      title: "Monthly Report Requires Approval",
       message:
-        "The system will be undergoing maintenance on Sunday, May 11, 2025, from 2:00 AM to 5:00 AM.",
+        "April 2025 internship program report has been compiled and requires your approval before submission to the department.",
+      time: "5 hours ago",
+      isRead: true,
+      date: new Date("2025-05-09"),
+      actionLabel: "Review Report",
+      actionPath: "/coordinator/reports/monthly/april-2025",
+    },
+    {
+      id: 5,
+      type: "calendar",
+      title: "Internship Committee Meeting",
+      message:
+        "Monthly internship committee meeting scheduled for tomorrow at 2:00 PM in Conference Room A.",
+      time: "Yesterday",
+      isRead: true,
+      date: new Date("2025-05-08"),
+      actionLabel: "View Agenda",
+      actionPath: "/coordinator/meetings/agenda/23",
+    },
+    {
+      id: 6,
+      type: "system_update",
+      title: "System Maintenance Scheduled",
+      message:
+        "The internship management system will undergo maintenance on Sunday, May 11, from 2:00 AM to 5:00 AM.",
       time: "Yesterday",
       isRead: true,
       date: new Date("2025-05-08"),
       actionLabel: "Learn More",
-      actionPath: "/announcements",
-      sender: {
+      actionPath: "/announcements/maintenance",
+      subject: {
         name: "System Administrator",
         role: "IT Department",
-        avatar: "A",
+        avatar: "SA",
       },
-    },
-    {
-      id: 5,
-      type: "supervisor_request",
-      title: "Supervisor feedback",
-      message:
-        "Prof. Sampath Deegalla has provided feedback on your latest project milestone.",
-      time: "2 days ago",
-      isRead: false,
-      date: new Date("2025-05-07"),
-      actionLabel: "View Feedback",
-      actionPath: "/feedback",
-      sender: {
-        name: "Prof. Sampath Deegalla",
-        role: "Head of Department",
-        avatar: "S",
-      },
-    },
-    {
-      id: 6,
-      type: "report_due",
-      title: "Monthly report approval",
-      message:
-        "Your April 2025 monthly report has been approved by your supervisor.",
-      time: "3 days ago",
-      isRead: true,
-      date: new Date("2025-05-06"),
-      actionLabel: "View Report",
-      actionPath: "/reports/view",
     },
     {
       id: 7,
-      type: "calendar",
-      title: "Workshop registration",
+      type: "policy_update",
+      title: "Internship Policy Update",
       message:
-        "Registration for the React Advanced Patterns workshop is now open. Limited spots available.",
-      time: "4 days ago",
+        "New guidelines for remote internship supervision have been approved by the faculty board.",
+      time: "2 days ago",
       isRead: true,
-      date: new Date("2025-05-05"),
-      actionLabel: "Register Now",
-      actionPath: "/workshops",
+      date: new Date("2025-05-07"),
+      actionLabel: "View Guidelines",
+      actionPath: "/coordinator/policies/remote-supervision",
+      subject: {
+        name: "Prof. Dilini Rajapaksha",
+        role: "Dean, Faculty of Science",
+        avatar: "DR",
+      },
     },
     {
       id: 8,
-      type: "admin",
-      title: "Evaluation criteria updated",
+      type: "compliance_issue",
+      title: "Documentation Incomplete",
       message:
-        "The internship evaluation criteria have been updated. Please review the changes.",
+        "5 interns have incomplete documentation for their internship agreements. Follow-up required.",
+      time: "3 days ago",
+      isRead: false,
+      date: new Date("2025-05-06"),
+      actionLabel: "View Details",
+      actionPath: "/coordinator/compliance/incomplete",
+      priority: "medium",
+    },
+    {
+      id: 9,
+      type: "supervisor_match",
+      title: "Supervisor Allocation Complete",
+      message:
+        "All 45 interns from the May 2025 batch have been successfully matched with supervisors.",
+      time: "4 days ago",
+      isRead: true,
+      date: new Date("2025-05-05"),
+      actionLabel: "View Allocations",
+      actionPath: "/coordinator/allocations/may-2025",
+    },
+    {
+      id: 10,
+      type: "new_registration",
+      title: "Batch Registration Complete",
+      message:
+        "Registration for the June 2025 internship batch is now complete with 52 registered students.",
       time: "1 week ago",
       isRead: true,
       date: new Date("2025-05-02"),
-      actionLabel: "View Changes",
-      actionPath: "/evaluation/criteria",
-      sender: {
-        name: "Dr. Chandima Jayasundara",
-        role: "Internship Coordinator",
-        avatar: "C",
-      },
+      actionLabel: "View Statistics",
+      actionPath: "/coordinator/statistics/june-2025",
+    },
+    {
+      id: 11,
+      type: "evaluation_pending",
+      title: "Final Evaluations Submitted",
+      message:
+        "All final evaluations for the April 2025 batch have been submitted. Ready for certification.",
+      time: "1 week ago",
+      isRead: true,
+      date: new Date("2025-05-01"),
+      actionLabel: "Generate Certificates",
+      actionPath: "/coordinator/certificates/april-2025",
     },
   ]);
 
@@ -202,14 +237,22 @@ const NotificationsPage: React.FC = () => {
   // Get notification icon based on type
   const getNotificationIcon = (type: string) => {
     switch (type) {
-      case "supervisor_request":
-        return <FaUserTie />;
-      case "report_due":
+      case "new_registration":
+        return <FaUserPlus />;
+      case "supervisor_match":
+        return <FaUserCheck />;
+      case "evaluation_pending":
+        return <FaClipboardCheck />;
+      case "report_approval":
         return <FaFileAlt />;
       case "calendar":
         return <FaCalendarAlt />;
-      case "admin":
-        return <FaInfoCircle />;
+      case "system_update":
+        return <FaCog />;
+      case "policy_update":
+        return <FaGraduationCap />;
+      case "compliance_issue":
+        return <FaExclamationTriangle />;
       default:
         return <FaBell />;
     }
@@ -218,14 +261,22 @@ const NotificationsPage: React.FC = () => {
   // Get notification color based on type
   const getNotificationClass = (type: string) => {
     switch (type) {
-      case "supervisor_request":
-        return "supervisor-notification";
-      case "report_due":
+      case "new_registration":
+        return "registration-notification";
+      case "supervisor_match":
+        return "match-notification";
+      case "evaluation_pending":
+        return "evaluation-notification";
+      case "report_approval":
         return "report-notification";
       case "calendar":
         return "calendar-notification";
-      case "admin":
-        return "admin-notification";
+      case "system_update":
+        return "system-notification";
+      case "policy_update":
+        return "policy-notification";
+      case "compliance_issue":
+        return "compliance-notification";
       default:
         return "";
     }
@@ -317,18 +368,15 @@ const NotificationsPage: React.FC = () => {
   const groupedNotifications = groupNotificationsByDate();
 
   return (
-    <div className="dashboard">
-      {/* Sidebar */}
-      {/* <SideMenu
-        activeMenuItem={activeMenuItem}
-        setActiveMenuItem={setActiveMenuItem}
-      /> */}
+    <div className="dashboard coordinator-dashboard">
       {/* Main Content */}
-      <div className="dashboard__main notifications-page">
+      <div className="dashboard__main coordinator-notifications-page">
         {/* Header with highlighted title */}
         <div className="dashboard__header">
           <div className="dashboard__greeting">
-            <h1 className="notifications-title">Notifications Center</h1>
+            <h1 className="coordinator-notifications-title">
+              Notifications Center
+            </h1>
           </div>
           <div className="dashboard__header-right">
             <div className="dashboard__date">
@@ -404,17 +452,33 @@ const NotificationsPage: React.FC = () => {
                   </button>
                   <button
                     className={`filter-option ${
-                      filterType === "supervisor_request" ? "active" : ""
+                      filterType === "new_registration" ? "active" : ""
                     }`}
-                    onClick={() => setFilterType("supervisor_request")}
+                    onClick={() => setFilterType("new_registration")}
+                  >
+                    Registrations
+                  </button>
+                  <button
+                    className={`filter-option ${
+                      filterType === "supervisor_match" ? "active" : ""
+                    }`}
+                    onClick={() => setFilterType("supervisor_match")}
                   >
                     Supervisor
                   </button>
                   <button
                     className={`filter-option ${
-                      filterType === "report_due" ? "active" : ""
+                      filterType === "evaluation_pending" ? "active" : ""
                     }`}
-                    onClick={() => setFilterType("report_due")}
+                    onClick={() => setFilterType("evaluation_pending")}
+                  >
+                    Evaluations
+                  </button>
+                  <button
+                    className={`filter-option ${
+                      filterType === "report_approval" ? "active" : ""
+                    }`}
+                    onClick={() => setFilterType("report_approval")}
                   >
                     Reports
                   </button>
@@ -428,11 +492,27 @@ const NotificationsPage: React.FC = () => {
                   </button>
                   <button
                     className={`filter-option ${
-                      filterType === "admin" ? "active" : ""
+                      filterType === "compliance_issue" ? "active" : ""
                     }`}
-                    onClick={() => setFilterType("admin")}
+                    onClick={() => setFilterType("compliance_issue")}
                   >
-                    Admin
+                    Compliance
+                  </button>
+                  <button
+                    className={`filter-option ${
+                      filterType === "system_update" ? "active" : ""
+                    }`}
+                    onClick={() => setFilterType("system_update")}
+                  >
+                    System
+                  </button>
+                  <button
+                    className={`filter-option ${
+                      filterType === "policy_update" ? "active" : ""
+                    }`}
+                    onClick={() => setFilterType("policy_update")}
+                  >
+                    Policy
                   </button>
                 </div>
               </div>
@@ -445,7 +525,7 @@ const NotificationsPage: React.FC = () => {
                       key={date}
                       className={`filter-option ${
                         filterDate === date ||
-                        (filterDate === null && date === "All")
+                        (date === "All" && filterDate === null)
                           ? "active"
                           : ""
                       }`}
@@ -508,7 +588,11 @@ const NotificationsPage: React.FC = () => {
                       key={notification.id}
                       className={`notification-item ${
                         notification.isRead ? "read" : "unread"
-                      } ${getNotificationClass(notification.type)}`}
+                      } ${getNotificationClass(notification.type)} ${
+                        notification.priority
+                          ? `priority-${notification.priority}`
+                          : ""
+                      }`}
                       onClick={() => markAsRead(notification.id)}
                     >
                       <div className="notification-icon">
@@ -526,17 +610,21 @@ const NotificationsPage: React.FC = () => {
                         <p className="notification-message">
                           {notification.message}
                         </p>
-                        {notification.sender && (
-                          <div className="notification-sender">
-                            <div className="sender-avatar">
-                              {notification.sender.avatar}
+                        {notification.subject && (
+                          <div className="notification-subject">
+                            <div className="subject-avatar">
+                              {notification.subject.avatar}
                             </div>
-                            <div className="sender-info">
-                              <span className="sender-name">
-                                {notification.sender.name}
+                            <div className="subject-info">
+                              <span className="subject-name">
+                                {notification.subject.name}
                               </span>
-                              <span className="sender-role">
-                                {notification.sender.role}
+                              <span className="subject-role">
+                                {notification.subject.role}
+                                {notification.subject.department &&
+                                  ` • ${notification.subject.department}`}
+                                {notification.subject.year &&
+                                  ` • ${notification.subject.year}`}
                               </span>
                             </div>
                           </div>
@@ -550,6 +638,18 @@ const NotificationsPage: React.FC = () => {
                       </div>
                       {!notification.isRead && (
                         <div className="notification-badge"></div>
+                      )}
+                      {notification.priority && (
+                        <div
+                          className={`priority-indicator priority-${notification.priority}`}
+                        >
+                          {notification.priority === "high" && (
+                            <FaExclamationTriangle />
+                          )}
+                          {notification.priority === "medium" && (
+                            <FaInfoCircle />
+                          )}
+                        </div>
                       )}
                     </div>
                   ))}
@@ -578,4 +678,4 @@ const NotificationsPage: React.FC = () => {
   );
 };
 
-export default NotificationsPage;
+export default CoordinatorNotificationsPage;
