@@ -427,22 +427,9 @@
     box-shadow: g.$shadow-large;
   }
 
-  &__header {
-    padding: g.rem(20);
-    background: linear-gradient(
-      135deg,
-      g.$color-bg-light 0%,
-      g.$color-white 100%
-    );
-    display: flex;
-    align-items: flex-start;
-    gap: g.rem(16);
-    border-bottom: 1px solid g.$color-grey-light;
-  }
-
   &__avatar {
-    width: g.rem(64);
-    height: g.rem(64);
+    width: g.rem(48);
+    height: g.rem(48);
     border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;

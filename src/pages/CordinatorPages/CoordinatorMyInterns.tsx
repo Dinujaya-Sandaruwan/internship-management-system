@@ -180,33 +180,7 @@ const CoordinatorMyInterns: React.FC = () => {
             <h1>My Interns</h1>
             <p>Monitor and manage interns in your department</p>
           </div>
-          <div className="dashboard__stats">
-            <div className="stat-card stat-card--primary">
-              <FaUsers className="stat-card__icon" />
-              <div className="stat-card__content">
-                <span className="stat-card__label">Total Interns</span>
-                <span className="stat-card__value">{interns.length}</span>
-              </div>
-            </div>
-            <div className="stat-card stat-card--success">
-              <FaCheckCircle className="stat-card__icon" />
-              <div className="stat-card__content">
-                <span className="stat-card__label">Active</span>
-                <span className="stat-card__value">
-                  {interns.filter((i) => i.status === "active").length}
-                </span>
-              </div>
-            </div>
-            <div className="stat-card stat-card--warning">
-              <FaExclamationTriangle className="stat-card__icon" />
-              <div className="stat-card__content">
-                <span className="stat-card__label">On Break</span>
-                <span className="stat-card__value">
-                  {interns.filter((i) => i.status === "on-break").length}
-                </span>
-              </div>
-            </div>
-          </div>
+          <div className="dashboard__header-right"></div>
         </div>
 
         <div className="my-interns">
