@@ -26,6 +26,7 @@ import CoordinatorDashboard from "./pages/CordinatorPages/CoordinatorDashboard";
 import CoordinatorMessagesPage from "./pages/CordinatorPages/CoordinatorMessagesPage";
 import CoordinatorNotificationsPage from "./pages/CordinatorPages/CoordinatorNotificationsPage";
 import CoordinatorMyInterns from "./pages/CordinatorPages/CoordinatorMyInterns";
+import CoordinatorEvaluations from "./pages/CordinatorPages/CoordinatorEvaluations";
 
 export const router = createBrowserRouter([
   {
@@ -135,6 +136,10 @@ export const router = createBrowserRouter([
       {
         path: "my-interns",
         element: <CoordinatorMyInterns />,
+      },
+      {
+        path: "evaluations",
+        element: <CoordinatorEvaluations />,
       },
     ],
   },
