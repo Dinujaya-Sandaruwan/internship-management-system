@@ -3,3 +3,4 @@ The project strecture is like this, I have a scss folder and it has two folders,
 pageStyles folder has all the style files need to style pages like \_home.scss and \_index.scss
 You have to read the previous code before writing any new code.
 The site design should be consistent.ss
+When I say to to commit my previous changes. The first thing you need to do is read my previous commit messages (like last 10) to get an ideas about my committing pattern. Then you can do as much as commits you need to add all changes to git.
