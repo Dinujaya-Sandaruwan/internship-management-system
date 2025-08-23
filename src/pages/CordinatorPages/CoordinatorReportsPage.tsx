@@ -68,7 +68,9 @@ const CoordinatorReportsPage: React.FC = () => {
   const [filteredReports, setFilteredReports] = useState<MonthlyReport[]>([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [showInternDropdown, setShowInternDropdown] = useState(false);
-  const [selectedReport, setSelectedReport] = useState<MonthlyReport | null>(null);
+  const [selectedReport, setSelectedReport] = useState<MonthlyReport | null>(
+    null
+  );
   const [showReportModal, setShowReportModal] = useState(false);
   const [filterMonth, setFilterMonth] = useState("");
   const [filterYear, setFilterYear] = useState("");
@@ -124,7 +126,9 @@ const CoordinatorReportsPage: React.FC = () => {
     let filtered = reports;
 
     if (selectedIntern) {
-      filtered = filtered.filter((report) => report.internId === selectedIntern.id);
+      filtered = filtered.filter(
+        (report) => report.internId === selectedIntern.id
+      );
     }
 
     if (filterMonth) {
@@ -132,11 +136,17 @@ const CoordinatorReportsPage: React.FC = () => {
     }
 
     if (filterYear) {
-      filtered = filtered.filter((report) => report.year.toString() === filterYear);
+      filtered = filtered.filter(
+        (report) => report.year.toString() === filterYear
+      );
     }
 
     // Sort by submission date (newest first)
-    filtered.sort((a, b) => new Date(b.submissionDate).getTime() - new Date(a.submissionDate).getTime());
+    filtered.sort(
+      (a, b) =>
+        new Date(b.submissionDate).getTime() -
+        new Date(a.submissionDate).getTime()
+    );
 
     setFilteredReports(filtered);
   }, [selectedIntern, filterMonth, filterYear, reports]);
@@ -215,7 +225,8 @@ const CoordinatorReportsPage: React.FC = () => {
           <div className="dashboard__greeting">
             <h1 className="reports-title">Intern Reports Management</h1>
             <p className="reports-subtitle">
-              View and manage monthly evaluation reports submitted by supervisors
+              View and manage monthly evaluation reports submitted by
+              supervisors
             </p>
           </div>
           <div className="dashboard__header-right">
@@ -252,8 +263,12 @@ const CoordinatorReportsPage: React.FC = () => {
                         {selectedIntern.name.charAt(0)}
                       </div>
                       <div className="intern-info">
-                        <span className="intern-name">{selectedIntern.name}</span>
-                        <span className="intern-company">{selectedIntern.company}</span>
+                        <span className="intern-name">
+                          {selectedIntern.name}
+                        </span>
+                        <span className="intern-company">
+                          {selectedIntern.company}
+                        </span>
                       </div>
                     </div>
                   ) : (
@@ -288,7 +303,9 @@ const CoordinatorReportsPage: React.FC = () => {
                           <div className="intern-avatar">All</div>
                           <div className="intern-details">
                             <span className="intern-name">All Interns</span>
-                            <span className="intern-meta">View all reports</span>
+                            <span className="intern-meta">
+                              View all reports
+                            </span>
                           </div>
                         </div>
                       </button>
@@ -398,8 +415,10 @@ const CoordinatorReportsPage: React.FC = () => {
               <h3>
                 {filteredReports.length > 0
                   ? (
-                      filteredReports.reduce((sum, report) => sum + report.overallRating, 0) /
-                      filteredReports.length
+                      filteredReports.reduce(
+                        (sum, report) => sum + report.overallRating,
+                        0
+                      ) / filteredReports.length
                     ).toFixed(1)
                   : "0.0"}
               </h3>
@@ -450,7 +469,11 @@ const CoordinatorReportsPage: React.FC = () => {
                   <div className="rating-section">
                     <div className="overall-rating">
                       <h4>Overall Rating</h4>
-                      <div className={`rating-display ${getRatingColorClass(report.overallRating)}`}>
+                      <div
+                        className={`rating-display ${getRatingColorClass(
+                          report.overallRating
+                        )}`}
+                      >
                         {renderStarRating(report.overallRating, "medium")}
                       </div>
                     </div>
@@ -467,7 +490,9 @@ const CoordinatorReportsPage: React.FC = () => {
                       ))}
                       {report.skills.length > 3 && (
                         <div className="skill-item more-skills">
-                          <span className="more-text">+{report.skills.length - 3} more</span>
+                          <span className="more-text">
+                            +{report.skills.length - 3} more
+                          </span>
                         </div>
                       )}
                     </div>
@@ -554,7 +579,9 @@ const CoordinatorReportsPage: React.FC = () => {
                     </div>
                     <div className="detail-item">
                       <label>Report Period:</label>
-                      <span>{selectedReport.month} {selectedReport.year}</span>
+                      <span>
+                        {selectedReport.month} {selectedReport.year}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -565,7 +592,11 @@ const CoordinatorReportsPage: React.FC = () => {
                     <FaStar className="section-icon" />
                     Overall Performance
                   </h3>
-                  <div className={`overall-rating-display ${getRatingColorClass(selectedReport.overallRating)}`}>
+                  <div
+                    className={`overall-rating-display ${getRatingColorClass(
+                      selectedReport.overallRating
+                    )}`}
+                  >
                     {renderStarRating(selectedReport.overallRating, "large")}
                   </div>
                 </div>
@@ -584,7 +615,9 @@ const CoordinatorReportsPage: React.FC = () => {
                           {renderStarRating(skill.rating, "small")}
                         </div>
                         {skill.description && (
-                          <p className="skill-description">{skill.description}</p>
+                          <p className="skill-description">
+                            {skill.description}
+                          </p>
                         )}
                       </div>
                     ))}
@@ -632,7 +665,9 @@ const CoordinatorReportsPage: React.FC = () => {
                     <FaExclamationTriangle className="section-icon" />
                     Areas for Improvement
                   </h3>
-                  <p className="detail-text">{selectedReport.areasForImprovement}</p>
+                  <p className="detail-text">
+                    {selectedReport.areasForImprovement}
+                  </p>
                 </div>
 
                 {/* Feedback */}
@@ -651,14 +686,20 @@ const CoordinatorReportsPage: React.FC = () => {
                       <FaFileAlt className="section-icon" />
                       Additional Comments
                     </h3>
-                    <p className="detail-text">{selectedReport.additionalComments}</p>
+                    <p className="detail-text">
+                      {selectedReport.additionalComments}
+                    </p>
                   </div>
                 )}
               </div>
             </div>
 
             <div className="modal-footer">
-              <button type="button" className="btn-secondary" onClick={closeReportModal}>
+              <button
+                type="button"
+                className="btn-secondary"
+                onClick={closeReportModal}
+              >
                 Close
               </button>
               <button type="button" className="btn-primary">
