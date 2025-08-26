@@ -1,3 +1,4 @@
+@use "sass:color";
 @use "../../global" as g;
 
 // Coordinator My Interns Page Styling
@@ -379,7 +380,7 @@
       transition: all g.$transition-fast;
 
       &:hover {
-        background: darken(g.$color-primary, 10%);
+        background: color.scale(g.$color-primary, $lightness: -10%);
         transform: translateY(-2px);
       }
     }
@@ -667,7 +668,7 @@
         color: g.$color-white;
 
         &:hover {
-          background: darken(g.$color-primary, 10%);
+          background: color.scale(g.$color-primary, $lightness: -10%);
           transform: translateY(-2px);
         }
       }
@@ -687,7 +688,7 @@
         color: g.$color-success;
 
         &:hover {
-          background: darken(g.$color-success-light, 5%);
+          background: color.scale(g.$color-success-light, $lightness: -5%);
         }
       }
     }
@@ -761,7 +762,7 @@
     transition: all g.$transition-fast;
 
     &:hover {
-      background: darken(g.$color-primary, 10%);
+      background: color.scale(g.$color-primary, $lightness: -10%);
       transform: translateY(-2px);
     }
   }
@@ -1224,7 +1225,7 @@
       color: g.$color-white;
 
       &:hover {
-        background: darken(g.$color-primary, 10%);
+        background: color.scale(g.$color-primary, $lightness: -10%);
       }
     }
 

@@ -1,5 +1,5 @@
-@use "../../global" as g;
 @use "sass:color";
+@use "../../global" as g;
 
 // Coordinator Dashboard Styles - Consistent with existing theme
 .coordinator-dashboard {
@@ -934,7 +934,7 @@
         color: g.$color-white;
 
         &:hover {
-          background: darken(g.$color-primary, 10%);
+          background: color.scale(g.$color-primary, $lightness: -10%);
         }
       }
 

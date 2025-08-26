@@ -1,0 +1,2437 @@
+[
+  {
+    "id": "GOAL-2025-001",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Complete React Frontend Development",
+    "description": "Develop and implement the complete frontend interface for the internship management system using React, including responsive design and user authentication.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-01-15",
+    "dueDate": "2025-03-15",
+    "completedDate": null,
+    "progress": 75,
+    "category": "Technical Development",
+    "skills": ["React", "JavaScript", "CSS", "HTML"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Setup project structure",
+        "completed": true,
+        "completedDate": "2025-01-20"
+      },
+      {
+        "id": 2,
+        "title": "Implement authentication",
+        "completed": true,
+        "completedDate": "2025-02-05"
+      },
+      {
+        "id": 3,
+        "title": "Create dashboard components",
+        "completed": true,
+        "completedDate": "2025-02-20"
+      },
+      {
+        "id": 4,
+        "title": "Implement responsive design",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Making excellent progress. Frontend components are well-structured and follow best practices.",
+    "lastUpdated": "2025-02-25"
+  },
+  {
+    "id": "GOAL-2025-002",
+    "internId": "INT-2025-002",
+    "internName": "Sanduni Fernando",
+    "title": "Data Analysis and Visualization Dashboard",
+    "description": "Create comprehensive data analysis tools and interactive visualization dashboard for business intelligence reporting.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-02-01",
+    "dueDate": "2025-04-01",
+    "completedDate": null,
+    "progress": 60,
+    "category": "Data Science",
+    "skills": ["Python", "R", "Tableau", "SQL", "Machine Learning"],
+    "supervisor": "Dr. Silva Mendis",
+    "company": "DataTech Analytics",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Data collection and cleaning",
+        "completed": true,
+        "completedDate": "2025-02-10"
+      },
+      {
+        "id": 2,
+        "title": "Statistical analysis",
+        "completed": true,
+        "completedDate": "2025-02-20"
+      },
+      {
+        "id": 3,
+        "title": "Create visualization prototypes",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 4,
+        "title": "Implement interactive dashboard",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Strong analytical skills demonstrated. Dashboard prototypes show good understanding of user requirements.",
+    "lastUpdated": "2025-02-24"
+  },
+  {
+    "id": "GOAL-2025-003",
+    "internId": "INT-2025-003",
+    "internName": "Hasitha Jayasinghe",
+    "title": "Mobile Application Development",
+    "description": "Develop cross-platform mobile application with offline capabilities and real-time synchronization features.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2024-08-01",
+    "dueDate": "2024-12-15",
+    "completedDate": "2024-12-10",
+    "progress": 100,
+    "category": "Mobile Development",
+    "skills": ["Flutter", "React Native", "Swift", "Kotlin"],
+    "supervisor": "Prof. Ranjith Perera",
+    "company": "Mobile Solutions Inc.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Design app architecture",
+        "completed": true,
+        "completedDate": "2024-08-15"
+      },
+      {
+        "id": 2,
+        "title": "Implement core features",
+        "completed": true,
+        "completedDate": "2024-10-01"
+      },
+      {
+        "id": 3,
+        "title": "Add offline capabilities",
+        "completed": true,
+        "completedDate": "2024-11-15"
+      },
+      {
+        "id": 4,
+        "title": "Testing and deployment",
+        "completed": true,
+        "completedDate": "2024-12-10"
+      }
+    ],
+    "notes": "Excellent work completed ahead of schedule. App received positive feedback from stakeholders.",
+    "lastUpdated": "2024-12-10"
+  },
+  {
+    "id": "GOAL-2025-004",
+    "internId": "INT-2025-004",
+    "internName": "Fathima Rizwan",
+    "title": "Backend API Development",
+    "description": "Design and implement RESTful APIs for fintech application with security best practices and performance optimization.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-03-01",
+    "dueDate": "2025-06-01",
+    "completedDate": null,
+    "progress": 50,
+    "category": "Backend Development",
+    "skills": ["Java", "Spring Boot", "PostgreSQL", "Docker", "AWS"],
+    "supervisor": "Dr. Anura Bandara",
+    "company": "Innovate Labs",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "API design and documentation",
+        "completed": true,
+        "completedDate": "2025-03-10"
+      },
+      {
+        "id": 2,
+        "title": "Implement authentication system",
+        "completed": true,
+        "completedDate": "2025-03-20"
+      },
+      {
+        "id": 3,
+        "title": "Core business logic implementation",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 4,
+        "title": "Performance optimization",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Strong understanding of backend architecture. Code quality is excellent with good documentation.",
+    "lastUpdated": "2025-03-25"
+  },
+  {
+    "id": "GOAL-2025-005",
+    "internId": "INT-2025-005",
+    "internName": "Dinesh Kumar",
+    "title": "Cybersecurity Assessment Framework",
+    "description": "Develop comprehensive cybersecurity assessment framework including penetration testing tools and vulnerability analysis.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2024-12-01",
+    "dueDate": "2025-04-01",
+    "completedDate": null,
+    "progress": 85,
+    "category": "Cybersecurity",
+    "skills": [
+      "Penetration Testing",
+      "Wireshark",
+      "Metasploit",
+      "Python",
+      "Linux"
+    ],
+    "supervisor": "Prof. Malini Ranasinghe",
+    "company": "Cyber Guard",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Security assessment methodology",
+        "completed": true,
+        "completedDate": "2024-12-15"
+      },
+      {
+        "id": 2,
+        "title": "Automated scanning tools",
+        "completed": true,
+        "completedDate": "2025-01-20"
+      },
+      {
+        "id": 3,
+        "title": "Penetration testing framework",
+        "completed": true,
+        "completedDate": "2025-02-28"
+      },
+      {
+        "id": 4,
+        "title": "Documentation and training materials",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Exceptional technical skills in cybersecurity. Framework shows innovative approach to vulnerability assessment.",
+    "lastUpdated": "2025-03-01"
+  },
+  {
+    "id": "GOAL-2025-006",
+    "internId": "INT-2025-006",
+    "internName": "Priya Selvan",
+    "title": "UI/UX Design System",
+    "description": "Create comprehensive design system with reusable components, style guides, and user experience guidelines.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2024-10-15",
+    "dueDate": "2025-02-15",
+    "completedDate": "2025-02-10",
+    "progress": 100,
+    "category": "UI/UX Design",
+    "skills": [
+      "Figma",
+      "Adobe XD",
+      "User Research",
+      "Wireframing",
+      "Prototyping"
+    ],
+    "supervisor": "Dr. Saman Kumara",
+    "company": "Creative Minds",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "User research and analysis",
+        "completed": true,
+        "completedDate": "2024-11-01"
+      },
+      {
+        "id": 2,
+        "title": "Design system components",
+        "completed": true,
+        "completedDate": "2024-12-15"
+      },
+      {
+        "id": 3,
+        "title": "Style guide documentation",
+        "completed": true,
+        "completedDate": "2025-01-20"
+      },
+      {
+        "id": 4,
+        "title": "Implementation guidelines",
+        "completed": true,
+        "completedDate": "2025-02-10"
+      }
+    ],
+    "notes": "Outstanding design work with excellent attention to detail. Design system is comprehensive and well-documented.",
+    "lastUpdated": "2025-02-10"
+  },
+  {
+    "id": "GOAL-2025-007",
+    "internId": "INT-2025-007",
+    "internName": "Naveen Liyanage",
+    "title": "DevOps Pipeline Implementation",
+    "description": "Implement complete CI/CD pipeline with automated testing, deployment, and monitoring for cloud-native applications.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-01-20",
+    "dueDate": "2025-05-20",
+    "completedDate": null,
+    "progress": 70,
+    "category": "DevOps",
+    "skills": ["Docker", "Kubernetes", "Jenkins", "Terraform", "Azure"],
+    "supervisor": "Mr. Colin P. Watson",
+    "company": "CloudNative Solutions",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Infrastructure as Code setup",
+        "completed": true,
+        "completedDate": "2025-02-05"
+      },
+      {
+        "id": 2,
+        "title": "CI/CD pipeline configuration",
+        "completed": true,
+        "completedDate": "2025-02-25"
+      },
+      {
+        "id": 3,
+        "title": "Automated testing integration",
+        "completed": true,
+        "completedDate": "2025-03-15"
+      },
+      {
+        "id": 4,
+        "title": "Monitoring and alerting setup",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Strong understanding of DevOps practices. Pipeline implementation shows good architectural decisions.",
+    "lastUpdated": "2025-03-20"
+  },
+  {
+    "id": "GOAL-2025-008",
+    "internId": "INT-2025-008",
+    "internName": "Ishara Maduwanthi",
+    "title": "Quality Assurance Automation",
+    "description": "Develop comprehensive test automation framework with continuous integration and automated reporting.",
+    "priority": "medium",
+    "status": "in_progress",
+    "startDate": "2025-05-01",
+    "dueDate": "2025-08-01",
+    "completedDate": null,
+    "progress": 30,
+    "category": "Quality Assurance",
+    "skills": ["Selenium", "JIRA", "Test Automation", "SQL", "Postman"],
+    "supervisor": "Dr. Pradeepa Samarasinghe",
+    "company": "CodeGen",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Test strategy development",
+        "completed": true,
+        "completedDate": "2025-05-10"
+      },
+      {
+        "id": 2,
+        "title": "Automation framework setup",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Test case automation",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 4,
+        "title": "Reporting and analytics",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Good understanding of testing principles. Framework design shows attention to maintainability.",
+    "lastUpdated": "2025-05-15"
+  },
+  {
+    "id": "GOAL-2025-009",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Database Optimization Project",
+    "description": "Optimize database performance through query optimization, indexing strategies, and caching implementation.",
+    "priority": "medium",
+    "status": "overdue",
+    "startDate": "2025-01-01",
+    "dueDate": "2025-02-28",
+    "completedDate": null,
+    "progress": 40,
+    "category": "Database Management",
+    "skills": ["SQL", "MongoDB", "Redis", "Performance Tuning"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Performance analysis",
+        "completed": true,
+        "completedDate": "2025-01-15"
+      },
+      {
+        "id": 2,
+        "title": "Query optimization",
+        "completed": true,
+        "completedDate": "2025-02-01"
+      },
+      {
+        "id": 3,
+        "title": "Indexing implementation",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 4,
+        "title": "Caching strategy",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Project delayed due to focus on frontend development. Need to prioritize completion.",
+    "lastUpdated": "2025-03-01"
+  },
+  {
+    "id": "GOAL-2025-010",
+    "internId": "INT-2025-002",
+    "internName": "Sanduni Fernando",
+    "title": "Machine Learning Model Deployment",
+    "description": "Deploy machine learning models to production with monitoring, versioning, and automated retraining capabilities.",
+    "priority": "low",
+    "status": "pending",
+    "startDate": "2025-04-01",
+    "dueDate": "2025-06-01",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Machine Learning",
+    "skills": ["Python", "MLOps", "Docker", "Kubernetes", "TensorFlow"],
+    "supervisor": "Dr. Silva Mendis",
+    "company": "DataTech Analytics",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Model containerization",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Deployment pipeline setup",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Monitoring implementation",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 4,
+        "title": "Automated retraining",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Scheduled to start after completion of current dashboard project.",
+    "lastUpdated": "2025-03-25"
+  },
+  {
+    "id": "GOAL-2025-011",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Develop User Profile API Endpoint",
+    "description": "Create a secure REST API endpoint for managing user profile data.",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2024-11-01",
+    "dueDate": "2024-12-01",
+    "completedDate": "2024-11-28",
+    "progress": 100,
+    "category": "Backend Development",
+    "skills": ["Node.js", "Express", "MongoDB", "JWT"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Define API spec",
+        "completed": true,
+        "completedDate": "2024-11-05"
+      },
+      {
+        "id": 2,
+        "title": "Implement endpoint logic",
+        "completed": true,
+        "completedDate": "2024-11-15"
+      },
+      {
+        "id": 3,
+        "title": "Add unit tests",
+        "completed": true,
+        "completedDate": "2024-11-25"
+      }
+    ],
+    "notes": "Successfully deployed to staging environment.",
+    "lastUpdated": "2024-11-28"
+  },
+  {
+    "id": "GOAL-2025-012",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Refactor Authentication Service",
+    "description": "Improve the security and performance of the user authentication service.",
+    "priority": "medium",
+    "status": "in_progress",
+    "startDate": "2025-07-15",
+    "dueDate": "2025-09-15",
+    "completedDate": null,
+    "progress": 45,
+    "category": "Backend Development",
+    "skills": ["Node.js", "OAuth2", "Security", "Performance Tuning"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Audit current implementation",
+        "completed": true,
+        "completedDate": "2025-07-25"
+      },
+      {
+        "id": 2,
+        "title": "Implement password hashing upgrade",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Integrate rate limiting",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Password hashing upgrade in progress.",
+    "lastUpdated": "2025-08-10"
+  },
+  {
+    "id": "GOAL-2025-013",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Setup CI/CD Pipeline for Frontend",
+    "description": "Automate the build, test, and deployment process for the React frontend application.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-06-01",
+    "dueDate": "2025-07-01",
+    "completedDate": null,
+    "progress": 80,
+    "category": "DevOps",
+    "skills": ["Jenkins", "Docker", "CI/CD", "React"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Configure Jenkins job",
+        "completed": true,
+        "completedDate": "2025-06-10"
+      },
+      {
+        "id": 2,
+        "title": "Create Dockerfile for frontend",
+        "completed": true,
+        "completedDate": "2025-06-15"
+      },
+      {
+        "id": 3,
+        "title": "Automate deployment to staging",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Working on deployment scripts for the final step.",
+    "lastUpdated": "2025-06-25"
+  },
+  {
+    "id": "GOAL-2025-014",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Write E2E Tests for User Onboarding",
+    "description": "Develop and implement end-to-end tests for the complete user registration and onboarding flow.",
+    "priority": "medium",
+    "status": "pending",
+    "startDate": "2025-09-01",
+    "dueDate": "2025-10-01",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Quality Assurance",
+    "skills": ["Cypress", "JavaScript", "Testing"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Setup Cypress environment",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Write test scripts",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Integrate tests into CI pipeline",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Scheduled to begin after current feature development is complete.",
+    "lastUpdated": "2025-08-20"
+  },
+  {
+    "id": "GOAL-2025-015",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement Redis Caching Layer",
+    "description": "Integrate Redis to cache frequently accessed database queries to improve API response times.",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2025-04-10",
+    "dueDate": "2025-05-10",
+    "completedDate": "2025-05-08",
+    "progress": 100,
+    "category": "Database Management",
+    "skills": ["Redis", "Node.js", "Performance Tuning"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Setup Redis instance",
+        "completed": true,
+        "completedDate": "2025-04-15"
+      },
+      {
+        "id": 2,
+        "title": "Integrate Redis client in backend",
+        "completed": true,
+        "completedDate": "2025-04-25"
+      },
+      {
+        "id": 3,
+        "title": "Identify and cache hot queries",
+        "completed": true,
+        "completedDate": "2025-05-05"
+      }
+    ],
+    "notes": "Observed a 40% reduction in average API response time.",
+    "lastUpdated": "2025-05-08"
+  },
+  {
+    "id": "GOAL-2025-016",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Design System Documentation",
+    "description": "Create comprehensive documentation for the new React component library.",
+    "priority": "low",
+    "status": "in_progress",
+    "startDate": "2025-08-01",
+    "dueDate": "2025-10-01",
+    "completedDate": null,
+    "progress": 25,
+    "category": "Documentation",
+    "skills": ["React", "Storybook", "Technical Writing"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Setup Storybook",
+        "completed": true,
+        "completedDate": "2025-08-10"
+      },
+      {
+        "id": 2,
+        "title": "Document core components",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Write usage guidelines",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Initial setup complete, now documenting button and input components.",
+    "lastUpdated": "2025-08-22"
+  },
+  {
+    "id": "GOAL-2025-017",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Migrate Database to PostgreSQL",
+    "description": "Lead the effort to migrate the application database from MongoDB to PostgreSQL.",
+    "priority": "high",
+    "status": "pending",
+    "startDate": "2025-11-01",
+    "dueDate": "2026-01-15",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Database Management",
+    "skills": ["PostgreSQL", "MongoDB", "SQL", "Data Migration"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Design new schema",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Develop migration scripts",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Perform test migration",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Project pending approval from architecture review board.",
+    "lastUpdated": "2025-08-15"
+  },
+  {
+    "id": "GOAL-2025-018",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement Websocket Notifications",
+    "description": "Develop a real-time notification system using WebSockets.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2025-02-01",
+    "dueDate": "2025-03-01",
+    "completedDate": "2025-02-25",
+    "progress": 100,
+    "category": "Backend Development",
+    "skills": ["Node.js", "WebSockets", "Socket.io"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Setup WebSocket server",
+        "completed": true,
+        "completedDate": "2025-02-07"
+      },
+      {
+        "id": 2,
+        "title": "Integrate with frontend client",
+        "completed": true,
+        "completedDate": "2025-02-18"
+      },
+      {
+        "id": 3,
+        "title": "Test real-time functionality",
+        "completed": true,
+        "completedDate": "2025-02-24"
+      }
+    ],
+    "notes": "Successfully demonstrated real-time updates in the user dashboard.",
+    "lastUpdated": "2025-02-25"
+  },
+  {
+    "id": "GOAL-2025-019",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Optimize Frontend Build Process",
+    "description": "Reduce the production build time and bundle size of the React application.",
+    "priority": "low",
+    "status": "in_progress",
+    "startDate": "2025-08-15",
+    "dueDate": "2025-09-15",
+    "completedDate": null,
+    "progress": 60,
+    "category": "Technical Development",
+    "skills": ["Webpack", "React", "Performance Tuning"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Analyze current bundle",
+        "completed": true,
+        "completedDate": "2025-08-20"
+      },
+      {
+        "id": 2,
+        "title": "Implement code splitting",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Enable tree shaking",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Bundle analysis complete. Now implementing route-based code splitting.",
+    "lastUpdated": "2025-08-23"
+  },
+  {
+    "id": "GOAL-2025-020",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Conduct User Acceptance Testing (UAT)",
+    "description": "Organize and conduct a UAT session for the new reporting module.",
+    "priority": "medium",
+    "status": "pending",
+    "startDate": "2025-10-05",
+    "dueDate": "2025-10-20",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Quality Assurance",
+    "skills": ["UAT", "JIRA", "Communication"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Prepare test cases",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Coordinate with stakeholders",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Collect and document feedback",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Waiting for the reporting module to be deployed to the UAT environment.",
+    "lastUpdated": "2025-08-21"
+  },
+  {
+    "id": "GOAL-2025-021",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Setup Centralized Logging System",
+    "description": "Implement a centralized logging solution for all microservices using the ELK stack.",
+    "priority": "high",
+    "status": "overdue",
+    "startDate": "2025-05-01",
+    "dueDate": "2025-06-15",
+    "completedDate": null,
+    "progress": 75,
+    "category": "DevOps",
+    "skills": ["ELK Stack", "Docker", "Logging"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Deploy Elasticsearch and Kibana",
+        "completed": true,
+        "completedDate": "2025-05-15"
+      },
+      {
+        "id": 2,
+        "title": "Configure Logstash pipelines",
+        "completed": true,
+        "completedDate": "2025-05-30"
+      },
+      {
+        "id": 3,
+        "title": "Integrate services with Filebeat",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Delayed due to unforeseen configuration issues with network policies.",
+    "lastUpdated": "2025-06-20"
+  },
+  {
+    "id": "GOAL-2025-022",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Create a Reusable Modal Component",
+    "description": "Design and develop a highly reusable and accessible modal component in React.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2024-10-10",
+    "dueDate": "2024-11-10",
+    "completedDate": "2024-11-05",
+    "progress": 100,
+    "category": "Technical Development",
+    "skills": ["React", "JavaScript", "CSS", "Accessibility"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Design component API",
+        "completed": true,
+        "completedDate": "2024-10-15"
+      },
+      {
+        "id": 2,
+        "title": "Implement component logic",
+        "completed": true,
+        "completedDate": "2024-10-25"
+      },
+      {
+        "id": 3,
+        "title": "Ensure WCAG compliance",
+        "completed": true,
+        "completedDate": "2024-11-04"
+      }
+    ],
+    "notes": "Component is now widely used across the application.",
+    "lastUpdated": "2024-11-05"
+  },
+  {
+    "id": "GOAL-2025-023",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Technical Spike: GraphQL Evaluation",
+    "description": "Investigate the feasibility of adopting GraphQL for new APIs.",
+    "priority": "low",
+    "status": "in_progress",
+    "startDate": "2025-08-20",
+    "dueDate": "2025-09-05",
+    "completedDate": null,
+    "progress": 30,
+    "category": "Research",
+    "skills": ["GraphQL", "API Design", "Research"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Build a proof-of-concept server",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Compare performance with REST",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Present findings to the team",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Currently building the PoC with Apollo Server.",
+    "lastUpdated": "2025-08-24"
+  },
+  {
+    "id": "GOAL-2025-024",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Upgrade Node.js Version",
+    "description": "Upgrade the backend services from Node.js v16 to the latest LTS version (v20).",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2025-07-01",
+    "dueDate": "2025-07-15",
+    "completedDate": "2025-07-10",
+    "progress": 100,
+    "category": "DevOps",
+    "skills": ["Node.js", "NPM", "Regression Testing"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Update dependencies",
+        "completed": true,
+        "completedDate": "2025-07-03"
+      },
+      {
+        "id": 2,
+        "title": "Run regression test suite",
+        "completed": true,
+        "completedDate": "2025-07-08"
+      },
+      {
+        "id": 3,
+        "title": "Deploy to production",
+        "completed": true,
+        "completedDate": "2025-07-10"
+      }
+    ],
+    "notes": "Upgrade completed successfully with no major issues.",
+    "lastUpdated": "2025-07-10"
+  },
+  {
+    "id": "GOAL-2025-025",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Peer Review Code Submissions",
+    "description": "Actively participate in code reviews for team members, providing constructive feedback.",
+    "priority": "low",
+    "status": "in_progress",
+    "startDate": "2025-01-01",
+    "dueDate": "2025-12-31",
+    "completedDate": null,
+    "progress": 65,
+    "category": "Professional Development",
+    "skills": ["Code Review", "Communication", "Mentorship"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Review 20 PRs",
+        "completed": true,
+        "completedDate": "2025-04-10"
+      },
+      {
+        "id": 2,
+        "title": "Review 40 PRs",
+        "completed": true,
+        "completedDate": "2025-08-01"
+      },
+      {
+        "id": 3,
+        "title": "Review 60 PRs",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Ongoing goal. Providing valuable feedback to the team.",
+    "lastUpdated": "2025-08-22"
+  },
+  {
+    "id": "GOAL-2025-026",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Learn TypeScript",
+    "description": "Gain proficiency in TypeScript and migrate a small service from JavaScript.",
+    "priority": "medium",
+    "status": "pending",
+    "startDate": "2025-10-01",
+    "dueDate": "2025-11-15",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Learning",
+    "skills": ["TypeScript", "JavaScript"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Complete online course",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Convert utility library to TS",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Present benefits to team",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Have selected a course on Udemy to start with.",
+    "lastUpdated": "2025-08-19"
+  },
+  {
+    "id": "GOAL-2025-027",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement Feature Flags",
+    "description": "Integrate a feature flag system to allow for safer, incremental feature rollouts.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-08-05",
+    "dueDate": "2025-09-01",
+    "completedDate": null,
+    "progress": 50,
+    "category": "Technical Development",
+    "skills": ["React", "DevOps", "LaunchDarkly"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Integrate LaunchDarkly SDK",
+        "completed": true,
+        "completedDate": "2025-08-15"
+      },
+      {
+        "id": 2,
+        "title": "Wrap new feature in a flag",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Train team on usage",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "SDK is integrated on both frontend and backend.",
+    "lastUpdated": "2025-08-20"
+  },
+  {
+    "id": "GOAL-2025-028",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "On-call Duty Training",
+    "description": "Shadow a senior engineer during their on-call rotation to learn troubleshooting procedures.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2025-06-01",
+    "dueDate": "2025-06-30",
+    "completedDate": "2025-06-28",
+    "progress": 100,
+    "category": "Professional Development",
+    "skills": ["Troubleshooting", "Monitoring", "PagerDuty"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Review runbooks",
+        "completed": true,
+        "completedDate": "2025-06-05"
+      },
+      {
+        "id": 2,
+        "title": "Shadow two on-call shifts",
+        "completed": true,
+        "completedDate": "2025-06-20"
+      },
+      {
+        "id": 3,
+        "title": "Handle a mock incident",
+        "completed": true,
+        "completedDate": "2025-06-27"
+      }
+    ],
+    "notes": "Successfully resolved the mock incident and demonstrated good problem-solving skills.",
+    "lastUpdated": "2025-06-28"
+  },
+  {
+    "id": "GOAL-2025-029",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Improve API Documentation",
+    "description": "Update and improve the existing API documentation using Swagger/OpenAPI.",
+    "priority": "low",
+    "status": "pending",
+    "startDate": "2025-12-01",
+    "dueDate": "2025-12-31",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Documentation",
+    "skills": ["Swagger", "OpenAPI", "Technical Writing"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Audit existing documentation",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Update endpoints",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Automate doc generation",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "This is a low-priority task for the end of the year.",
+    "lastUpdated": "2025-08-01"
+  },
+  {
+    "id": "GOAL-2025-030",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Fix Security Vulnerabilities",
+    "description": "Address the medium-severity vulnerabilities identified in the latest Snyk scan.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-08-22",
+    "dueDate": "2025-08-29",
+    "completedDate": null,
+    "progress": 40,
+    "category": "Security",
+    "skills": ["Security", "NPM", "Snyk"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Update vulnerable packages",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Run tests to ensure no breaking changes",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Deploy patch",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Working on updating dependencies. One package has breaking changes.",
+    "lastUpdated": "2025-08-24"
+  },
+  {
+    "id": "GOAL-2025-031",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Set up a Staging Environment",
+    "description": "Create a new staging environment that mirrors production for better pre-release testing.",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2024-09-01",
+    "dueDate": "2024-10-01",
+    "completedDate": "2024-09-25",
+    "progress": 100,
+    "category": "DevOps",
+    "skills": ["AWS", "Terraform", "Docker", "Infrastructure as Code"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Write Terraform scripts",
+        "completed": true,
+        "completedDate": "2024-09-10"
+      },
+      {
+        "id": 2,
+        "title": "Provision infrastructure on AWS",
+        "completed": true,
+        "completedDate": "2024-09-18"
+      },
+      {
+        "id": 3,
+        "title": "Deploy application and test",
+        "completed": true,
+        "completedDate": "2024-09-25"
+      }
+    ],
+    "notes": "Staging environment is now fully operational and integrated into the CI/CD pipeline.",
+    "lastUpdated": "2024-09-25"
+  },
+  {
+    "id": "GOAL-2025-032",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Accessibility Audit for Frontend",
+    "description": "Perform an accessibility audit of the main application and fix any critical issues found.",
+    "priority": "medium",
+    "status": "in_progress",
+    "startDate": "2025-07-20",
+    "dueDate": "2025-08-20",
+    "completedDate": null,
+    "progress": 90,
+    "category": "Technical Development",
+    "skills": ["Accessibility", "WCAG", "React", "HTML"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Run automated audit tools",
+        "completed": true,
+        "completedDate": "2025-07-25"
+      },
+      {
+        "id": 2,
+        "title": "Manually test keyboard navigation",
+        "completed": true,
+        "completedDate": "2025-08-05"
+      },
+      {
+        "id": 3,
+        "title": "Fix critical color contrast issues",
+        "completed": true,
+        "completedDate": "2025-08-15"
+      },
+      {
+        "id": 4,
+        "title": "Add ARIA labels where needed",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Almost complete. Final touches being added to ARIA labels.",
+    "lastUpdated": "2025-08-18"
+  },
+  {
+    "id": "GOAL-2025-033",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Develop a Data Export Feature",
+    "description": "Create a feature that allows users to export their data as a CSV file.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2025-03-20",
+    "dueDate": "2025-04-20",
+    "completedDate": "2025-04-18",
+    "progress": 100,
+    "category": "Backend Development",
+    "skills": ["Node.js", "CSV", "Data Processing"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Implement backend CSV generation",
+        "completed": true,
+        "completedDate": "2025-04-05"
+      },
+      {
+        "id": 2,
+        "title": "Add frontend download button",
+        "completed": true,
+        "completedDate": "2025-04-12"
+      },
+      {
+        "id": 3,
+        "title": "Test with large datasets",
+        "completed": true,
+        "completedDate": "2025-04-17"
+      }
+    ],
+    "notes": "Feature is working well and has been released to users.",
+    "lastUpdated": "2025-04-18"
+  },
+  {
+    "id": "GOAL-2025-034",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Investigate Micro-frontend Architecture",
+    "description": "Research micro-frontend architecture and create a proposal for its potential use.",
+    "priority": "low",
+    "status": "pending",
+    "startDate": "2026-01-10",
+    "dueDate": "2026-02-10",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Research",
+    "skills": ["Micro-frontends", "Webpack", "React", "Architecture"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Build a small PoC",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Document pros and cons",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Present proposal to the team",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Scheduled for early next year.",
+    "lastUpdated": "2025-08-12"
+  },
+  {
+    "id": "GOAL-2025-035",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Load Testing for Checkout API",
+    "description": "Perform load testing on the checkout API to ensure it can handle peak traffic.",
+    "priority": "high",
+    "status": "overdue",
+    "startDate": "2025-04-01",
+    "dueDate": "2025-04-15",
+    "completedDate": null,
+    "progress": 80,
+    "category": "Quality Assurance",
+    "skills": ["JMeter", "Performance Testing", "API"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Write JMeter test plan",
+        "completed": true,
+        "completedDate": "2025-04-05"
+      },
+      {
+        "id": 2,
+        "title": "Execute tests and gather metrics",
+        "completed": true,
+        "completedDate": "2025-04-12"
+      },
+      {
+        "id": 3,
+        "title": "Analyze results and report bottlenecks",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Testing was blocked by an environment outage. Analysis is now in progress.",
+    "lastUpdated": "2025-04-20"
+  },
+  {
+    "id": "GOAL-2025-036",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement Internationalization (i18n)",
+    "description": "Add support for multiple languages in the React frontend using react-i18next.",
+    "priority": "medium",
+    "status": "in_progress",
+    "startDate": "2025-08-10",
+    "dueDate": "2025-09-30",
+    "completedDate": null,
+    "progress": 35,
+    "category": "Technical Development",
+    "skills": ["React", "i18n", "JavaScript"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Integrate react-i18next library",
+        "completed": true,
+        "completedDate": "2025-08-20"
+      },
+      {
+        "id": 2,
+        "title": "Extract strings to translation files",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Implement language switcher UI",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Library is integrated. Currently extracting English strings from the main components.",
+    "lastUpdated": "2025-08-23"
+  },
+  {
+    "id": "GOAL-2025-037",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Set up Database Backups",
+    "description": "Configure automated daily backups for the production PostgreSQL database.",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2025-02-10",
+    "dueDate": "2025-02-20",
+    "completedDate": "2025-02-18",
+    "progress": 100,
+    "category": "Database Management",
+    "skills": ["PostgreSQL", "AWS S3", "Cron", "Bash Scripting"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Write backup script",
+        "completed": true,
+        "completedDate": "2025-02-12"
+      },
+      {
+        "id": 2,
+        "title": "Set up cron job on server",
+        "completed": true,
+        "completedDate": "2025-02-15"
+      },
+      {
+        "id": 3,
+        "title": "Test restore process",
+        "completed": true,
+        "completedDate": "2025-02-18"
+      }
+    ],
+    "notes": "Daily backups are running successfully and stored securely in S3.",
+    "lastUpdated": "2025-02-18"
+  },
+  {
+    "id": "GOAL-2025-038",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Create a Tech Talk Presentation",
+    "description": "Prepare and deliver a tech talk to the engineering team on a topic of choice.",
+    "priority": "low",
+    "status": "pending",
+    "startDate": "2025-11-01",
+    "dueDate": "2025-11-30",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Professional Development",
+    "skills": ["Public Speaking", "Presentation Skills"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Choose a topic and create outline",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Create slides",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Deliver presentation",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Considering a topic on 'The Event Loop in Node.js'.",
+    "lastUpdated": "2025-08-20"
+  },
+  {
+    "id": "GOAL-2025-039",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Refactor CSS to Styled-Components",
+    "description": "Migrate the frontend from traditional CSS files to using styled-components for better modularity.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2024-11-15",
+    "dueDate": "2025-01-15",
+    "completedDate": "2025-01-10",
+    "progress": 100,
+    "category": "Technical Development",
+    "skills": ["React", "CSS-in-JS", "Styled-Components", "CSS"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Migrate core layout components",
+        "completed": true,
+        "completedDate": "2024-12-05"
+      },
+      {
+        "id": 2,
+        "title": "Migrate dashboard components",
+        "completed": true,
+        "completedDate": "2024-12-20"
+      },
+      {
+        "id": 3,
+        "title": "Remove old CSS files",
+        "completed": true,
+        "completedDate": "2025-01-09"
+      }
+    ],
+    "notes": "Migration complete, resulting in a much cleaner and more maintainable codebase.",
+    "lastUpdated": "2025-01-10"
+  },
+  {
+    "id": "GOAL-2025-040",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Set up Monitoring and Alerting",
+    "description": "Implement monitoring for key application metrics and set up alerts for critical issues.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-08-01",
+    "dueDate": "2025-08-30",
+    "completedDate": null,
+    "progress": 60,
+    "category": "DevOps",
+    "skills": ["Prometheus", "Grafana", "Alertmanager"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Deploy Prometheus and Grafana",
+        "completed": true,
+        "completedDate": "2025-08-10"
+      },
+      {
+        "id": 2,
+        "title": "Instrument backend with custom metrics",
+        "completed": true,
+        "completedDate": "2025-08-20"
+      },
+      {
+        "id": 3,
+        "title": "Configure alerting rules in Alertmanager",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Instrumentation is complete. Now defining rules for CPU usage and API error rates.",
+    "lastUpdated": "2025-08-22"
+  },
+  {
+    "id": "GOAL-2025-041",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Create Internal Tool for Customer Support",
+    "description": "Develop a small internal web application to help the customer support team look up user data.",
+    "priority": "medium",
+    "status": "pending",
+    "startDate": "2025-09-15",
+    "dueDate": "2025-11-01",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Full-stack Development",
+    "skills": ["React", "Node.js", "SQL", "HTML", "CSS"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Gather requirements from support team",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Build backend API",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Build frontend interface",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 4,
+        "title": "Deploy and train users",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Requirements gathering meeting is scheduled for next month.",
+    "lastUpdated": "2025-08-24"
+  },
+  {
+    "id": "GOAL-2025-042",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Write Unit Tests for Payment Service",
+    "description": "Increase the unit test coverage for the critical payment service from 60% to over 90%.",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2025-05-15",
+    "dueDate": "2025-06-15",
+    "completedDate": "2025-06-12",
+    "progress": 100,
+    "category": "Quality Assurance",
+    "skills": ["Jest", "Node.js", "Testing", "Mocking"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Identify untested code paths",
+        "completed": true,
+        "completedDate": "2025-05-20"
+      },
+      {
+        "id": 2,
+        "title": "Write tests for core logic",
+        "completed": true,
+        "completedDate": "2025-06-01"
+      },
+      {
+        "id": 3,
+        "title": "Write tests for edge cases and error handling",
+        "completed": true,
+        "completedDate": "2025-06-10"
+      }
+    ],
+    "notes": "Test coverage for the payment service is now at 92%.",
+    "lastUpdated": "2025-06-12"
+  },
+  {
+    "id": "GOAL-2025-043",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Optimize SQL Queries",
+    "description": "Analyze and optimize slow-running SQL queries in the reporting module.",
+    "priority": "medium",
+    "status": "in_progress",
+    "startDate": "2025-08-18",
+    "dueDate": "2025-09-10",
+    "completedDate": null,
+    "progress": 50,
+    "category": "Database Management",
+    "skills": ["SQL", "PostgreSQL", "Performance Tuning", "Query Optimization"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Identify slow queries using pg_stat_statements",
+        "completed": true,
+        "completedDate": "2025-08-22"
+      },
+      {
+        "id": 2,
+        "title": "Use EXPLAIN ANALYZE to find bottlenecks",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Add necessary indexes and rewrite queries",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Identified two queries that are causing performance issues. Now analyzing their execution plans.",
+    "lastUpdated": "2025-08-24"
+  },
+  {
+    "id": "GOAL-2025-044",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Technical Debt Pay-down",
+    "description": "Allocate time to address known technical debt issues in the legacy user service.",
+    "priority": "low",
+    "status": "in_progress",
+    "startDate": "2025-07-01",
+    "dueDate": "2025-09-01",
+    "completedDate": null,
+    "progress": 20,
+    "category": "Maintenance",
+    "skills": ["Refactoring", "Code Quality"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Improve code documentation",
+        "completed": true,
+        "completedDate": "2025-07-15"
+      },
+      {
+        "id": 2,
+        "title": "Refactor large functions",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Add missing unit tests",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Ongoing effort during downtime. Documentation has been improved.",
+    "lastUpdated": "2025-08-05"
+  },
+  {
+    "id": "GOAL-2025-045",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Containerize the Application",
+    "description": "Create Dockerfiles and a docker-compose setup for the entire application stack for easier local development.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2024-12-01",
+    "dueDate": "2024-12-20",
+    "completedDate": "2024-12-18",
+    "progress": 100,
+    "category": "DevOps",
+    "skills": ["Docker", "Docker Compose"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Create Dockerfile for backend",
+        "completed": true,
+        "completedDate": "2024-12-05"
+      },
+      {
+        "id": 2,
+        "title": "Create Dockerfile for frontend",
+        "completed": true,
+        "completedDate": "2024-12-10"
+      },
+      {
+        "id": 3,
+        "title": "Create docker-compose.yml to link services",
+        "completed": true,
+        "completedDate": "2024-12-18"
+      }
+    ],
+    "notes": "The entire team has now adopted the Docker setup for local development, saving significant setup time.",
+    "lastUpdated": "2024-12-18"
+  },
+  {
+    "id": "GOAL-2025-046",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement an Emailing Service",
+    "description": "Develop a microservice responsible for sending transactional emails (e.g., welcome emails, password resets).",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2025-06-20",
+    "dueDate": "2025-07-20",
+    "completedDate": "2025-07-18",
+    "progress": 100,
+    "category": "Backend Development",
+    "skills": ["Node.js", "Microservices", "RabbitMQ", "SendGrid"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Set up message queue with RabbitMQ",
+        "completed": true,
+        "completedDate": "2025-06-30"
+      },
+      {
+        "id": 2,
+        "title": "Create worker service to consume messages",
+        "completed": true,
+        "completedDate": "2025-07-10"
+      },
+      {
+        "id": 3,
+        "title": "Integrate with SendGrid API",
+        "completed": true,
+        "completedDate": "2025-07-15"
+      }
+    ],
+    "notes": "Email service is live and reliably sending all transactional emails.",
+    "lastUpdated": "2025-07-18"
+  },
+  {
+    "id": "GOAL-2025-047",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "State Management with Redux",
+    "description": "Refactor the frontend to use Redux for more predictable and centralized state management.",
+    "priority": "medium",
+    "status": "pending",
+    "startDate": "2025-10-15",
+    "dueDate": "2025-12-15",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Technical Development",
+    "skills": ["React", "Redux", "State Management"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Set up Redux store and slices",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Migrate user authentication state",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Migrate dashboard data state",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "This major refactor is planned for Q4.",
+    "lastUpdated": "2025-08-15"
+  },
+  {
+    "id": "GOAL-2025-048",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Mentor a New Intern",
+    "description": "Provide guidance and support to a newly joined intern, helping them get up to speed.",
+    "priority": "low",
+    "status": "in_progress",
+    "startDate": "2025-08-01",
+    "dueDate": "2025-10-31",
+    "completedDate": null,
+    "progress": 30,
+    "category": "Professional Development",
+    "skills": ["Mentorship", "Communication", "Leadership"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Help with development environment setup",
+        "completed": true,
+        "completedDate": "2025-08-07"
+      },
+      {
+        "id": 2,
+        "title": "Pair program on their first ticket",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Conduct weekly check-ins",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "New intern is now set up. Pair programming session scheduled for next week.",
+    "lastUpdated": "2025-08-21"
+  },
+  {
+    "id": "GOAL-2025-049",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Database Schema Design",
+    "description": "Design the database schema for the upcoming 'Projects' feature.",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2025-08-01",
+    "dueDate": "2025-08-15",
+    "completedDate": "2025-08-14",
+    "progress": 100,
+    "category": "Database Management",
+    "skills": ["SQL", "Database Design", "Data Modeling"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Gather requirements",
+        "completed": true,
+        "completedDate": "2025-08-04"
+      },
+      {
+        "id": 2,
+        "title": "Create ERD and data dictionary",
+        "completed": true,
+        "completedDate": "2025-08-10"
+      },
+      {
+        "id": 3,
+        "title": "Get approval from team lead",
+        "completed": true,
+        "completedDate": "2025-08-14"
+      }
+    ],
+    "notes": "The schema has been approved and is ready for implementation.",
+    "lastUpdated": "2025-08-14"
+  },
+  {
+    "id": "GOAL-2025-050",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Bug Triage and Prioritization",
+    "description": "Take ownership of the bug backlog, triaging new issues and helping to prioritize them for upcoming sprints.",
+    "priority": "medium",
+    "status": "overdue",
+    "startDate": "2025-07-01",
+    "dueDate": "2025-07-31",
+    "completedDate": null,
+    "progress": 85,
+    "category": "Project Management",
+    "skills": ["JIRA", "Prioritization", "Communication"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Review and reproduce all new bugs for July",
+        "completed": true,
+        "completedDate": "2025-07-25"
+      },
+      {
+        "id": 2,
+        "title": "Host a backlog grooming session",
+        "completed": true,
+        "completedDate": "2025-07-28"
+      },
+      {
+        "id": 3,
+        "title": "Clear out stale/old bug reports",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Most bugs have been triaged. Last step of clearing old reports was delayed due to a production issue.",
+    "lastUpdated": "2025-08-05"
+  },
+  {
+    "id": "GOAL-2025-051",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Explore Serverless Architecture",
+    "description": "Build a proof-of-concept API using AWS Lambda and API Gateway.",
+    "priority": "low",
+    "status": "pending",
+    "startDate": "2026-02-15",
+    "dueDate": "2026-03-15",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Research",
+    "skills": ["AWS Lambda", "Serverless", "API Gateway"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Write a simple Lambda function",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Configure API Gateway trigger",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Compare costs to current EC2 setup",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "A future task to explore modern cloud architectures.",
+    "lastUpdated": "2025-08-10"
+  },
+  {
+    "id": "GOAL-2025-052",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement API Rate Limiting",
+    "description": "Add rate limiting to public-facing APIs to prevent abuse and ensure stability.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-08-15",
+    "dueDate": "2025-09-05",
+    "completedDate": null,
+    "progress": 70,
+    "category": "Backend Development",
+    "skills": ["Node.js", "Express", "Redis", "Security"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Choose and implement a rate-limiting library",
+        "completed": true,
+        "completedDate": "2025-08-22"
+      },
+      {
+        "id": 2,
+        "title": "Apply middleware to relevant API routes",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Perform tests to verify limits",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Using 'express-rate-limit' with a Redis store. Now applying the middleware to routes.",
+    "lastUpdated": "2025-08-24"
+  },
+  {
+    "id": "GOAL-2025-053",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Create a Postman Collection for APIs",
+    "description": "Develop a comprehensive Postman collection for all backend APIs to aid in testing and onboarding.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2025-04-01",
+    "dueDate": "2025-04-30",
+    "completedDate": "2025-04-25",
+    "progress": 100,
+    "category": "Documentation",
+    "skills": ["Postman", "API", "Testing"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Document authentication endpoints",
+        "completed": true,
+        "completedDate": "2025-04-10"
+      },
+      {
+        "id": 2,
+        "title": "Document user and profile endpoints",
+        "completed": true,
+        "completedDate": "2025-04-20"
+      },
+      {
+        "id": 3,
+        "title": "Share collection with the team",
+        "completed": true,
+        "completedDate": "2025-04-25"
+      }
+    ],
+    "notes": "The collection is now the standard for manual API testing within the team.",
+    "lastUpdated": "2025-04-25"
+  },
+  {
+    "id": "GOAL-2025-054",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Set up GitHub Actions for Linting",
+    "description": "Create a GitHub Actions workflow to automatically run the linter on every pull request.",
+    "priority": "medium",
+    "status": "completed",
+    "startDate": "2025-01-20",
+    "dueDate": "2025-01-30",
+    "completedDate": "2025-01-28",
+    "progress": 100,
+    "category": "DevOps",
+    "skills": ["GitHub Actions", "CI/CD", "Linting", "YAML"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Write workflow YAML file",
+        "completed": true,
+        "completedDate": "2025-01-24"
+      },
+      {
+        "id": 2,
+        "title": "Test the action on a feature branch",
+        "completed": true,
+        "completedDate": "2025-01-27"
+      },
+      {
+        "id": 3,
+        "title": "Merge into main branch",
+        "completed": true,
+        "completedDate": "2025-01-28"
+      }
+    ],
+    "notes": "Workflow is running successfully, improving code quality automatically.",
+    "lastUpdated": "2025-01-28"
+  },
+  {
+    "id": "GOAL-2025-055",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Develop a Form Builder Component",
+    "description": "Create a dynamic, configuration-based form builder component in React.",
+    "priority": "high",
+    "status": "in_progress",
+    "startDate": "2025-07-10",
+    "dueDate": "2025-09-10",
+    "completedDate": null,
+    "progress": 40,
+    "category": "Technical Development",
+    "skills": ["React", "JavaScript", "Component Design"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Design the JSON configuration structure",
+        "completed": true,
+        "completedDate": "2025-07-25"
+      },
+      {
+        "id": 2,
+        "title": "Implement basic input field rendering",
+        "completed": true,
+        "completedDate": "2025-08-15"
+      },
+      {
+        "id": 3,
+        "title": "Add validation logic",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Basic rendering from a JSON config is working. Now implementing validation rules.",
+    "lastUpdated": "2025-08-20"
+  },
+  {
+    "id": "GOAL-2025-056",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Incident Post-mortem Leadership",
+    "description": "Lead the post-mortem meeting for the next production incident, documenting root causes and action items.",
+    "priority": "medium",
+    "status": "pending",
+    "startDate": "2025-09-01",
+    "dueDate": "2025-12-31",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Professional Development",
+    "skills": ["Incident Management", "Leadership", "Root Cause Analysis"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Facilitate post-mortem meeting",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Write post-mortem document",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Track action items to completion",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Awaiting the next incident to take the lead on this process.",
+    "lastUpdated": "2025-08-17"
+  },
+  {
+    "id": "GOAL-2025-057",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement a Dark Mode Theme",
+    "description": "Add a dark mode theme to the frontend application, allowing users to switch between light and dark modes.",
+    "priority": "low",
+    "status": "completed",
+    "startDate": "2025-03-01",
+    "dueDate": "2025-04-01",
+    "completedDate": "2025-03-25",
+    "progress": 100,
+    "category": "UI/UX Development",
+    "skills": ["React", "CSS", "UI/UX"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Create dark theme color palette",
+        "completed": true,
+        "completedDate": "2025-03-08"
+      },
+      {
+        "id": 2,
+        "title": "Implement theme switching logic",
+        "completed": true,
+        "completedDate": "2025-03-18"
+      },
+      {
+        "id": 3,
+        "title": "Test all components in both themes",
+        "completed": true,
+        "completedDate": "2025-03-24"
+      }
+    ],
+    "notes": "Dark mode has been successfully launched and received positive user feedback.",
+    "lastUpdated": "2025-03-25"
+  },
+  {
+    "id": "GOAL-2025-058",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "System Design Documentation",
+    "description": "Create a high-level system design document for the current application architecture.",
+    "priority": "medium",
+    "status": "in_progress",
+    "startDate": "2025-08-10",
+    "dueDate": "2025-09-10",
+    "completedDate": null,
+    "progress": 60,
+    "category": "Documentation",
+    "skills": [
+      "System Design",
+      "Architecture",
+      "Technical Writing",
+      "Diagramming"
+    ],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Create C4 model diagrams",
+        "completed": true,
+        "completedDate": "2025-08-20"
+      },
+      {
+        "id": 2,
+        "title": "Document data flow",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Describe deployment process",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "Architectural diagrams are complete. Now documenting the request/response data flow.",
+    "lastUpdated": "2025-08-23"
+  },
+  {
+    "id": "GOAL-2025-059",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Implement Health Check Endpoint",
+    "description": "Create a /health endpoint on all microservices for automated monitoring and service discovery.",
+    "priority": "high",
+    "status": "completed",
+    "startDate": "2025-02-01",
+    "dueDate": "2025-02-10",
+    "completedDate": "2025-02-08",
+    "progress": 100,
+    "category": "DevOps",
+    "skills": ["Node.js", "Microservices", "Monitoring"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Add endpoint to user service",
+        "completed": true,
+        "completedDate": "2025-02-04"
+      },
+      {
+        "id": 2,
+        "title": "Add endpoint to payment service",
+        "completed": true,
+        "completedDate": "2025-02-06"
+      },
+      {
+        "id": 3,
+        "title": "Configure load balancer to use endpoint",
+        "completed": true,
+        "completedDate": "2025-02-08"
+      }
+    ],
+    "notes": "All services now report their health status, improving the reliability of deployments.",
+    "lastUpdated": "2025-02-08"
+  },
+  {
+    "id": "GOAL-2025-060",
+    "internId": "INT-2025-001",
+    "internName": "Kavindu Perera",
+    "title": "Final Internship Presentation",
+    "description": "Prepare and deliver a final presentation summarizing all work, projects, and learnings from the internship period.",
+    "priority": "high",
+    "status": "pending",
+    "startDate": "2025-12-01",
+    "dueDate": "2025-12-15",
+    "completedDate": null,
+    "progress": 0,
+    "category": "Professional Development",
+    "skills": ["Public Speaking", "Presentation Skills", "Summarization"],
+    "supervisor": "Dr. Kumara Jayasuriya",
+    "company": "Tech Solutions Ltd.",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Gather all project summaries",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 2,
+        "title": "Create presentation slides",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 3,
+        "title": "Rehearse presentation",
+        "completed": false,
+        "completedDate": null
+      },
+      {
+        "id": 4,
+        "title": "Deliver final presentation to stakeholders",
+        "completed": false,
+        "completedDate": null
+      }
+    ],
+    "notes": "The culmination of the entire internship period. To be started at the end of the year.",
+    "lastUpdated": "2025-08-20"
+  }
+]
