@@ -30,6 +30,7 @@ import CoordinatorEvaluations from "./pages/CordinatorPages/CoordinatorEvaluatio
 import CoordinatorReportsPage from "./pages/CordinatorPages/CoordinatorReportsPage";
 import CoordinatorGoalsPage from "./pages/CoordinatorPages/CoordinatorGoalsPage";
 import CoordinatorSchedulePage from "./pages/CoordinatorPages/CoordinatorSchedulePage";
+import CoordinatorUpdateProfile from "./pages/CoordinatorPages/CoordinatorUpdateProfile";
 
 export const router = createBrowserRouter([
   {
@@ -155,6 +156,10 @@ export const router = createBrowserRouter([
       {
         path: "schedule",
         element: <CoordinatorSchedulePage />,
+      },
+      {
+        path: "update-profile",
+        element: <CoordinatorUpdateProfile />,
       },
     ],
   },

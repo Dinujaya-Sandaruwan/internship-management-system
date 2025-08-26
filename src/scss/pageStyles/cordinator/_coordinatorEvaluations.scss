@@ -3,6 +3,7 @@
 
 .coordinator-evaluations {
   display: block;
+  min-height: 100vh;
 
   .dashboard__main {
     flex: 1;
@@ -21,7 +22,6 @@
       padding: g.rem(12);
     }
   }
-  min-height: 100vh;
 
   // Header section - matching dashboard pattern
   .dashboard__header {
