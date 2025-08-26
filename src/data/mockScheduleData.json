@@ -1,0 +1,249 @@
+{
+  "coordinatorEvents": [
+    {
+      "id": "coord-1",
+      "title": "Weekly Team Meeting",
+      "description": "Regular team sync meeting with all supervisors",
+      "date": "2024-01-15",
+      "time": "09:00",
+      "type": "meeting",
+      "location": "Conference Room A"
+    },
+    {
+      "id": "coord-2",
+      "title": "Intern Evaluation Review",
+      "description": "Review quarterly evaluation reports",
+      "date": "2024-01-18",
+      "time": "14:00",
+      "type": "deadline",
+      "location": "Office 201"
+    },
+    {
+      "id": "coord-3",
+      "title": "Department Head Meeting",
+      "description": "Monthly meeting with department heads",
+      "date": "2024-01-22",
+      "time": "10:30",
+      "type": "meeting",
+      "location": "Board Room"
+    },
+    {
+      "id": "coord-4",
+      "title": "Lunch Break",
+      "description": "Personal lunch appointment",
+      "date": "2024-01-16",
+      "time": "12:00",
+      "type": "personal",
+      "location": "Restaurant Downtown"
+    },
+    {
+      "id": "coord-5",
+      "title": "Budget Planning Session",
+      "description": "Q2 budget planning for internship program",
+      "date": "2024-01-25",
+      "time": "15:00",
+      "type": "other",
+      "location": "Finance Office"
+    },
+    {
+      "id": "coord-6",
+      "title": "Intern Orientation Prep",
+      "description": "Prepare materials for new intern orientation",
+      "date": "2024-01-19",
+      "time": "11:00",
+      "type": "deadline",
+      "location": "Office 201"
+    },
+    {
+      "id": "coord-7",
+      "title": "University Partnership Meeting",
+      "description": "Discuss partnership agreements with university representatives",
+      "date": "2024-01-29",
+      "time": "13:30",
+      "type": "meeting",
+      "location": "Conference Room B"
+    }
+  ],
+  "internEvents": {
+    "john-doe": [
+      {
+        "id": "intern-1-1",
+        "title": "Project Presentation",
+        "description": "Present Q1 project progress to team",
+        "date": "2024-01-17",
+        "time": "10:00",
+        "type": "meeting",
+        "location": "Conference Room A",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-1-2",
+        "title": "Training Session",
+        "description": "Advanced React training workshop",
+        "date": "2024-01-20",
+        "time": "14:00",
+        "type": "other",
+        "location": "Training Room 1",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-1-3",
+        "title": "Code Review",
+        "description": "Weekly code review with supervisor",
+        "date": "2024-01-23",
+        "time": "11:00",
+        "type": "meeting",
+        "location": "Dev Team Room",
+        "addedBy": "supervisor"
+      },
+      {
+        "id": "intern-1-4",
+        "title": "Report Submission",
+        "description": "Submit weekly progress report",
+        "date": "2024-01-26",
+        "time": "17:00",
+        "type": "deadline",
+        "location": "Online",
+        "addedBy": "coordinator"
+      }
+    ],
+    "jane-smith": [
+      {
+        "id": "intern-2-1",
+        "title": "Client Meeting",
+        "description": "Attend client requirements gathering meeting",
+        "date": "2024-01-16",
+        "time": "09:30",
+        "type": "meeting",
+        "location": "Client Office",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-2-2",
+        "title": "Database Design Workshop",
+        "description": "Learn database design best practices",
+        "date": "2024-01-21",
+        "time": "13:00",
+        "type": "other",
+        "location": "Training Room 2",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-2-3",
+        "title": "Mid-term Evaluation",
+        "description": "Mid-term performance evaluation",
+        "date": "2024-01-24",
+        "time": "15:30",
+        "type": "deadline",
+        "location": "HR Office",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-2-4",
+        "title": "Team Building Activity",
+        "description": "Department team building event",
+        "date": "2024-01-27",
+        "time": "16:00",
+        "type": "personal",
+        "location": "Recreation Center",
+        "addedBy": "coordinator"
+      }
+    ],
+    "mike-johnson": [
+      {
+        "id": "intern-3-1",
+        "title": "API Development Review",
+        "description": "Review API development progress",
+        "date": "2024-01-18",
+        "time": "10:30",
+        "type": "meeting",
+        "location": "Dev Team Room",
+        "addedBy": "supervisor"
+      },
+      {
+        "id": "intern-3-2",
+        "title": "Security Training",
+        "description": "Cybersecurity awareness training",
+        "date": "2024-01-22",
+        "time": "14:30",
+        "type": "other",
+        "location": "Training Room 1",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-3-3",
+        "title": "Documentation Deadline",
+        "description": "Complete project documentation",
+        "date": "2024-01-25",
+        "time": "18:00",
+        "type": "deadline",
+        "location": "Online",
+        "addedBy": "coordinator"
+      }
+    ],
+    "sarah-wilson": [
+      {
+        "id": "intern-4-1",
+        "title": "UX Design Review",
+        "description": "Review user interface designs with design team",
+        "date": "2024-01-19",
+        "time": "11:30",
+        "type": "meeting",
+        "location": "Design Studio",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-4-2",
+        "title": "Accessibility Workshop",
+        "description": "Learn web accessibility best practices",
+        "date": "2024-01-23",
+        "time": "13:30",
+        "type": "other",
+        "location": "Training Room 2",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-4-3",
+        "title": "Portfolio Review",
+        "description": "Review and update professional portfolio",
+        "date": "2024-01-28",
+        "time": "16:30",
+        "type": "personal",
+        "location": "Office 205",
+        "addedBy": "coordinator"
+      }
+    ],
+    "david-brown": [
+      {
+        "id": "intern-5-1",
+        "title": "Testing Workshop",
+        "description": "Learn automated testing frameworks",
+        "date": "2024-01-17",
+        "time": "15:00",
+        "type": "other",
+        "location": "Training Room 1",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-5-2",
+        "title": "Performance Review",
+        "description": "Quarterly performance review meeting",
+        "date": "2024-01-24",
+        "time": "09:00",
+        "type": "deadline",
+        "location": "HR Office",
+        "addedBy": "coordinator"
+      },
+      {
+        "id": "intern-5-3",
+        "title": "Deployment Training",
+        "description": "Learn CI/CD and deployment processes",
+        "date": "2024-01-30",
+        "time": "10:00",
+        "type": "other",
+        "location": "DevOps Lab",
+        "addedBy": "coordinator"
+      }
+    ]
+  }
+}

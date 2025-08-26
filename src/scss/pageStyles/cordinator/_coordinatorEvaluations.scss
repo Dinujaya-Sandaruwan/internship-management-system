@@ -65,97 +65,97 @@
 
     .dashboard__header-right {
       .header-stats {
-      display: flex;
-      gap: g.rem(16);
-      align-items: center;
-
-      @media (max-width: g.$breakpoint-md) {
-        margin-top: g.rem(16);
-        justify-content: center;
-      }
-
-      @media (max-width: g.$breakpoint-sm) {
-        flex-direction: column;
-        gap: g.rem(12);
-      }
-
-      .stat-item {
         display: flex;
+        gap: g.rem(16);
         align-items: center;
-        gap: g.rem(12);
-        padding: g.rem(16);
-        background-color: g.$color-white;
-        border-radius: g.$border-radius;
-        box-shadow: g.$shadow-small;
-        border-left: g.rem(3) solid transparent;
-        transition: all g.$transition-normal;
-        position: relative;
-        overflow: hidden;
-        min-width: g.rem(160);
 
-        &:hover {
-          transform: translateY(-2px);
-          box-shadow: g.$shadow-medium;
+        @media (max-width: g.$breakpoint-md) {
+          margin-top: g.rem(16);
+          justify-content: center;
         }
 
-        &.stat-item--primary {
-          border-left-color: g.$color-primary;
-
-          .stat-icon {
-            color: g.$color-primary;
-            background: g.$color-primary-10;
-          }
+        @media (max-width: g.$breakpoint-sm) {
+          flex-direction: column;
+          gap: g.rem(12);
         }
 
-        &.stat-item--success {
-          border-left-color: g.$color-success;
-
-          .stat-icon {
-            color: g.$color-success;
-            background: g.$color-success-10;
-          }
-        }
-
-        &.stat-item--warning {
-          border-left-color: g.$color-warning;
-
-          .stat-icon {
-            color: g.$color-warning;
-            background: g.$color-warning-10;
-          }
-        }
-
-        .stat-icon {
-          width: g.rem(28);
-          height: g.rem(28);
+        .stat-item {
           display: flex;
           align-items: center;
-          justify-content: center;
+          gap: g.rem(12);
+          padding: g.rem(16);
+          background-color: g.$color-white;
           border-radius: g.$border-radius;
-          font-size: g.$text-sm;
-        }
+          box-shadow: g.$shadow-small;
+          border-left: g.rem(3) solid transparent;
+          transition: all g.$transition-normal;
+          position: relative;
+          overflow: hidden;
+          min-width: g.rem(160);
 
-        .stat-content {
-          display: flex;
-          flex-direction: column;
-
-          .stat-number {
-            font-size: g.$text-xl;
-            font-weight: g.$weight-bold;
-            color: g.$color-text-primary;
-            line-height: 1;
+          &:hover {
+            transform: translateY(-2px);
+            box-shadow: g.$shadow-medium;
           }
 
-          .stat-label {
-            font-size: g.$text-xs;
-            color: g.$color-text-secondary;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-weight: g.$weight-medium;
-            margin-top: g.rem(2);
+          &.stat-item--primary {
+            border-left-color: g.$color-primary;
+
+            .stat-icon {
+              color: g.$color-primary;
+              background: g.$color-primary-10;
+            }
+          }
+
+          &.stat-item--success {
+            border-left-color: g.$color-success;
+
+            .stat-icon {
+              color: g.$color-success;
+              background: g.$color-success-10;
+            }
+          }
+
+          &.stat-item--warning {
+            border-left-color: g.$color-warning;
+
+            .stat-icon {
+              color: g.$color-warning;
+              background: g.$color-warning-10;
+            }
+          }
+
+          .stat-icon {
+            width: g.rem(28);
+            height: g.rem(28);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: g.$border-radius;
+            font-size: g.$text-sm;
+          }
+
+          .stat-content {
+            display: flex;
+            flex-direction: column;
+
+            .stat-number {
+              font-size: g.$text-xl;
+              font-weight: g.$weight-bold;
+              color: g.$color-text-primary;
+              line-height: 1;
+            }
+
+            .stat-label {
+              font-size: g.$text-xs;
+              color: g.$color-text-secondary;
+              text-transform: uppercase;
+              letter-spacing: 0.5px;
+              font-weight: g.$weight-medium;
+              margin-top: g.rem(2);
+            }
           }
         }
-      }
       }
     }
   }

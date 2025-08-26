@@ -29,6 +29,7 @@ import CoordinatorMyInterns from "./pages/CordinatorPages/CoordinatorMyInterns";
 import CoordinatorEvaluations from "./pages/CordinatorPages/CoordinatorEvaluations";
 import CoordinatorReportsPage from "./pages/CordinatorPages/CoordinatorReportsPage";
 import CoordinatorGoalsPage from "./pages/CoordinatorPages/CoordinatorGoalsPage";
+import CoordinatorSchedulePage from "./pages/CoordinatorPages/CoordinatorSchedulePage";
 
 export const router = createBrowserRouter([
   {
@@ -148,8 +149,12 @@ export const router = createBrowserRouter([
         element: <CoordinatorReportsPage />,
       },
       {
-        path: "goals",
+        path: "goals-tasks",
         element: <CoordinatorGoalsPage />,
+      },
+      {
+        path: "schedule",
+        element: <CoordinatorSchedulePage />,
       },
     ],
   },

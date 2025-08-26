@@ -133,7 +133,11 @@
           width: functions.rem(48);
           height: functions.rem(48);
           border-radius: 50%;
-          background: linear-gradient(135deg, colors.$color-primary, colors.$color-primary-light);
+          background: linear-gradient(
+            135deg,
+            colors.$color-primary,
+            colors.$color-primary-light
+          );
           display: flex;
           align-items: center;
           justify-content: center;
@@ -177,7 +181,11 @@
 
               .progress-fill {
                 height: 100%;
-                background: linear-gradient(90deg, colors.$color-success, colors.$color-success-light);
+                background: linear-gradient(
+                  90deg,
+                  colors.$color-success,
+                  colors.$color-success-light
+                );
                 transition: width 0.3s ease;
               }
             }
@@ -246,27 +254,51 @@
         flex-shrink: 0;
 
         &.total-icon {
-          background: linear-gradient(135deg, colors.$color-primary, colors.$color-primary-light);
+          background: linear-gradient(
+            135deg,
+            colors.$color-primary,
+            colors.$color-primary-light
+          );
         }
 
         &.completed-icon {
-          background: linear-gradient(135deg, colors.$color-success, colors.$color-success-light);
+          background: linear-gradient(
+            135deg,
+            colors.$color-success,
+            colors.$color-success-light
+          );
         }
 
         &.high-priority-icon {
-          background: linear-gradient(135deg, colors.$color-danger, colors.$color-danger-light);
+          background: linear-gradient(
+            135deg,
+            colors.$color-danger,
+            colors.$color-danger-light
+          );
         }
 
         &.overdue-icon {
-          background: linear-gradient(135deg, colors.$color-warning, colors.$color-warning-light);
+          background: linear-gradient(
+            135deg,
+            colors.$color-warning,
+            colors.$color-warning-light
+          );
         }
 
         &.intern-created-icon {
-          background: linear-gradient(135deg, colors.$color-info, colors.$color-info-light);
+          background: linear-gradient(
+            135deg,
+            colors.$color-info,
+            colors.$color-info-light
+          );
         }
 
         &.supervisor-created-icon {
-          background: linear-gradient(135deg, colors.$color-secondary, colors.$color-secondary-light);
+          background: linear-gradient(
+            135deg,
+            colors.$color-secondary,
+            colors.$color-secondary-light
+          );
         }
       }
 
@@ -385,7 +417,8 @@
         position: relative;
 
         input {
-          padding: functions.rem(10) functions.rem(16) functions.rem(10) functions.rem(40);
+          padding: functions.rem(10) functions.rem(16) functions.rem(10)
+            functions.rem(40);
           border: 1px solid colors.$color-grey-light;
           border-radius: functions.rem(8);
           font-size: functions.rem(14);

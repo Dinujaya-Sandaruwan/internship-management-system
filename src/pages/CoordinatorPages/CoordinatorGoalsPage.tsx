@@ -109,38 +109,43 @@ const CoordinatorGoalsPage: React.FC = () => {
   // Generate interns list from goals data
   const generateInternsFromGoals = () => {
     const uniqueInterns = new Map();
-    
+
     allGoals.forEach((goal) => {
-      const internId = parseInt(goal.internId.split('-')[2]);
+      const internId = parseInt(goal.internId.split("-")[2]);
       if (!uniqueInterns.has(internId)) {
-        const nameWords = goal.internName.split(' ');
-        const avatar = nameWords.map(word => word.charAt(0)).join('').toUpperCase();
-        
+        const nameWords = goal.internName.split(" ");
+        const avatar = nameWords
+          .map((word) => word.charAt(0))
+          .join("")
+          .toUpperCase();
+
         uniqueInterns.set(internId, {
           id: internId,
           name: goal.internName,
           avatar: avatar,
-          email: `${goal.internName.toLowerCase().replace(' ', '.')}@example.com`,
+          email: `${goal.internName
+            .toLowerCase()
+            .replace(" ", ".")}@example.com`,
           company: goal.company,
           position: `${goal.category} Intern`,
           department: goal.category,
           startDate: new Date(goal.startDate),
           progress: goal.progress,
           totalTasks: 1,
-          completedTasks: goal.status === 'completed' ? 1 : 0,
+          completedTasks: goal.status === "completed" ? 1 : 0,
         });
       } else {
         // Update task counts
         const intern = uniqueInterns.get(internId);
         intern.totalTasks += 1;
-        if (goal.status === 'completed') {
+        if (goal.status === "completed") {
           intern.completedTasks += 1;
         }
         // Update progress as average
         intern.progress = Math.round((intern.progress + goal.progress) / 2);
       }
     });
-    
+
     return Array.from(uniqueInterns.values());
   };
 
@@ -150,8 +155,8 @@ const CoordinatorGoalsPage: React.FC = () => {
   // Convert goals data to tasks format
   const convertGoalsToTasks = () => {
     return allGoals.map((goal) => ({
-      id: parseInt(goal.id.split('-')[2]),
-      internId: parseInt(goal.internId.split('-')[2]),
+      id: parseInt(goal.id.split("-")[2]),
+      internId: parseInt(goal.internId.split("-")[2]),
       title: goal.title,
       description: goal.description,
       priority: goal.priority as "high" | "medium" | "low",
@@ -169,7 +174,6 @@ const CoordinatorGoalsPage: React.FC = () => {
 
   // Tasks state (read-only for coordinator)
   const [tasks] = useState<Task[]>(convertGoalsToTasks());
-
 
   // Categories
   const [categories] = useState<Category[]>([
@@ -347,7 +351,9 @@ const CoordinatorGoalsPage: React.FC = () => {
       <div className="dashboard__header">
         <div className="dashboard__greeting">
           <h1 className="goals-title">Intern Goals & Tasks Overview</h1>
-          <p className="subtitle">Monitor intern progress and task completion</p>
+          <p className="subtitle">
+            Monitor intern progress and task completion
+          </p>
         </div>
         <div className="dashboard__header-right">
           <div className="dashboard__date">
@@ -837,8 +843,8 @@ const CoordinatorGoalsPage: React.FC = () => {
             <FaUsers className="no-intern-icon" />
             <h3>No Intern Selected</h3>
             <p>
-              Please select an intern from the dropdown above to view their goals
-              and tasks
+              Please select an intern from the dropdown above to view their
+              goals and tasks
             </p>
           </div>
         )}
