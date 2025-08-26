@@ -103,24 +103,18 @@ const HODSideMenu: React.FC<HODSideMenuProps> = ({
           className={`dashboard__menu-item ${
             activeMenu === "notifications" ? "active" : ""
           } ${profileCompletion < 80 ? "disabled" : ""}`}
-          onClick={() =>
-            handleMenuClick("notifications", "/hod/notifications")
-          }
+          onClick={() => handleMenuClick("notifications", "/hod/notifications")}
         >
           <FaBell className="dashboard__menu-icon" />
           <span>Notifications</span>
-          {profileCompletion >= 80 && (
-            <div className="dashboard__badge">8</div>
-          )}
+          {profileCompletion >= 80 && <div className="dashboard__badge">8</div>}
         </div>
 
         <div
           className={`dashboard__menu-item ${
             activeMenu === "internInfo" ? "active" : ""
           } ${profileCompletion < 80 ? "disabled" : ""}`}
-          onClick={() =>
-            handleMenuClick("internInfo", "/hod/intern-info")
-          }
+          onClick={() => handleMenuClick("internInfo", "/hod/intern-info")}
         >
           <FaUsers className="dashboard__menu-icon" />
           <span>Intern Info</span>

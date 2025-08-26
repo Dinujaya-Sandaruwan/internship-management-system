@@ -31,6 +31,9 @@ import CoordinatorReportsPage from "./pages/CordinatorPages/CoordinatorReportsPa
 import CoordinatorGoalsPage from "./pages/CoordinatorPages/CoordinatorGoalsPage";
 import CoordinatorSchedulePage from "./pages/CoordinatorPages/CoordinatorSchedulePage";
 import CoordinatorUpdateProfile from "./pages/CoordinatorPages/CoordinatorUpdateProfile";
+import HODLayout from "./layout/HODLayout";
+import HODDashboard from "./pages/HODPages/HODDashboard";
+import HODMessagesPage from "./pages/HODPages/HODMessagesPage";
 
 export const router = createBrowserRouter([
   {
@@ -160,6 +163,40 @@ export const router = createBrowserRouter([
       {
         path: "update-profile",
         element: <CoordinatorUpdateProfile />,
+      },
+    ],
+  },
+  {
+    path: "/hod",
+    element: <HODLayout />,
+    children: [
+      {
+        path: "dashboard",
+        element: <HODDashboard />,
+      },
+      {
+        path: "messages",
+        element: <HODMessagesPage />,
+      },
+      {
+        path: "notifications",
+        element: <div>HOD Notifications - Coming Soon</div>,
+      },
+      {
+        path: "intern-info",
+        element: <div>HOD Intern Info - Coming Soon</div>,
+      },
+      {
+        path: "supervisor-info",
+        element: <div>HOD Supervisor Info - Coming Soon</div>,
+      },
+      {
+        path: "manage-coordinators",
+        element: <div>HOD Manage Coordinators - Coming Soon</div>,
+      },
+      {
+        path: "update-profile",
+        element: <div>HOD Update Profile - Coming Soon</div>,
       },
     ],
   },
