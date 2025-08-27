@@ -34,6 +34,10 @@ import CoordinatorUpdateProfile from "./pages/CoordinatorPages/CoordinatorUpdate
 import HODLayout from "./layout/HODLayout";
 import HODDashboard from "./pages/HODPages/HODDashboard";
 import HODMessagesPage from "./pages/HODPages/HODMessagesPage";
+import HODNotificationsPage from "./pages/HODPages/HODNotificationsPage";
+import HODInternInfoPage from "./pages/HODPages/HODInternInfoPage";
+import HODSupervisorInfoPage from "./components/pages/hod/HODSupervisorInfoPage";
+import HODManageCoordinatorsPage from "./pages/HODPages/HODManageCoordinatorsPage";
 
 export const router = createBrowserRouter([
   {
@@ -180,19 +184,19 @@ export const router = createBrowserRouter([
       },
       {
         path: "notifications",
-        element: <div>HOD Notifications - Coming Soon</div>,
+        element: <HODNotificationsPage />,
       },
       {
         path: "intern-info",
-        element: <div>HOD Intern Info - Coming Soon</div>,
+        element: <HODInternInfoPage />,
       },
       {
         path: "supervisor-info",
-        element: <div>HOD Supervisor Info - Coming Soon</div>,
+        element: <HODSupervisorInfoPage />,
       },
       {
         path: "manage-coordinators",
-        element: <div>HOD Manage Coordinators - Coming Soon</div>,
+        element: <HODManageCoordinatorsPage />,
       },
       {
         path: "update-profile",
