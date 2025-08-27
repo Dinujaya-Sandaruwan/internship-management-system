@@ -200,8 +200,6 @@ const HODDashboard: React.FC = () => {
     },
   ]);
 
-
-
   const totalInterns = departmentData.reduce(
     (sum, dept) => sum + dept.activeInterns,
     0
@@ -256,8 +254,6 @@ const HODDashboard: React.FC = () => {
         return <FiActivity />;
     }
   };
-
-
 
   const getAlertIcon = (type: string) => {
     switch (type) {
