@@ -15,7 +15,6 @@ import {
 } from "react-icons/fa";
 
 const MessagePage: React.FC = () => {
-
   // Sample user data
   const [currentUser] = useState({
     id: 1,
@@ -34,7 +33,8 @@ const MessagePage: React.FC = () => {
       role: "Internship Coordinator",
       status: "online",
       unread: 2,
-      lastMessage: "The internship program evaluation results are ready for review.",
+      lastMessage:
+        "The internship program evaluation results are ready for review.",
       lastMessageTime: "10:15 AM",
     },
     {
@@ -377,7 +377,7 @@ const MessagePage: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   // Handle selecting a contact and mark messages as read
-  const handleContactSelect = (contact: typeof contacts[0]) => {
+  const handleContactSelect = (contact: (typeof contacts)[0]) => {
     // Mark all messages as read
     if (contact.unread > 0) {
       // Update the conversations first
