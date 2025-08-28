@@ -319,7 +319,7 @@ const HODNotificationsPage: React.FC = () => {
   return (
     <div className="dashboard">
       {/* Sidebar */}
-      <HODSideMenu />
+      {/* <HODSideMenu /> */}
       {/* Main Content */}
       <div className="dashboard__main notifications-page">
         {/* Header with highlighted title */}

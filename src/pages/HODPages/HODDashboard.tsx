@@ -287,7 +287,7 @@ const HODDashboard: React.FC = () => {
         {/* Header Section */}
         <div className="dashboard__header">
           <div className="dashboard__greeting">
-            <h1>Head of Department Dashboard</h1>
+            <h1>Admin Dashboard</h1>
             <p>
               Welcome back, Prof. Ananda Wickramasinghe
               <FiUsers className="info-icon" />

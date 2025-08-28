@@ -6,6 +6,7 @@ import {
   FaBell,
   FaUsers,
   FaUserTie,
+  FaCalendarAlt,
   FaCogs,
   FaUserEdit,
   FaSignOutAlt,
@@ -33,6 +34,7 @@ const HODSideMenu: React.FC<HODSideMenuProps> = ({
     if (path.includes("/notifications")) return "notifications";
     if (path.includes("/intern-info")) return "internInfo";
     if (path.includes("/supervisor-info")) return "supervisorInfo";
+    if (path.includes("/schedule")) return "schedule";
     if (path.includes("/manage-coordinators")) return "manageCoordinators";
     if (path.includes("/update-profile")) return "updateProfile";
     return "dashboard";
@@ -131,6 +133,16 @@ const HODSideMenu: React.FC<HODSideMenuProps> = ({
           <FaUserTie className="dashboard__menu-icon" />
           <span>Supervisor Info</span>
         </div>
+        {/* 
+        <div
+          className={`dashboard__menu-item ${
+            activeMenu === "schedule" ? "active" : ""
+          } ${profileCompletion < 80 ? "disabled" : ""}`}
+          onClick={() => handleMenuClick("schedule", "/hod/schedule")}
+        >
+          <FaCalendarAlt className="dashboard__menu-icon" />
+          <span>Schedule</span>
+        </div> */}
 
         <div
           className={`dashboard__menu-item ${

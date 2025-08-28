@@ -38,6 +38,8 @@ import HODNotificationsPage from "./pages/HODPages/HODNotificationsPage";
 import HODInternInfoPage from "./pages/HODPages/HODInternInfoPage";
 import HODSupervisorInfoPage from "./components/pages/hod/HODSupervisorInfoPage";
 import HODManageCoordinatorsPage from "./pages/HODPages/HODManageCoordinatorsPage";
+import HODUpdateProfilePage from "./pages/HODPages/HODUpdateProfilePage";
+import HODSchedulePage from "./pages/HODPages/HODSchedulePage";
 
 export const router = createBrowserRouter([
   {
@@ -195,12 +197,16 @@ export const router = createBrowserRouter([
         element: <HODSupervisorInfoPage />,
       },
       {
+        path: "schedule",
+        element: <HODSchedulePage />,
+      },
+      {
         path: "manage-coordinators",
         element: <HODManageCoordinatorsPage />,
       },
       {
         path: "update-profile",
-        element: <div>HOD Update Profile - Coming Soon</div>,
+        element: <HODUpdateProfilePage />,
       },
     ],
   },
